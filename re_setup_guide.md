@@ -36,7 +36,7 @@ scoop install git radare2 sysinternals
 scoop install python
 
 # Install modul python untuk Dynamic Instrumentation dan Serial Sniffing
-pip install frida-tools pyserial
+pip install frida-tools pyserial pyodbc
 ```
 
 ---
@@ -53,7 +53,6 @@ git init
 git add .
 git commit -m "Initial commit: Mentahan aplikasi Stress ECG"
 ```
-*(Opsional: Anda bisa mem-push repo ini ke GitHub setelah membuat repo kosong di sana)*
 
 ---
 
@@ -76,9 +75,32 @@ Banyak rahasia (password, konfigurasi, SQL) tertinggal di dalam teks mentah apli
 # Mencari perintah SQL di aplikasi utama
 strings -accepteula "Stress ECG Analysis System.exe" | Select-String -Pattern "SELECT|UPDATE|INSERT"
 ```
-**Temuan:** Aplikasi menggunakan Raw SQL Query (seperti `UPDATE Cases SET Deleted=1`) untuk berkomunikasi dengan database Microsoft Access (`StressECG.mdb`).
+**Temuan:** Aplikasi menggunakan Raw SQL Query untuk berkomunikasi dengan database Microsoft Access (`StressECG.mdb`).
 
-### Langkah 3: Melacak Komunikasi Alat Medis (Hardware Reversing)
+### Langkah 3: Membedah Keamanan Database (`.mdb`)
+Aplikasi MS Access sering kali diproteksi dengan *password*. Dari ekstraksi `strings` di atas, kita berhasil menemukan *password hardcoded*:
+*   **Password Database:** `aboutface`
+
+Kita bisa membuat script Python sederhana (`dump_mdb.py`) menggunakan library `pyodbc` untuk mengekstrak isi tabelnya:
+```python
+import pyodbc
+db_file = r'F:\val\ECG8000S\Stress ECG Analysis System\StressECG.mdb'
+conn_str = f'Driver={{Microsoft Access Driver (*.mdb, *.accdb)}};DBQ={db_file};PWD=aboutface;'
+conn = pyodbc.connect(conn_str)
+```
+**Temuan:** Terdapat tabel `Cases` (berisi data pasien dan path file ECG mentah) dan tabel `Protocols` (berisi protokol *treadmill* seperti kecepatan dan kemiringan).
+
+### Langkah 4: Melacak Konfigurasi Hardware (Registry Windows)
+Karena konfigurasi *port* tidak ada di database, kita melacaknya ke Windows Registry.
+```powershell
+# Melacak Registry Key yang diakses oleh EquManager.exe
+reg query "HKEY_CURRENT_USER\SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\System" /s
+```
+**Temuan:** Konfigurasi COM Port disimpan dalam nilai Heksadesimal di Registry:
+*   `Receiver` (Alat ECG) berjalan di **COM Port (Hex ke Decimal)**. (Contoh `04000000` = COM4)
+*   `Treadmill` berjalan di **COM Port (Hex ke Decimal)**. (Contoh `0B000000` = COM11)
+
+### Langkah 5: Analisis Komunikasi Serial di DLL (Menggunakan `r2`)
 Kita tahu Contec 8000 dikendalikan oleh driver `DrvtContec8k.dll`. Kita cari bagaimana DLL ini membuka koneksi ke alat.
 ```powershell
 # Mencari konfigurasi port serial
@@ -86,25 +108,12 @@ strings "DrvtContec8k.dll" | Select-String -Pattern "baud"
 ```
 **Temuan:** Terdapat format string `baud=%d parity=%c data=%d stop=%d`. Ini adalah parameter fungsi `BuildCommDCBA` pada sistem Windows yang memastikan alat ECG berkomunikasi lewat **Serial Port (COM Port)**.
 
-### Langkah 4: Disassembly Tingkat Lanjut (Menggunakan `r2`)
-Untuk mengetahui berapa nilai pasti dari `baud rate` (kecepatan internet alat), kita bongkar fungsi perakitnya di dalam DLL.
-```powershell
-# Buka DLL dengan Radare2 di terminal
-r2 -A DrvtContec8k.dll
-
-# Di dalam r2, cari referensi ke teks "baud"
-> axt @@ str.*baud*
-
-# Tampilkan kode perakit (assembly) dari fungsi tersebut
-> pdf @ fcn.10001930
-```
-Dari perintah terakhir ini, kita bisa melihat bahwa aplikasi memanggil fungsi `CreateFileA` untuk membuka port, dan parameter `baud rate`-nya tidak di-*hardcode* melainkan diambil dari memori (kemungkinan dari database atau file *config* lain).
-
 ---
 
-## KESIMPULAN AWAL
-Aplikasi **Stress ECG Analysis System** ini tergolong **sangat rentan** dan **mudah untuk di-reverse engineer** karena:
-1. Tidak ada proteksi anti-debugging atau *packing*.
-2. Simbol *debugging* tidak dihapus (*not stripped*).
-3. Menggunakan database Access lokal (`.mdb`) tanpa enkripsi modern.
-4. Komunikasi alat dilakukan via port Serial standar yang sangat mudah disadap (*sniffing*).
+## KESIMPULAN & LANGKAH SELANJUTNYA
+Aplikasi **Stress ECG Analysis System** ini memiliki beberapa celah yang memudahkan pembuatan perangkat tiruan (emulator) atau *custom gateway*:
+1. **Database Terbuka:** Menggunakan MS Access dengan password *hardcoded* (`aboutface`).
+2. **Konfigurasi Jelas:** Alamat COM Port dibaca langsung dari Windows Registry.
+3. **Komunikasi Standar:** Menggunakan protokol Serial (RS232/USB-to-Serial) tanpa enkripsi pada *payload* pengirimannya.
+
+**Target Selanjutnya:** Untuk membuat *gateway* mandiri seperti skrip Python Anda (`contec_08e_reader.py`), kita perlu menyadap (*sniffing*) *traffic* di COM Port yang telah diidentifikasi saat aplikasi ini terhubung ke alat ECG yang asli, agar kita bisa melihat *Handshake Sequence* dan format *byte* data ECG-nya.
