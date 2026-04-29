@@ -1,0 +1,248 @@
+            ; CALL XREF from sym.DrvDHZ8200A.dll_DrvConnect @ 0x100014dc(x)
+/ 658: fcn.10001960 (LPCRITICAL_SECTION arg_2ch);
+| `- args(sp[0x24..0x24]) vars(7:sp[0x1c..0x48])
+|           0x10001960      53             push ebx
+|           0x10001961      55             push ebp
+|           0x10001962      56             push esi
+|           0x10001963      8bf1           mov esi, ecx
+|           0x10001965      57             push edi
+|           0x10001966      8b4620         mov eax, dword [esi + 0x20]
+|           0x10001969      85c0           test eax, eax
+|       ,=< 0x1000196b      7413           je 0x10001980
+|       |   0x1000196d      8b3d58300010   mov edi, dword [sym.imp.KERNEL32.dll_SetEvent] ; [0x10003058:4]=0x382c reloc.KERNEL32.dll_SetEvent ; ",8"
+|       |   ; CODE XREF from fcn.10001960 @ 0x1000197e(x)
+|      .--> 0x10001973      8b4624         mov eax, dword [esi + 0x24]
+|      :|   0x10001976      50             push eax
+|      :|   0x10001977      ffd7           call edi
+|      :|   0x10001979      8b4620         mov eax, dword [esi + 0x20]
+|      :|   0x1000197c      85c0           test eax, eax
+|      `==< 0x1000197e      75f3           jne 0x10001973
+|       |   ; CODE XREF from fcn.10001960 @ 0x1000196b(x)
+|       `-> 0x10001980      8b464c         mov eax, dword [esi + 0x4c]
+|           0x10001983      85c0           test eax, eax
+|       ,=< 0x10001985      740b           je 0x10001992
+|       |   0x10001987      8b1d5c300010   mov ebx, dword [sym.imp.KERNEL32.dll_CloseHandle] ; [0x1000305c:4]=0x381e reloc.KERNEL32.dll_CloseHandle
+|       |   0x1000198d      50             push eax
+|       |   0x1000198e      ffd3           call ebx
+|      ,==< 0x10001990      eb06           jmp 0x10001998
+|      ||   ; CODE XREF from fcn.10001960 @ 0x10001985(x)
+|      |`-> 0x10001992      8b1d5c300010   mov ebx, dword [sym.imp.KERNEL32.dll_CloseHandle] ; [0x1000305c:4]=0x381e reloc.KERNEL32.dll_CloseHandle
+|      |    ; CODE XREF from fcn.10001960 @ 0x10001990(x)
+|      `--> 0x10001998      8b3d30300010   mov edi, dword [sym.imp.KERNEL32.dll_CreateEventA] ; [0x10003030:4]=0x38d2 reloc.KERNEL32.dll_CreateEventA
+|           0x1000199e      6a00           push 0
+|           0x100019a0      6a00           push 0
+|           0x100019a2      6a01           push 1                      ; 1
+|           0x100019a4      6a00           push 0
+|           0x100019a6      ffd7           call edi
+|           0x100019a8      89464c         mov dword [esi + 0x4c], eax
+|           0x100019ab      8b462c         mov eax, dword [esi + 0x2c]
+|           0x100019ae      85c0           test eax, eax
+|       ,=< 0x100019b0      7403           je 0x100019b5
+|       |   0x100019b2      50             push eax
+|       |   0x100019b3      ffd3           call ebx
+|       |   ; CODE XREF from fcn.10001960 @ 0x100019b0(x)
+|       `-> 0x100019b5      6a00           push 0
+|           0x100019b7      6a00           push 0
+|           0x100019b9      6a01           push 1                      ; 1
+|           0x100019bb      6a00           push 0
+|           0x100019bd      ffd7           call edi
+|           0x100019bf      89462c         mov dword [esi + 0x2c], eax
+|           0x100019c2      8b4624         mov eax, dword [esi + 0x24]
+|           0x100019c5      85c0           test eax, eax
+|       ,=< 0x100019c7      7403           je 0x100019cc
+|       |   0x100019c9      50             push eax
+|       |   0x100019ca      ffd3           call ebx
+|       |   ; CODE XREF from fcn.10001960 @ 0x100019c7(x)
+|       `-> 0x100019cc      6a00           push 0
+|           0x100019ce      6a00           push 0
+|           0x100019d0      6a01           push 1                      ; 1
+|           0x100019d2      6a00           push 0
+|           0x100019d4      ffd7           call edi
+|           0x100019d6      8b4e4c         mov ecx, dword [esi + 0x4c]
+|           0x100019d9      8b562c         mov edx, dword [esi + 0x2c]
+|           0x100019dc      894624         mov dword [esi + 0x24], eax
+|           0x100019df      894630         mov dword [esi + 0x30], eax
+|           0x100019e2      894e34         mov dword [esi + 0x34], ecx
+|           0x100019e5      895638         mov dword [esi + 0x38], edx
+|           0x100019e8      8b869c000000   mov eax, dword [esi + 0x9c]
+|           0x100019ee      85c0           test eax, eax
+|       ,=< 0x100019f0      7420           je 0x10001a12
+|       |   0x100019f2      8dbe90000000   lea edi, [esi + 0x90]
+|       |   ; CODE XREF from fcn.10001960 @ 0x10001a10(x)
+|      .--> 0x100019f8      8bcf           mov ecx, edi
+|      :|   0x100019fa      e84f080000     call sub.MFC42.DLL_CPtrList::RemoveHead
+|      :|   0x100019ff      50             push eax
+|      :|   0x10001a00      e80d080000     call sub.MFC42.DLL_operatordelete
+|      :|   0x10001a05      8b869c000000   mov eax, dword [esi + 0x9c]
+|      :|   0x10001a0b      83c404         add esp, 4
+|      :|   0x10001a0e      85c0           test eax, eax
+|      `==< 0x10001a10      75e6           jne 0x100019f8
+|       |   ; CODE XREF from fcn.10001960 @ 0x100019f0(x)
+|       `-> 0x10001a12      6aff           push 0xffffffffffffffff
+|           0x10001a14      6a00           push 0
+|           0x10001a16      8d8eac000000   lea ecx, [esi + 0xac]
+|           0x10001a1c      e833080000     call sub.MFC42.DLL_CUIntArray::SetSize
+|           0x10001a21      8b8684000000   mov eax, dword [esi + 0x84]
+|           0x10001a27      85c0           test eax, eax
+|       ,=< 0x10001a29      7413           je 0x10001a3e
+|       |   0x10001a2b      50             push eax
+|       |   0x10001a2c      e8e1070000     call sub.MFC42.DLL_operatordelete
+|       |   0x10001a31      83c404         add esp, 4
+|       |   0x10001a34      c786840000..   mov dword [esi + 0x84], 0
+|       |   ; CODE XREF from fcn.10001960 @ 0x10001a29(x)
+|       `-> 0x10001a3e      8b7c242c       mov edi, dword [var_2ch]
+|           0x10001a42      57             push edi
+|           0x10001a43      e8dc070000     call sub.MFC42.DLL_operatornew
+|           0x10001a48      8b5c2418       mov ebx, dword [var_18h]
+|           0x10001a4c      898684000000   mov dword [esi + 0x84], eax
+|           0x10001a52      8b44242c       mov eax, dword [var_2ch_2]
+|           0x10001a56      6a32           push 0x32                   ; '2' ; 50
+|           0x10001a58      0c04           or al, 4
+|           0x10001a5a      899e80000000   mov dword [esi + 0x80], ebx
+|           0x10001a60      89be88000000   mov dword [esi + 0x88], edi
+|           0x10001a66      89442430       mov dword [var_2ch_2], eax
+|           0x10001a6a      89868c000000   mov dword [esi + 0x8c], eax
+|           0x10001a70      e8af070000     call sub.MFC42.DLL_operatornew
+|           0x10001a75      6a32           push 0x32                   ; '2' ; 50
+|           0x10001a77      8bf8           mov edi, eax
+|           0x10001a79      e8a6070000     call sub.MFC42.DLL_operatornew
+|           0x10001a7e      83c40c         add esp, 0xc
+|           0x10001a81      8be8           mov ebp, eax
+|           0x10001a83      8d4608         lea eax, [esi + 8]
+|           0x10001a86      50             push eax                    ; LPCRITICAL_SECTION lpCriticalSection
+|           0x10001a87      89442430       mov dword [var_2ch], eax
+|           0x10001a8b      ff1534300010   call dword [sym.imp.KERNEL32.dll_EnterCriticalSection] ; 0x10003034 ; VOID EnterCriticalSection(LPCRITICAL_SECTION lpCriticalSection)
+|           0x10001a91      8b4628         mov eax, dword [esi + 0x28]
+|           0x10001a94      85c0           test eax, eax
+|       ,=< 0x10001a96      740e           je 0x10001aa6
+|       |   0x10001a98      50             push eax                    ; HANDLE hObject
+|       |   0x10001a99      ff155c300010   call dword [sym.imp.KERNEL32.dll_CloseHandle] ; 0x1000305c ; BOOL CloseHandle(HANDLE hObject)
+|       |   0x10001a9f      c746280000..   mov dword [esi + 0x28], 0
+|       |   ; CODE XREF from fcn.10001960 @ 0x10001a96(x)
+|       `-> 0x10001aa6      83fb0a         cmp ebx, 0xa                ; 10
+|           0x10001aa9      53             push ebx
+|       ,=< 0x10001aaa      7307           jae 0x10001ab3
+|       |   0x10001aac      687c440010     push str.COM_d              ; 0x1000447c ; "COM%d"
+|      ,==< 0x10001ab1      eb05           jmp 0x10001ab8
+|      ||   ; CODE XREF from fcn.10001960 @ 0x10001aaa(x)
+|      |`-> 0x10001ab3      6870440010     push str..COM_d             ; 0x10004470 ; "\\\\.\\COM%d"
+|      |    ; CODE XREF from fcn.10001960 @ 0x10001ab1(x)
+|      `--> 0x10001ab8      8b1d8c310010   mov ebx, dword [sym.imp.MSVCRT.dll_sprintf] ; [0x1000318c:4]=0x376e reloc.MSVCRT.dll_sprintf ; "n7"
+|           0x10001abe      57             push edi
+|           0x10001abf      ffd3           call ebx
+|           0x10001ac1      8b442430       mov eax, dword [lpCriticalSection]
+|           0x10001ac5      8b4c242c       mov ecx, dword [var_2ch_3]
+|           0x10001ac9      0fbe542428     movsx edx, byte [var_28h]
+|           0x10001ace      83c40c         add esp, 0xc
+|           0x10001ad1      50             push eax
+|           0x10001ad2      8b44241c       mov eax, dword [dwEvtMask]
+|           0x10001ad6      51             push ecx
+|           0x10001ad7      52             push edx
+|           0x10001ad8      50             push eax
+|           0x10001ad9      684c440010     push str.baud_d_parity_c_data_d_stop_d ; 0x1000444c ; "baud=%d parity=%c data=%d stop=%d"
+|           0x10001ade      55             push ebp
+|           0x10001adf      ffd3           call ebx
+|           0x10001ae1      83c418         add esp, 0x18
+|           0x10001ae4      6a00           push 0
+|           0x10001ae6      6800000040     push 0x40000000
+|           0x10001aeb      6a03           push 3                      ; 3
+|           0x10001aed      6a00           push 0
+|           0x10001aef      6a00           push 0
+|           0x10001af1      68000000c0     push 0xc0000000             ; DWORD dwDesiredAccess
+|           0x10001af6      57             push edi                    ; LPCSTR lpFileName
+|           0x10001af7      ff1538300010   call dword [sym.imp.KERNEL32.dll_CreateFileA] ; 0x10003038 ; HANDLE CreateFileA(LPCSTR lpFileName, DWORD dwDesiredAccess, DWORD dwShareMode, LPSECURITY_ATTRIBUTES lpSecurityAttributes, DWORD dwCreationDisposition, DWORD dwFlagsAndAttributes, HANDLE hTemplateFile)
+|           0x10001afd      83f8ff         cmp eax, 0xffffffff
+|           0x10001b00      894628         mov dword [esi + 0x28], eax
+|       ,=< 0x10001b03      7523           jne 0x10001b28
+|       |   0x10001b05      8b4c242c       mov ecx, dword [lpCriticalSection]
+|       |   0x10001b09      51             push ecx                    ; LPCRITICAL_SECTION lpCriticalSection
+|       |   0x10001b0a      ff153c300010   call dword [sym.imp.KERNEL32.dll_LeaveCriticalSection] ; 0x1000303c ; VOID LeaveCriticalSection(LPCRITICAL_SECTION lpCriticalSection)
+|       |   0x10001b10      57             push edi
+|       |   0x10001b11      e8fc060000     call sub.MFC42.DLL_operatordelete
+|       |   0x10001b16      55             push ebp
+|       |   0x10001b17      e8f6060000     call sub.MFC42.DLL_operatordelete
+|       |   0x10001b1c      83c408         add esp, 8
+|       |   0x10001b1f      33c0           xor eax, eax
+|       |   0x10001b21      5f             pop edi
+|       |   0x10001b22      5e             pop esi
+|       |   0x10001b23      5d             pop ebp
+|       |   0x10001b24      5b             pop ebx
+|       |   0x10001b25      c21c00         ret 0x1c
+|       |   ; CODE XREF from fcn.10001960 @ 0x10001b03(x)
+|       `-> 0x10001b28      8d4e50         lea ecx, [esi + 0x50]
+|           0x10001b2b      bae8030000     mov edx, 0x3e8              ; 1000
+|           0x10001b30      51             push ecx                    ; LPCOMMTIMEOUTS lpCommTimeouts
+|           0x10001b31      50             push eax                    ; HANDLE hFile
+|           0x10001b32      8911           mov dword [ecx], edx
+|           0x10001b34      895654         mov dword [esi + 0x54], edx
+|           0x10001b37      895658         mov dword [esi + 0x58], edx
+|           0x10001b3a      89565c         mov dword [esi + 0x5c], edx
+|           0x10001b3d      895660         mov dword [esi + 0x60], edx
+|           0x10001b40      ff1540300010   call dword [sym.imp.KERNEL32.dll_SetCommTimeouts] ; 0x10003040 ; BOOL SetCommTimeouts(HANDLE hFile, LPCOMMTIMEOUTS lpCommTimeouts)
+|           0x10001b46      85c0           test eax, eax
+|       ,=< 0x10001b48      7468           je 0x10001bb2
+|       |   0x10001b4a      8b542428       mov edx, dword [dwEvtMask]
+|       |   0x10001b4e      8b4628         mov eax, dword [esi + 0x28]
+|       |   0x10001b51      52             push edx                    ; DWORD dwEvtMask
+|       |   0x10001b52      50             push eax                    ; HANDLE hFile
+|       |   0x10001b53      ff1544300010   call dword [sym.imp.KERNEL32.dll_SetCommMask] ; 0x10003044 ; "t8" ; BOOL SetCommMask(HANDLE hFile, DWORD dwEvtMask)
+|       |   0x10001b59      85c0           test eax, eax
+|      ,==< 0x10001b5b      744e           je 0x10001bab
+|      ||   0x10001b5d      8b4e28         mov ecx, dword [esi + 0x28]
+|      ||   0x10001b60      8d5e64         lea ebx, [esi + 0x64]
+|      ||   0x10001b63      53             push ebx                    ; LPDCB lpDCB
+|      ||   0x10001b64      51             push ecx                    ; HANDLE hFile
+|      ||   0x10001b65      ff1548300010   call dword [sym.imp.KERNEL32.dll_GetCommState] ; 0x10003048 ; "d8" ; BOOL GetCommState(HANDLE hFile, LPDCB lpDCB)
+|      ||   0x10001b6b      85c0           test eax, eax
+|     ,===< 0x10001b6d      7435           je 0x10001ba4
+|     |||   0x10001b6f      8b566c         mov edx, dword [esi + 0x6c]
+|     |||   0x10001b72      53             push ebx                    ; LPDCB lpDCB
+|     |||   0x10001b73      80e6d4         and dh, 0xd4                ; 212
+|     |||   0x10001b76      55             push ebp                    ; LPCSTR lpDef
+|     |||   0x10001b77      80ce10         or dh, 0x10                 ; 16
+|     |||   0x10001b7a      89566c         mov dword [esi + 0x6c], edx
+|     |||   0x10001b7d      ff154c300010   call dword [sym.imp.KERNEL32.dll_BuildCommDCBA] ; 0x1000304c ; "T8" ; BOOL BuildCommDCBA(LPCSTR lpDef, LPDCB lpDCB)
+|     |||   0x10001b83      85c0           test eax, eax
+|    ,====< 0x10001b85      7416           je 0x10001b9d
+|    ||||   0x10001b87      8b4628         mov eax, dword [esi + 0x28]
+|    ||||   0x10001b8a      53             push ebx                    ; LPDCB lpDCB
+|    ||||   0x10001b8b      50             push eax                    ; HANDLE hFile
+|    ||||   0x10001b8c      ff1550300010   call dword [sym.imp.KERNEL32.dll_SetCommState] ; 0x10003050 ; "D8" ; BOOL SetCommState(HANDLE hFile, LPDCB lpDCB)
+|    ||||   0x10001b92      85c0           test eax, eax
+|   ,=====< 0x10001b94      7528           jne 0x10001bbe
+|   |||||   0x10001b96      683c440010     push str.SetCommState__     ; 0x1000443c ; "SetCommState()"
+|  ,======< 0x10001b9b      eb1a           jmp 0x10001bb7
+|  ||||||   ; CODE XREF from fcn.10001960 @ 0x10001b85(x)
+|  ||`----> 0x10001b9d      682c440010     push str.BuildCommDCB__     ; 0x1000442c ; "BuildCommDCB()"
+|  ||,====< 0x10001ba2      eb13           jmp 0x10001bb7
+|  ||||||   ; CODE XREF from fcn.10001960 @ 0x10001b6d(x)
+|  |||`---> 0x10001ba4      681c440010     push str.GetCommState__     ; 0x1000441c ; "GetCommState()"
+|  |||,===< 0x10001ba9      eb0c           jmp 0x10001bb7
+|  ||||||   ; CODE XREF from fcn.10001960 @ 0x10001b5b(x)
+|  ||||`--> 0x10001bab      680c440010     push str.SetCommMask__      ; 0x1000440c ; "SetCommMask()"
+|  ||||,==< 0x10001bb0      eb05           jmp 0x10001bb7
+|  ||||||   ; CODE XREF from fcn.10001960 @ 0x10001b48(x)
+|  |||||`-> 0x10001bb2      68f8430010     push str.SetCommTimeouts__  ; 0x100043f8 ; "SetCommTimeouts()"
+|  |||||    ; CODE XREFS from fcn.10001960 @ 0x10001b9b(x), 0x10001ba2(x), 0x10001ba9(x), 0x10001bb0(x)
+|  `-```--> 0x10001bb7      8bce           mov ecx, esi
+|   |       0x10001bb9      e812020000     call fcn.10001dd0
+|   |       ; CODE XREF from fcn.10001960 @ 0x10001b94(x)
+|   `-----> 0x10001bbe      57             push edi
+|           0x10001bbf      e84e060000     call sub.MFC42.DLL_operatordelete
+|           0x10001bc4      55             push ebp
+|           0x10001bc5      e848060000     call sub.MFC42.DLL_operatordelete
+|           0x10001bca      8b4e28         mov ecx, dword [esi + 0x28]
+|           0x10001bcd      83c408         add esp, 8
+|           0x10001bd0      6a0f           push 0xf                    ; 15 ; DWORD dwFlags
+|           0x10001bd2      51             push ecx                    ; HANDLE hFile
+|           0x10001bd3      ff1554300010   call dword [sym.imp.KERNEL32.dll_PurgeComm] ; 0x10003054 ; "88" ; BOOL PurgeComm(HANDLE hFile, DWORD dwFlags)
+|           0x10001bd9      8b54242c       mov edx, dword [arg_2ch]
+|           0x10001bdd      52             push edx                    ; LPCRITICAL_SECTION lpCriticalSection
+|           0x10001bde      ff153c300010   call dword [sym.imp.KERNEL32.dll_LeaveCriticalSection] ; 0x1000303c ; VOID LeaveCriticalSection(LPCRITICAL_SECTION lpCriticalSection)
+|           0x10001be4      8bce           mov ecx, esi
+|           0x10001be6      e845000000     call fcn.10001c30
+|           0x10001beb      5f             pop edi
+|           0x10001bec      5e             pop esi
+|           0x10001bed      5d             pop ebp
+|           0x10001bee      5b             pop ebx
+\           0x10001bef      c21c00         ret 0x1c

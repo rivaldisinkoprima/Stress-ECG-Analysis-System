@@ -27,10 +27,10 @@ def main():
         print("[*] Mencoba memuat driver DrvtDHZ8200A.dll...")
         # Mencoba CDLL (Standar cdecl untuk C++ Native)
         try:
-            dhz = ctypes.CDLL("./DrvtDHZ8200A.dll")
+            dhz = ctypes.CDLL("./DrvtDHZ8200A.dll", use_last_error=True)
         except ValueError:
             # Jika gagal, mungkin menggunakan stdcall
-            dhz = ctypes.WinDLL("./DrvtDHZ8200A.dll")
+            dhz = ctypes.WinDLL("./DrvtDHZ8200A.dll", use_last_error=True)
             
         print("[*] BERHASIL! DLL DrvtDHZ8200A.dll telah ter-load ke memori.")
     except Exception as e:
@@ -84,12 +84,28 @@ def main():
                 else:
                     port = int(input("\nMasukkan nomor COM Port (misal: 4 untuk COM4): "))
                     print(f"[*] Menghubungkan ke COM{port}...")
-                    # DLL mengeksekusi CreateFileA dan BuildCommDCB di background
+                    
+                    # Gunakan restype untuk menangkap integer return value
+                    dhz.DrvConnect.restype = ctypes.c_int
                     result = dhz.DrvConnect(port)
-                    # Result 1 biasanya success, 0 false
-                    print(f"[*] Perintah DrvConnect dikirim! (Return code: {result})")
-                    connected = True
-                    print("[+] Sukses membuka jalur komunikasi.")
+                    
+                    if result == 1:
+                        connected = True
+                        print(f"[+] SUKSES! (Return code: {result}) Jalur komunikasi terbuka.")
+                    else:
+                        connected = False
+                        err_code = ctypes.get_last_error()
+                        print(f"[-] GAGAL! (Return code: {result})")
+                        print(f"[-] Windows OS Error Code: {err_code}")
+                        
+                        if err_code == 2:
+                            print("    Makna: File Not Found (Port COM tidak terdeteksi oleh Windows).")
+                        elif err_code == 5:
+                            print("    Makna: Access Denied (Port sedang dipakai aplikasi lain atau kurang hak akses).")
+                        elif err_code == 87:
+                            print("    Makna: Invalid Parameter (Format parameter port tidak disukai Windows).")
+                        else:
+                            print(f"    Makna: Silakan cari 'Windows System Error Codes {err_code}' di Google.")
 
             elif pilihan == '2':
                 if not connected:
