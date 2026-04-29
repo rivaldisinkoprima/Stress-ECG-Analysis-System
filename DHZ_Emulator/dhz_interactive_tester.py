@@ -1,193 +1,152 @@
 import ctypes
+import ctypes.wintypes
 import sys
-import time
+import os
+
+kernel32 = ctypes.WinDLL('kernel32', use_last_error=True)
+
+class COMMTIMEOUTS(ctypes.Structure):
+    _fields_ = [
+        ("ReadIntervalTimeout", ctypes.wintypes.DWORD),
+        ("ReadTotalTimeoutMultiplier", ctypes.wintypes.DWORD),
+        ("ReadTotalTimeoutConstant", ctypes.wintypes.DWORD),
+        ("WriteTotalTimeoutMultiplier", ctypes.wintypes.DWORD),
+        ("WriteTotalTimeoutConstant", ctypes.wintypes.DWORD),
+    ]
+
+class DCB(ctypes.Structure):
+    _fields_ = [
+        ("DCBlength", ctypes.wintypes.DWORD), ("BaudRate", ctypes.wintypes.DWORD),
+        ("Flags", ctypes.wintypes.DWORD), ("wReserved", ctypes.wintypes.WORD),
+        ("XonLim", ctypes.wintypes.WORD), ("XoffLim", ctypes.wintypes.WORD),
+        ("ByteSize", ctypes.c_byte), ("Parity", ctypes.c_byte),
+        ("StopBits", ctypes.c_byte), ("XonChar", ctypes.c_char),
+        ("XoffChar", ctypes.c_char), ("ErrorChar", ctypes.c_char),
+        ("EofChar", ctypes.c_char), ("EvtChar", ctypes.c_char),
+        ("wReserved1", ctypes.wintypes.WORD),
+    ]
 
 def clear_screen():
-    import os
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def main():
     print("=" * 60)
-    print("🚀 DHZ 8200A TREADMILL INTERACTIVE TESTER (WRAPPER) 🚀")
+    print("🚀 DHZ 8200A TREADMILL - THE ULTIMATE BYPASS MODE 🚀")
     print("=" * 60)
 
-    # 1. Pengecekan arsitektur Python
-    is_64bits = sys.maxsize > 2**32
-    if is_64bits:
-        print("\n[ERROR CRITICAL] Anda menggunakan Python 64-bit!")
-        print("DLL 'DrvtDHZ8200A.dll' dikompilasi menggunakan arsitektur 32-bit (x86).")
-        print("Silakan install dan gunakan Python 32-bit untuk menjalankan script ini.")
-        input("\nTekan Enter untuk keluar...")
+    try:
+        dhz = ctypes.CDLL("./DrvtDHZ8200A.dll", use_last_error=True)
+        hmod = kernel32.GetModuleHandleA(b"DrvtDHZ8200A.dll")
+    except Exception as e:
+        print(f"[-] Gagal memuat DLL: {e}")
         sys.exit(1)
 
-    print("[*] Sistem arsitektur Python (32-bit) valid.")
-
-    # 2. Meload DLL
-    try:
-        print("[*] Mencoba memuat driver DrvtDHZ8200A.dll...")
-        # Mencoba CDLL (Standar cdecl untuk C++ Native)
-        try:
-            dhz = ctypes.CDLL("./DrvtDHZ8200A.dll", use_last_error=True)
-        except ValueError:
-            # Jika gagal, mungkin menggunakan stdcall
-            dhz = ctypes.WinDLL("./DrvtDHZ8200A.dll", use_last_error=True)
-            
-        print("[*] BERHASIL! DLL DrvtDHZ8200A.dll telah ter-load ke memori.")
-    except Exception as e:
-        print(f"\n[ERROR] Gagal meload DLL. Pastikan file 'DrvtDHZ8200A.dll' berada di folder yang sama.")
-        print(f"Detail error: {e}")
-        input("\nTekan Enter untuk keluar...")
-        sys.exit(1)
-
-    # 3. Mendaftarkan Tipe Data Argumen (Sangat Penting untuk Floating Point)
-    try:
-        dhz.DrvConnect.argtypes = [ctypes.c_int]
-        dhz.DrvSetSpeed.argtypes = [ctypes.c_double]
-        dhz.DrvSetGrade.argtypes = [ctypes.c_double]
-        
-        # Fungsi Get mengembalikan double
-        dhz.DrvGetSpeed.restype = ctypes.c_double
-        dhz.DrvGetGrade.restype = ctypes.c_double
-    except Exception as e:
-        print(f"\n[WARNING] Beberapa fungsi mungkin tidak tersedia di versi DLL ini: {e}")
-
-    time.sleep(1)
+    dhz.DrvSetSpeed.argtypes = [ctypes.c_double]
+    dhz.DrvSetGrade.argtypes = [ctypes.c_double]
+    dhz.DrvGetSpeed.restype = ctypes.c_double
+    dhz.DrvGetGrade.restype = ctypes.c_double
     
-    # 4. Interactive Loop
     connected = False
     
     while True:
         clear_screen()
-        print("=" * 50)
-        print("   PANEL KONTROL TREADMILL DHZ 8200A   ")
-        print("=" * 50)
-        status = "TERHUBUNG" if connected else "TERPUTUS"
+        status = "TERHUBUNG (ULTIMATE BYPASS)" if connected else "TERPUTUS"
         print(f"Status Saat Ini : [{status}]\n")
-        
-        print("[1] Buka Koneksi (Connect Port)")
-        print("[2] Kirim Perintah START (Jalankan Mesin)")
-        print("[3] Kirim Perintah STOP (Berhentikan Mesin)")
+        print("[1] Buka Koneksi (Ultimate Bypass)")
+        print("[2] Kirim Perintah START")
+        print("[3] Kirim Perintah STOP")
         print("[4] Atur Kecepatan (Set Speed)")
-        print("[5] Atur Kemiringan (Set Incline/Grade)")
-        print("[6] Baca Kecepatan Saat Ini (Get Speed)")
-        print("[7] Baca Kemiringan Saat Ini (Get Grade)")
-        print("[8] Putus Koneksi (Disconnect)")
-        print("[0] Keluar Aplikasi")
-        print("-" * 50)
+        print("[5] Atur Kemiringan (Set Grade)")
+        print("[6] Baca Data (Get Speed & Grade)")
+        print("[0] Keluar Aplikasi\n")
         
         pilihan = input("Masukkan angka pilihan Anda: ")
         
         try:
             if pilihan == '1':
-                if connected:
-                    print("\n[INFO] Treadmill sudah terhubung!")
-                else:
-                    port = int(input("\nMasukkan nomor COM Port (misal: 4 untuk COM4): "))
-                    print(f"[*] Menghubungkan ke COM{port}...")
-                    
-                    # Gunakan restype untuk menangkap integer return value
-                    dhz.DrvConnect.restype = ctypes.c_int
-                    result = dhz.DrvConnect(port)
-                    
-                    if result == 1:
-                        connected = True
-                        print(f"[+] SUKSES! (Return code: {result}) Jalur komunikasi terbuka.")
-                    else:
-                        connected = False
-                        err_code = ctypes.get_last_error()
-                        print(f"[-] GAGAL! (Return code: {result})")
-                        print(f"[-] Windows OS Error Code: {err_code}")
-                        
-                        if err_code == 2:
-                            print("    Makna: File Not Found (Port COM tidak terdeteksi oleh Windows).")
-                        elif err_code == 5:
-                            print("    Makna: Access Denied (Port sedang dipakai aplikasi lain atau kurang hak akses).")
-                        elif err_code == 87:
-                            print("    Makna: Invalid Parameter (Format parameter port tidak disukai Windows).")
-                        else:
-                            print(f"    Makna: Silakan cari 'Windows System Error Codes {err_code}' di Google.")
-
-            elif pilihan == '2':
-                if not connected:
-                    print("\n[WARNING] Harap Connect Port (1) terlebih dahulu!")
-                else:
-                    print("\n[*] Mengirim command START...")
-                    dhz.DrvStart()
-                    print("[+] Command terkirim. Belt treadmill seharusnya mulai bergerak.")
-
-            elif pilihan == '3':
-                if not connected:
-                    print("\n[WARNING] Harap Connect Port (1) terlebih dahulu!")
-                else:
-                    print("\n[*] Mengirim command STOP...")
-                    dhz.DrvStop()
-                    print("[+] Command terkirim. Belt treadmill akan melambat dan berhenti.")
-
-            elif pilihan == '4':
-                if not connected:
-                    print("\n[WARNING] Harap Connect Port (1) terlebih dahulu!")
-                else:
-                    speed = float(input("\nMasukkan kecepatan (misal: 5.5) [Max 20.0]: "))
-                    if speed < 0 or speed > 20.0:
-                        print("[ERROR] Nilai kecepatan di luar batas aman (0 - 20.0)!")
-                    else:
-                        print(f"[*] Menerjemahkan angka {speed} menjadi Hex dan mengirim ke alat...")
-                        dhz.DrvSetSpeed(speed)
-                        print("[+] Command kecepatan terkirim.")
-
-            elif pilihan == '5':
-                if not connected:
-                    print("\n[WARNING] Harap Connect Port (1) terlebih dahulu!")
-                else:
-                    grade = float(input("\nMasukkan kemiringan (misal: 2.0) [Max 24.0]: "))
-                    if grade < 0 or grade > 24.0:
-                        print("[ERROR] Nilai kemiringan di luar batas aman (0 - 24.0)!")
-                    else:
-                        print(f"[*] Menerjemahkan angka {grade} menjadi Hex dan mengirim ke alat...")
-                        dhz.DrvSetGrade(grade)
-                        print("[+] Command kemiringan terkirim.")
-
-            elif pilihan == '6':
-                if not connected:
-                    print("\n[WARNING] Harap Connect Port (1) terlebih dahulu!")
-                else:
-                    print("\n[*] Membaca kecepatan dari alat...")
-                    current_speed = dhz.DrvGetSpeed()
-                    print(f"[+] Kecepatan Treadmill saat ini: {current_speed} km/h")
-
-            elif pilihan == '7':
-                if not connected:
-                    print("\n[WARNING] Harap Connect Port (1) terlebih dahulu!")
-                else:
-                    print("\n[*] Membaca kemiringan dari alat...")
-                    current_grade = dhz.DrvGetGrade()
-                    print(f"[+] Kemiringan (Incline) saat ini: {current_grade}")
-
-            elif pilihan == '8':
-                if not connected:
-                    print("\n[INFO] Belum ada koneksi yang terbuka.")
-                else:
-                    print("\n[*] Memutus jalur Serial Port...")
-                    dhz.DrvDisconnect()
-                    connected = False
-                    print("[+] Koneksi terputus dengan aman.")
-
-            elif pilihan == '0':
-                if connected:
-                    print("\n[*] Memutus koneksi sebelum keluar...")
-                    dhz.DrvDisconnect()
-                print("\nKeluar dari aplikasi tester. Sampai jumpa!")
-                sys.exit(0)
-            
-            else:
-                print("\n[ERROR] Pilihan tidak valid!")
+                port = int(input("\nMasukkan nomor COM Port (misal: 15): "))
                 
-        except ValueError:
-            print("\n[ERROR] Input harus berupa angka yang benar!")
+                # 1. Pancing DLL untuk membentuk struktur Event di memori
+                print("[*] Memancing inisialisasi DLL...")
+                try:
+                    dhz.DrvConnect(port)
+                except Exception:
+                    pass
+                
+                # 2. Dapatkan Global Object Pointer
+                obj_ptr_addr = hmod + 0x45ec
+                obj_ptr = ctypes.cast(obj_ptr_addr, ctypes.POINTER(ctypes.c_uint32))[0]
+                
+                if obj_ptr == 0:
+                    print("[-] FATAL: Object DLL gagal terbentuk!")
+                    input(); continue
+                
+                # 3. Buka Port Secara Paksa dari Python
+                print(f"[*] Mengambil alih kontrol COM{port} secara manual...")
+                port_name = f"\\\\.\\COM{port}".encode('ascii')
+                handle = kernel32.CreateFileA(port_name, 0xC0000000, 0, None, 3, 0x40000000, None)
+                
+                if handle == -1 or handle == 0:
+                    print(f"[-] GAGAL merebut Port! Error: {ctypes.get_last_error()}")
+                    print("    Pastikan kabel dicolok dan tidak dikunci aplikasi lain.")
+                    input(); continue
+                
+                # 4. Konfigurasi Standar DHZ 8200A
+                print("[*] Menulis konfigurasi Baud Rate & Timeouts...")
+                kernel32.SetCommTimeouts(handle, ctypes.byref(COMMTIMEOUTS(1000, 1000, 1000, 1000, 1000)))
+                kernel32.SetCommMask(handle, 0x100)
+                dcb = DCB()
+                dcb.DCBlength = ctypes.sizeof(DCB)
+                kernel32.GetCommState(handle, ctypes.byref(dcb))
+                kernel32.BuildCommDCBA(b"baud=4800 parity=N data=8 stop=1", ctypes.byref(dcb))
+                kernel32.SetCommState(handle, ctypes.byref(dcb))
+                
+                # 5. Injeksi Handle ke Otak DLL
+                print("[*] Menginjeksi Handle Port ke dalam memori DLL...")
+                ctypes.cast(obj_ptr + 0x28, ctypes.POINTER(ctypes.c_uint32))[0] = handle
+                
+                # 6. Hidupkan Thread Pekerja secara paksa
+                print("[*] Me-restart paksa Thread Detak Jantung Treadmill...")
+                THREAD_START_ROUTINE = ctypes.WINFUNCTYPE(ctypes.wintypes.DWORD, ctypes.c_void_p)
+                thread_func = THREAD_START_ROUTINE(hmod + 0x1c90)
+                
+                thread_handle = kernel32.CreateThread(None, 0, thread_func, obj_ptr, 0, None)
+                
+                if thread_handle:
+                    connected = True
+                    print("\n[+] BOOM! ULTIMATE BYPASS SUKSES!")
+                    print("[+] Silakan tekan Enter dan coba jalankan (START) Treadmill-nya.")
+                else:
+                    print("[-] Gagal menyalakan thread.")
+                    
+            elif pilihan == '2':
+                if connected:
+                    dhz.DrvStart()
+                    print("[+] Perintah START masuk ke memori. Belt harusnya mulai bergerak...")
+                else: print("Connect dulu!")
+            elif pilihan == '3':
+                if connected: dhz.DrvStop()
+            elif pilihan == '4':
+                if connected:
+                    speed = float(input("\nMasukkan kecepatan (misal: 1.5): "))
+                    dhz.DrvSetSpeed(speed)
+                    print(f"[+] Kecepatan di-set ke {speed}")
+            elif pilihan == '5':
+                if connected:
+                    grade = float(input("\nMasukkan kemiringan (misal: 2.0): "))
+                    dhz.DrvSetGrade(grade)
+                    print(f"[+] Kemiringan di-set ke {grade}")
+            elif pilihan == '6':
+                if connected:
+                    print(f"[+] Kecepatan: {dhz.DrvGetSpeed()} km/h | Kemiringan: {dhz.DrvGetGrade()}")
+                else: print("Connect dulu!")
+            elif pilihan == '0':
+                sys.exit(0)
+                
         except Exception as e:
-            print(f"\n[ERROR FATAL] Terjadi kesalahan saat memanggil fungsi DLL: {e}")
+            print(f"[-] Error: {e}")
             
-        input("\nTekan Enter untuk kembali ke Menu Utama...")
+        input("\nTekan Enter untuk lanjut...")
 
 if __name__ == '__main__':
     main()
