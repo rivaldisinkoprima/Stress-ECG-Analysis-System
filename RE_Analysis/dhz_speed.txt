@@ -1,0 +1,41 @@
+/ 152: sym.DrvDHZ8200A.dll_DrvSetSpeed (int32_t arg_18h);
+| `- args() vars(4:sp[0x8..0x18])
+|           0x10001240      6aff           push 0xffffffffffffffff
+|           0x10001242      6818270010     push 0x10002718             ; '\x18\''
+|           0x10001247      64a100000000   mov eax, dword fs:[0]
+|           0x1000124d      50             push eax
+|           0x1000124e      6489250000..   mov dword fs:[0], esp
+|           0x10001255      83ec08         sub esp, 8
+|           0x10001258      e8c8100000     call fcn.10002325
+|           0x1000125d      50             push eax
+|           0x1000125e      8d4c2404       lea ecx, [var_4h]
+|           0x10001262      e8c90f0000     call sub.MFC42.DLL_AFX_MAINTAIN_STATE2::AFX_MAINTAIN_STATE2
+|           0x10001267      dd442418       fld qword [arg_18h]
+|           0x1000126b      dc0d98320010   fmul qword [0x10003298]     ; [0x10003298:8]=0x4024000000000000
+|           0x10001271      c744241000..   mov dword [var_10h], 0
+|           0x10001279      dc0590320010   fadd qword [0x10003290]
+|           0x1000127f      e86c120000     call sub.MSVCRT.dll__ftol
+|           0x10001284      3dc8000000     cmp eax, 0xc8               ; 200
+|       ,=< 0x10001289      7e1c           jle 0x100012a7
+|       |   0x1000128b      8b442404       mov eax, dword [var_4h]
+|       |   0x1000128f      8b4c2400       mov ecx, dword [esp]
+|       |   0x10001293      894804         mov dword [eax + 4], ecx
+|       |   0x10001296      33c0           xor eax, eax
+|       |   0x10001298      8b4c2408       mov ecx, dword [var_8h]
+|       |   0x1000129c      64890d0000..   mov dword fs:[0], ecx
+|       |   0x100012a3      83c414         add esp, 0x14
+|       |   0x100012a6      c3             ret
+|       |   ; CODE XREF from sym.DrvDHZ8200A.dll_DrvSetSpeed @ 0x10001289(x)
+|       `-> 0x100012a7      0fbfd0         movsx edx, ax
+|           0x100012aa      52             push edx
+|           0x100012ab      66a3e4450010   mov word [0x100045e4], ax   ; [0x100045e4:2]=0
+|           0x100012b1      e8dafeffff     call fcn.10001190
+|           0x100012b6      8b442408       mov eax, dword [var_4h]
+|           0x100012ba      8b4c2404       mov ecx, dword [var_4h_2]
+|           0x100012be      83c404         add esp, 4
+|           0x100012c1      894804         mov dword [eax + 4], ecx
+|           0x100012c4      8b4c2408       mov ecx, dword [var_8h]
+|           0x100012c8      b801000000     mov eax, 1
+|           0x100012cd      64890d0000..   mov dword fs:[0], ecx
+|           0x100012d4      83c414         add esp, 0x14
+\           0x100012d7      c3             ret

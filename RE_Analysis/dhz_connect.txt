@@ -1,0 +1,45 @@
+/ 159: sym.DrvDHZ8200A.dll_DrvConnect (int32_t arg_1ch);
+| `- args(sp[0x4..0x4]) vars(6:sp[0x8..0x34])
+|           0x10001490      6aff           push 0xffffffffffffffff
+|           0x10001492      6858270010     push 0x10002758             ; 'X\''
+|           0x10001497      64a100000000   mov eax, dword fs:[0]
+|           0x1000149d      50             push eax
+|           0x1000149e      6489250000..   mov dword fs:[0], esp
+|           0x100014a5      83ec08         sub esp, 8
+|           0x100014a8      e8780e0000     call fcn.10002325
+|           0x100014ad      50             push eax
+|           0x100014ae      8d4c2404       lea ecx, [var_4h]
+|           0x100014b2      e8790d0000     call sub.MFC42.DLL_AFX_MAINTAIN_STATE2::AFX_MAINTAIN_STATE2
+|           0x100014b7      8b44241c       mov eax, dword [arg_1ch]
+|           0x100014bb      8b0dec450010   mov ecx, dword [0x100045ec] ; [0x100045ec:4]=0
+|           0x100014c1      6800010000     push 0x100                  ; 256
+|           0x100014c6      6a01           push 1                      ; 1
+|           0x100014c8      6a01           push 1                      ; 1
+|           0x100014ca      6a08           push 8                      ; 8
+|           0x100014cc      6a4e           push 0x4e                   ; 'N' ; 78
+|           0x100014ce      68c0120000     push 0x12c0
+|           0x100014d3      50             push eax                    ; LPCRITICAL_SECTION arg_2ch
+|           0x100014d4      c744242c00..   mov dword [var_2ch], 0
+|           0x100014dc      e87f040000     call fcn.10001960
+|           0x100014e1      85c0           test eax, eax
+|       ,=< 0x100014e3      751a           jne 0x100014ff
+|       |   0x100014e5      8b4c2404       mov ecx, dword [var_8h]
+|       |   0x100014e9      8b542400       mov edx, dword [esp]
+|       |   0x100014ed      895104         mov dword [ecx + 4], edx
+|       |   0x100014f0      8b4c2408       mov ecx, dword [var_8h_2]
+|       |   0x100014f4      64890d0000..   mov dword fs:[0], ecx
+|       |   0x100014fb      83c414         add esp, 0x14
+|       |   0x100014fe      c3             ret
+|       |   ; CODE XREF from sym.DrvDHZ8200A.dll_DrvConnect @ 0x100014e3(x)
+|       `-> 0x100014ff      8b4c2418       mov ecx, dword [var_18h]
+|           0x10001503      6a01           push 1                      ; 1 ; int32_t arg_8h
+|           0x10001505      890de8450010   mov dword [0x100045e8], ecx ; [0x100045e8:4]=0
+|           0x1000150b      e880020000     call fcn.10001790
+|           0x10001510      8b442404       mov eax, dword [var_4h_2]
+|           0x10001514      8b4c2400       mov ecx, dword [esp]
+|           0x10001518      894804         mov dword [eax + 4], ecx
+|           0x1000151b      8b4c2408       mov ecx, dword [var_8h]
+|           0x1000151f      b801000000     mov eax, 1
+|           0x10001524      64890d0000..   mov dword fs:[0], ecx
+|           0x1000152b      83c414         add esp, 0x14
+\           0x1000152e      c3             ret

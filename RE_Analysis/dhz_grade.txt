@@ -1,0 +1,42 @@
+/ 148: sym.DrvDHZ8200A.dll_DrvSetGrade (int32_t arg_18h);
+| `- args() vars(4:sp[0x8..0x18])
+|           0x100012e0      6aff           push 0xffffffffffffffff
+|           0x100012e2      6838270010     push 0x10002738             ; '8\''
+|           0x100012e7      64a100000000   mov eax, dword fs:[0]
+|           0x100012ed      50             push eax
+|           0x100012ee      6489250000..   mov dword fs:[0], esp
+|           0x100012f5      83ec08         sub esp, 8
+|           0x100012f8      e828100000     call fcn.10002325
+|           0x100012fd      50             push eax
+|           0x100012fe      8d4c2404       lea ecx, [var_4h]
+|           0x10001302      e8290f0000     call sub.MFC42.DLL_AFX_MAINTAIN_STATE2::AFX_MAINTAIN_STATE2
+|           0x10001307      dd442418       fld qword [arg_18h]
+|           0x1000130b      dc0590320010   fadd qword [0x10003290]
+|           0x10001311      c744241000..   mov dword [var_10h], 0
+|           0x10001319      e8d2110000     call sub.MSVCRT.dll__ftol
+|           0x1000131e      83f818         cmp eax, 0x18               ; 24
+|       ,=< 0x10001321      7f35           jg 0x10001358
+|       |   0x10001323      85c0           test eax, eax
+|      ,==< 0x10001325      7c31           jl 0x10001358
+|      ||   0x10001327      66a3e2450010   mov word [0x100045e2], ax   ; [0x100045e2:2]=0
+|      ||   0x1000132d      0fbfc0         movsx eax, ax
+|      ||   0x10001330      50             push eax
+|      ||   0x10001331      e8aafeffff     call fcn.100011e0
+|      ||   0x10001336      8b4c2408       mov ecx, dword [var_4h]
+|      ||   0x1000133a      8b542404       mov edx, dword [var_4h_2]
+|      ||   0x1000133e      83c404         add esp, 4
+|      ||   0x10001341      b801000000     mov eax, 1
+|      ||   0x10001346      895104         mov dword [ecx + 4], edx
+|      ||   0x10001349      8b4c2408       mov ecx, dword [var_8h]
+|      ||   0x1000134d      64890d0000..   mov dword fs:[0], ecx
+|      ||   0x10001354      83c414         add esp, 0x14
+|      ||   0x10001357      c3             ret
+|      ||   ; CODE XREFS from sym.DrvDHZ8200A.dll_DrvSetGrade @ 0x10001321(x), 0x10001325(x)
+|      ``-> 0x10001358      8b442404       mov eax, dword [var_4h]
+|           0x1000135c      8b4c2400       mov ecx, dword [esp]
+|           0x10001360      894804         mov dword [eax + 4], ecx
+|           0x10001363      8b4c2408       mov ecx, dword [var_8h]
+|           0x10001367      33c0           xor eax, eax
+|           0x10001369      64890d0000..   mov dword fs:[0], ecx
+|           0x10001370      83c414         add esp, 0x14
+\           0x10001373      c3             ret

@@ -1,0 +1,103 @@
+nth paddr      vaddr      len size section type    string
+---------------------------------------------------------
+0   0x00003750 0x10003750 9   10   .rdata  ascii   MFC42.DLL
+1   0x0000375c 0x1000375c 17  18   .rdata  ascii   __CxxFrameHandler
+2   0x00003770 0x10003770 7   8    .rdata  ascii   sprintf
+3   0x0000377a 0x1000377a 5   6    .rdata  ascii   _ftol
+4   0x00003782 0x10003782 11  12   .rdata  ascii   __dllonexit
+5   0x00003790 0x10003790 7   8    .rdata  ascii   _onexit
+6   0x00003798 0x10003798 10  11   .rdata  ascii   MSVCRT.dll
+7   0x000037a6 0x100037a6 4   5    .rdata  ascii   free
+8   0x000037ae 0x100037ae 9   10   .rdata  ascii   _initterm
+9   0x000037ba 0x100037ba 6   7    .rdata  ascii   malloc
+10  0x000037c4 0x100037c4 12  13   .rdata  ascii   _adjust_fdiv
+11  0x000037d4 0x100037d4 20  21   .rdata  ascii   ??1type_info@@UAE@XZ
+12  0x000037ec 0x100037ec 25  26   .rdata  ascii   InitializeCriticalSection
+13  0x00003808 0x10003808 21  22   .rdata  ascii   DeleteCriticalSection
+14  0x00003820 0x10003820 11  12   .rdata  ascii   CloseHandle
+15  0x0000382e 0x1000382e 8   9    .rdata  ascii   SetEvent
+16  0x0000383a 0x1000383a 9   10   .rdata  ascii   PurgeComm
+17  0x00003846 0x10003846 12  13   .rdata  ascii   SetCommState
+18  0x00003856 0x10003856 13  14   .rdata  ascii   BuildCommDCBA
+19  0x00003866 0x10003866 12  13   .rdata  ascii   GetCommState
+20  0x00003876 0x10003876 11  12   .rdata  ascii   SetCommMask
+21  0x00003884 0x10003884 15  16   .rdata  ascii   SetCommTimeouts
+22  0x00003896 0x10003896 20  21   .rdata  ascii   LeaveCriticalSection
+23  0x000038ae 0x100038ae 11  12   .rdata  ascii   CreateFileA
+24  0x000038bc 0x100038bc 20  21   .rdata  ascii   EnterCriticalSection
+25  0x000038d4 0x100038d4 12  13   .rdata  ascii   CreateEventA
+26  0x000038e4 0x100038e4 11  12   .rdata  ascii   GetCommMask
+27  0x000038f2 0x100038f2 22  23   .rdata  ascii   WaitForMultipleObjects
+28  0x0000390c 0x1000390c 14  15   .rdata  ascii   ClearCommError
+29  0x0000391e 0x1000391e 5   6    .rdata  ascii   Sleep
+30  0x00003926 0x10003926 12  13   .rdata  ascii   GetLastError
+31  0x00003936 0x10003936 13  14   .rdata  ascii   WaitCommEvent
+32  0x00003946 0x10003946 9   10   .rdata  ascii   LocalFree
+33  0x00003952 0x10003952 14  15   .rdata  ascii   FormatMessageA
+34  0x00003964 0x10003964 19  20   .rdata  ascii   GetOverlappedResult
+35  0x0000397a 0x1000397a 9   10   .rdata  ascii   WriteFile
+36  0x00003986 0x10003986 10  11   .rdata  ascii   ResetEvent
+37  0x00003994 0x10003994 8   9    .rdata  ascii   ReadFile
+38  0x000039a0 0x100039a0 10  11   .rdata  ascii   LocalAlloc
+39  0x000039ac 0x100039ac 12  13   .rdata  ascii   KERNEL32.dll
+40  0x000039bc 0x100039bc 12  13   .rdata  ascii   PostMessageA
+41  0x000039cc 0x100039cc 8   9    .rdata  ascii   IsWindow
+42  0x000039d8 0x100039d8 11  12   .rdata  ascii   MessageBoxA
+43  0x000039e4 0x100039e4 10  11   .rdata  ascii   USER32.dll
+44  0x00003a9a 0x10003a9a 15  16   .rdata  ascii   DrvDHZ8200A.dll
+45  0x00003aaa 0x10003aaa 10  11   .rdata  ascii   DrvConnect
+46  0x00003ab5 0x10003ab5 13  14   .rdata  ascii   DrvDisconnect
+47  0x00003ac3 0x10003ac3 11  12   .rdata  ascii   DrvGetGrade
+48  0x00003acf 0x10003acf 20  21   .rdata  ascii   DrvGetGradeIncrement
+49  0x00003ae4 0x10003ae4 16  17   .rdata  ascii   DrvGetGradeRange
+50  0x00003af5 0x10003af5 11  12   .rdata  ascii   DrvGetSpeed
+51  0x00003b01 0x10003b01 20  21   .rdata  ascii   DrvGetSpeedIncrement
+52  0x00003b16 0x10003b16 16  17   .rdata  ascii   DrvGetSpeedRange
+53  0x00003b27 0x10003b27 15  16   .rdata  ascii   DrvGetSpeedUnit
+54  0x00003b37 0x10003b37 11  12   .rdata  ascii   DrvSetGrade
+55  0x00003b43 0x10003b43 11  12   .rdata  ascii   DrvSetSpeed
+56  0x00003b4f 0x10003b4f 8   9    .rdata  ascii   DrvStart
+57  0x00003b58 0x10003b58 7   8    .rdata  ascii   DrvStop
+58  0x00004021 0x10004021 4   5    .data   ascii   %04d
+59  0x00004029 0x10004029 4   5    .data   ascii   %04d
+60  0x000043f8 0x100043f8 17  18   .data   ascii   SetCommTimeouts()
+61  0x0000440c 0x1000440c 13  14   .data   ascii   SetCommMask()
+62  0x0000441c 0x1000441c 14  15   .data   ascii   GetCommState()
+63  0x0000442c 0x1000442c 14  15   .data   ascii   BuildCommDCB()
+64  0x0000443c 0x1000443c 14  15   .data   ascii   SetCommState()
+65  0x0000444c 0x1000444c 33  34   .data   ascii   baud=%d parity=%c data=%d stop=%d
+66  0x00004470 0x10004470 9   10   .data   ascii   \\.\COM%d
+67  0x0000447c 0x1000447c 5   6    .data   ascii   COM%d
+68  0x00004484 0x10004484 15  16   .data   ascii   WaitCommEvent()
+69  0x00004494 0x10004494 17  18   .data   ascii   Application Error
+70  0x000044a8 0x100044a8 59  60   .data   ascii   WARNING:  %s Failed with the following error: \n%s\nPort: %d\n
+71  0x000044e4 0x100044e4 37  38   .data   ascii   GetOverlappedResults() in WriteFile()
+72  0x0000450c 0x1000450c 11  12   .data   ascii   WriteFile()
+73  0x00004518 0x10004518 36  37   .data   ascii   GetOverlappedResults() in ReadFile()
+74  0x00004540 0x10004540 10  11   .data   ascii   ReadFile()
+75  0x00004558 0x10004558 20  21   .data   ascii   .?AVCNoTrackObject@@
+76  0x00004578 0x10004578 22  23   .data   ascii   .?AVAFX_MODULE_STATE@@
+77  0x00004598 0x10004598 27  28   .data   ascii   .?AV_AFX_DLL_MODULE_STATE@@
+78  0x000045c8 0x100045c8 15  16   .data   ascii   .?AVtype_info@@
+79  0x00005066 0x10006066 15  32   .rsrc   utf16le VS_VERSION_INFO
+80  0x000050c2 0x100060c2 14  30   .rsrc   utf16le StringFileInfo
+81  0x000050e6 0x100060e6 8   18   .rsrc   utf16le 080404B0
+82  0x00005100 0x10006100 10  22   .rsrc   utf16le ompanyName
+83  0x0000511e 0x1000611e 15  32   .rsrc   utf16le FileDescription
+84  0x00005140 0x10006140 15  32   .rsrc   utf16le DrvDHZ8200A DLL
+85  0x00005166 0x10006166 11  24   .rsrc   utf16le FileVersion
+86  0x00005180 0x10006180 10  22   .rsrc   utf16le 1, 0, 0, 1
+87  0x0000519e 0x1000619e 12  26   .rsrc   utf16le InternalName
+88  0x000051b8 0x100061b8 11  24   .rsrc   utf16le DrvDHZ8200A
+89  0x000051d6 0x100061d6 14  30   .rsrc   utf16le LegalCopyright
+90  0x000051f4 0x100061f4 9   10   .rsrc   ascii   HrCg@b\tg
+91  0x000051fe 0x100061fe 8   18   .rsrc   utf16le (C) 2021
+92  0x00005218 0x10006218 14  30   .rsrc   utf16le egalTrademarks
+93  0x0000523e 0x1000623e 16  34   .rsrc   utf16le OriginalFilename
+94  0x00005260 0x10006260 15  32   .rsrc   utf16le DrvDHZ8200A.DLL
+95  0x00005286 0x10006286 11  24   .rsrc   utf16le ProductName
+96  0x000052a0 0x100062a0 32  66   .rsrc   utf16le DrvDHZ8200A Dynamic Link Library
+97  0x000052ea 0x100062ea 14  30   .rsrc   utf16le ProductVersion
+98  0x00005308 0x10006308 10  22   .rsrc   utf16le 1, 0, 0, 1
+99  0x00005328 0x10006328 10  22   .rsrc   utf16le arFileInfo
+100 0x00005346 0x10006346 11  24   .rsrc   utf16le Translation

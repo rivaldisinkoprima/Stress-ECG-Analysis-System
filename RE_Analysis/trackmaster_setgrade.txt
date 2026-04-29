@@ -1,0 +1,104 @@
+            ; CALL XREF from sym.DrvtTrackMaster.dll_DrvStop @ 0x1000192c(x)
+/ 307: sym.DrvtTrackMaster.dll_DrvSetGrade (int32_t arg_1ch, int32_t arg_4h, int32_t arg_8h, int32_t arg_8h_2);
+| `- args(sp[0x0..0xc]) vars(4:sp[0x8..0x18])
+|           0x100014c0      6aff           push 0xffffffffffffffff
+|           0x100014c2      68d8290010     push 0x100029d8
+|           0x100014c7      64a100000000   mov eax, dword fs:[0]
+|           0x100014cd      50             push eax
+|           0x100014ce      6489250000..   mov dword fs:[0], esp
+|           0x100014d5      83ec08         sub esp, 8
+|           0x100014d8      56             push esi
+|           0x100014d9      e8e7100000     call fcn.100025c5
+|           0x100014de      50             push eax
+|           0x100014df      8d4c2408       lea ecx, [var_8h]
+|           0x100014e3      e8e80f0000     call sub.MFC42.DLL_AFX_MAINTAIN_STATE2::AFX_MAINTAIN_STATE2
+|           0x100014e8      dd44241c       fld qword [arg_1ch]
+|           0x100014ec      dc0da0320010   fmul qword [0x100032a0]     ; [0x100032a0:8]=0x4024000000000000
+|           0x100014f2      c744241400..   mov dword [var_14h], 0
+|           0x100014fa      dc0598320010   fadd qword [0x10003298]
+|           0x10001500      e88b120000     call sub.MSVCRT.dll__ftol
+|           0x10001505      8bf0           mov esi, eax
+|           0x10001507      81fedc000000   cmp esi, 0xdc               ; 220
+|       ,=< 0x1000150d      0f8fc3000000   jg 0x100015d6
+|       |   0x10001513      85f6           test esi, esi
+|      ,==< 0x10001515      0f8cbb000000   jl 0x100015d6
+|      ||   0x1000151b      668b0de245..   mov cx, word [0x100045e2]   ; [0x100045e2:2]=0
+|      ||   0x10001522      0fbfc1         movsx eax, cx
+|      ||   0x10001525      3bc6           cmp eax, esi
+|     ,===< 0x10001527      7d41           jge 0x1000156a
+|     |||   ; CODE XREF from sym.DrvtTrackMaster.dll_DrvSetGrade @ 0x10001566(x)
+|    .----> 0x10001529      8d5014         lea edx, [eax + 0x14]
+|    :|||   0x1000152c      3bd6           cmp edx, esi
+|   ,=====< 0x1000152e      7f06           jg 0x10001536
+|   |:|||   0x10001530      6683c114       add cx, 0x14                ; 20
+|  ,======< 0x10001534      eb11           jmp 0x10001547
+|  ||:|||   ; CODE XREF from sym.DrvtTrackMaster.dll_DrvSetGrade @ 0x1000152e(x)
+|  |`-----> 0x10001536      83c00a         add eax, 0xa
+|  | :|||   0x10001539      3bc6           cmp eax, esi
+|  |,=====< 0x1000153b      7f06           jg 0x10001543
+|  ||:|||   0x1000153d      6683c10a       add cx, 0xa
+| ,=======< 0x10001541      eb04           jmp 0x10001547
+| |||:|||   ; CODE XREF from sym.DrvtTrackMaster.dll_DrvSetGrade @ 0x1000153b(x)
+| ||`-----> 0x10001543      6683c105       add cx, 5
+| || :|||   ; CODE XREFS from sym.DrvtTrackMaster.dll_DrvSetGrade @ 0x10001534(x), 0x10001541(x)
+| ``------> 0x10001547      0fbfc1         movsx eax, cx
+|    :|||   0x1000154a      50             push eax
+|    :|||   0x1000154b      66890de245..   mov word [0x100045e2], cx   ; [0x100045e2:2]=0
+|    :|||   0x10001552      e889fcffff     call fcn.100011e0
+|    :|||   0x10001557      668b0de245..   mov cx, word [0x100045e2]   ; [0x100045e2:2]=0
+|    :|||   0x1000155e      83c404         add esp, 4
+|    :|||   0x10001561      0fbfc1         movsx eax, cx
+|    :|||   0x10001564      3bc6           cmp eax, esi
+|    `====< 0x10001566      7cc1           jl 0x10001529
+|    ,====< 0x10001568      eb4c           jmp 0x100015b6
+|    ||||   ; CODE XREF from sym.DrvtTrackMaster.dll_DrvSetGrade @ 0x10001527(x)
+|   ,=`---> 0x1000156a      7e41           jle 0x100015ad
+|   || ||   ; CODE XREF from sym.DrvtTrackMaster.dll_DrvSetGrade @ 0x100015a9(x)
+|   ||.---> 0x1000156c      8d50ec         lea edx, [eax - 0x14]
+|   ||:||   0x1000156f      3bd6           cmp edx, esi
+|  ,======< 0x10001571      7c06           jl 0x10001579
+|  |||:||   0x10001573      6683c1ec       add cx, 0xffec
+| ,=======< 0x10001577      eb11           jmp 0x1000158a
+| ||||:||   ; CODE XREF from sym.DrvtTrackMaster.dll_DrvSetGrade @ 0x10001571(x)
+| |`------> 0x10001579      83c0f6         add eax, 0xfffffff6
+| | ||:||   0x1000157c      3bc6           cmp eax, esi
+| |,======< 0x1000157e      7c06           jl 0x10001586
+| ||||:||   0x10001580      6683c1f6       add cx, 0xfff6
+| ========< 0x10001584      eb04           jmp 0x1000158a
+| ||||:||   ; CODE XREF from sym.DrvtTrackMaster.dll_DrvSetGrade @ 0x1000157e(x)
+| |`------> 0x10001586      6683c1fb       add cx, 0xfffb
+| | ||:||   ; CODE XREFS from sym.DrvtTrackMaster.dll_DrvSetGrade @ 0x10001577(x), 0x10001584(x)
+| `-------> 0x1000158a      0fbfc1         movsx eax, cx
+|   ||:||   0x1000158d      50             push eax
+|   ||:||   0x1000158e      66890de245..   mov word [0x100045e2], cx   ; [0x100045e2:2]=0
+|   ||:||   0x10001595      e846fcffff     call fcn.100011e0
+|   ||:||   0x1000159a      668b0de245..   mov cx, word [0x100045e2]   ; [0x100045e2:2]=0
+|   ||:||   0x100015a1      83c404         add esp, 4
+|   ||:||   0x100015a4      0fbfc1         movsx eax, cx
+|   ||:||   0x100015a7      3bc6           cmp eax, esi
+|   ||`===< 0x100015a9      7fc1           jg 0x1000156c
+|   ||,===< 0x100015ab      eb09           jmp 0x100015b6
+|   |||||   ; CODE XREF from sym.DrvtTrackMaster.dll_DrvSetGrade @ 0x1000156a(x)
+|   `-----> 0x100015ad      50             push eax
+|    ||||   0x100015ae      e82dfcffff     call fcn.100011e0
+|    ||||   0x100015b3      83c404         add esp, 4
+|    ||||   ; CODE XREFS from sym.DrvtTrackMaster.dll_DrvSetGrade @ 0x10001568(x), 0x100015ab(x)
+|    ``---> 0x100015b6      8b4c2408       mov ecx, dword [arg_8h]
+|      ||   0x100015ba      8b542404       mov edx, dword [arg_4h]
+|      ||   0x100015be      b801000000     mov eax, 1
+|      ||   0x100015c3      5e             pop esi
+|      ||   0x100015c4      895104         mov dword [ecx + 4], edx
+|      ||   0x100015c7      8b4c2408       mov ecx, dword [arg_8h_2]
+|      ||   0x100015cb      64890d0000..   mov dword fs:[0], ecx
+|      ||   0x100015d2      83c414         add esp, 0x14
+|      ||   0x100015d5      c3             ret
+|      ||   ; CODE XREFS from sym.DrvtTrackMaster.dll_DrvSetGrade @ 0x1000150d(x), 0x10001515(x)
+|      ``-> 0x100015d6      8b442408       mov eax, dword [var_8h]
+|           0x100015da      8b4c2404       mov ecx, dword [var_4h]
+|           0x100015de      5e             pop esi
+|           0x100015df      894804         mov dword [eax + 4], ecx
+|           0x100015e2      8b4c2408       mov ecx, dword [var_8h_2]
+|           0x100015e6      33c0           xor eax, eax
+|           0x100015e8      64890d0000..   mov dword fs:[0], ecx
+|           0x100015ef      83c414         add esp, 0x14
+\           0x100015f2      c3             ret

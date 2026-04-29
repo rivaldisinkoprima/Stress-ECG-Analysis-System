@@ -1,0 +1,32 @@
+/ 131: sym.DrvDHZ8200A.dll_DrvStop ();
+| afv: vars(4:sp[0x8..0x1c])
+|           0x10001640      6aff           push 0xffffffffffffffff
+|           0x10001642      68b8270010     push 0x100027b8
+|           0x10001647      64a100000000   mov eax, dword fs:[0]
+|           0x1000164d      50             push eax
+|           0x1000164e      6489250000..   mov dword fs:[0], esp
+|           0x10001655      83ec08         sub esp, 8
+|           0x10001658      e8c80c0000     call fcn.10002325
+|           0x1000165d      50             push eax
+|           0x1000165e      8d4c2404       lea ecx, [var_4h]
+|           0x10001662      e8c90b0000     call sub.MFC42.DLL_AFX_MAINTAIN_STATE2::AFX_MAINTAIN_STATE2
+|           0x10001667      6a00           push 0
+|           0x10001669      c744241400..   mov dword [var_14h], 0
+|           0x10001671      66c705e445..   mov word [0x100045e4], 0    ; [0x100045e4:2]=0
+|           0x1000167a      66c705e245..   mov word [0x100045e2], 0    ; [0x100045e2:2]=0
+|           0x10001683      e808fbffff     call fcn.10001190
+|           0x10001688      6a00           push 0
+|           0x1000168a      e851fbffff     call fcn.100011e0
+|           0x1000168f      8b0dec450010   mov ecx, dword [0x100045ec] ; [0x100045ec:4]=0
+|           0x10001695      83c408         add esp, 8
+|           0x10001698      6a01           push 1                      ; 1
+|           0x1000169a      6834400010     push 0x10004034             ; '4@'
+|           0x1000169f      e80c0a0000     call fcn.100020b0
+|           0x100016a4      8b442404       mov eax, dword [var_4h_2]
+|           0x100016a8      8b4c2400       mov ecx, dword [esp]
+|           0x100016ac      894804         mov dword [eax + 4], ecx
+|           0x100016af      8b4c2408       mov ecx, dword [var_8h]
+|           0x100016b3      b801000000     mov eax, 1
+|           0x100016b8      64890d0000..   mov dword fs:[0], ecx
+|           0x100016bf      83c414         add esp, 0x14
+\           0x100016c2      c3             ret

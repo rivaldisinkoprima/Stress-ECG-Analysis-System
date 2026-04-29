@@ -1,0 +1,2703 @@
+nth  paddr      vaddr      len size section type    string
+----------------------------------------------------------
+0    0x001cac93 0x005cac93 4   6    .rdata  utf8    c]ܶ?
+1    0x001cb15f 0x005cb15f 4   5    .rdata  ascii   @taA
+2    0x001cb387 0x005cb387 4   6    .rdata  utf8    ?\nף;
+3    0x001cbde5 0x005cbde5 4   5    .rdata  ascii   \bk?{
+4    0x001cbdef 0x005cbdef 7   8    .rdata  ascii   ?333333
+5    0x001cbdff 0x005cbdff 4   5    .rdata  ascii   ?0MB
+6    0x001cee76 0x005cee76 8   9    .rdata  ascii   D@333333
+7    0x001cf387 0x005cf387 4   5    .rdata  ascii   ?s2F
+8    0x001cf4c8 0x005cf4c8 5   7    .rdata  utf8    \nףp=\n
+9    0x001cfc37 0x005cfc37 6   8    .rdata  utf8    ?q=\nףp
+10   0x001d0061 0x005d0061 5   6    .rdata  ascii   Ww'&l
+11   0x001d008d 0x005d008d 4   5    .rdata  ascii   ?\n@Q
+12   0x001d0092 0x005d0092 4   5    .rdata  ascii   \e|a2
+13   0x001d0099 0x005d0099 4   6    .rdata  utf8    p=\nף
+14   0x001d00d6 0x005d00d6 5   6    .rdata  ascii   f@p7I
+15   0x001d16c6 0x005d16c6 5   6    .rdata  ascii   8@oyK
+16   0x001d1b6e 0x005d1b6e 4   5    .rdata  ascii   !@l~
+17   0x001d1b74 0x005d1b74 5   6    .rdata  ascii   {eF@:
+18   0x001d1b8d 0x005d1b8d 6   7    .rdata  ascii   Z/@p\vL
+19   0x001d1d26 0x005d1d26 5   6    .rdata  ascii   PB\]L
+20   0x001d31f8 0x005d31f8 6   7    .rdata  ascii   333333
+21   0x001d3230 0x005d3230 6   7    .rdata  ascii   333333
+22   0x001d323c 0x005d323c 5   6    .rdata  ascii   Qx7@9
+23   0x001d324f 0x005d324f 7   8    .rdata  ascii   ?333333
+24   0x001d3257 0x005d3257 6   7    .rdata  ascii   ??>!;o
+25   0x001d4425 0x005d4425 5   7    .rdata  utf8    L\rAƢZ
+26   0x001d4ace 0x005d4ace 4   6    .rdata  utf8    >@ƢZ
+27   0x001d8500 0x005d8500 4   20   .rdata  utf32le (PdÈ
+28   0x001d8d2f 0x005d8d2f 4   5    .rdata  ascii   @y0Z
+29   0x001d9241 0x005d9241 4   5    .rdata  ascii   f")@
+30   0x001f7292 0x005f7292 14  15   .rdata  ascii   TransparentBlt
+31   0x001f72a2 0x005f72a2 11  12   .rdata  ascii   MSIMG32.dll
+32   0x001f72b0 0x005f72b0 28  29   .rdata  ascii   GdipCreateLineBrushFromRectI
+33   0x001f72d0 0x005f72d0 15  16   .rdata  ascii   GdipDeleteBrush
+34   0x001f72e2 0x005f72e2 14  15   .rdata  ascii   GdipCloneBrush
+35   0x001f72f4 0x005f72f4 8   9    .rdata  ascii   GdipFree
+36   0x001f7300 0x005f7300 9   10   .rdata  ascii   GdipAlloc
+37   0x001f730c 0x005f730c 17  18   .rdata  ascii   GdipCreateFromHDC
+38   0x001f7320 0x005f7320 18  19   .rdata  ascii   GdipDeleteGraphics
+39   0x001f7336 0x005f7336 18  19   .rdata  ascii   GdipFillRectangleI
+40   0x001f734c 0x005f734c 15  16   .rdata  ascii   GdiplusShutdown
+41   0x001f735e 0x005f735e 14  15   .rdata  ascii   GdiplusStartup
+42   0x001f7370 0x005f7370 18  19   .rdata  ascii   GdipDrawImageRectI
+43   0x001f7386 0x005f7386 23  24   .rdata  ascii   GdipLoadImageFromStream
+44   0x001f73a0 0x005f73a0 26  27   .rdata  ascii   GdipLoadImageFromStreamICM
+45   0x001f73be 0x005f73be 16  17   .rdata  ascii   GdipDisposeImage
+46   0x001f73d2 0x005f73d2 14  15   .rdata  ascii   GdipCloneImage
+47   0x001f73e4 0x005f73e4 21  22   .rdata  ascii   GdipLoadImageFromFile
+48   0x001f73fc 0x005f73fc 24  25   .rdata  ascii   GdipLoadImageFromFileICM
+49   0x001f7418 0x005f7418 19  20   .rdata  ascii   GdipSaveImageToFile
+50   0x001f742e 0x005f742e 11  12   .rdata  ascii   GdipSaveAdd
+51   0x001f743c 0x005f743c 16  17   .rdata  ascii   GdipSaveAddImage
+52   0x001f7450 0x005f7450 32  33   .rdata  ascii   GdipImageGetFrameDimensionsCount
+53   0x001f7474 0x005f7474 31  32   .rdata  ascii   GdipImageGetFrameDimensionsList
+54   0x001f7496 0x005f7496 22  23   .rdata  ascii   GdipImageGetFrameCount
+55   0x001f74b0 0x005f74b0 26  27   .rdata  ascii   GdipImageSelectActiveFrame
+56   0x001f74ce 0x005f74ce 27  28   .rdata  ascii   GdipCreateBitmapFromHBITMAP
+57   0x001f74ec 0x005f74ec 24  25   .rdata  ascii   GdipGetImageEncodersSize
+58   0x001f7508 0x005f7508 20  21   .rdata  ascii   GdipGetImageEncoders
+59   0x001f7520 0x005f7520 14  15   .rdata  ascii   GdipCreatePen1
+60   0x001f7532 0x005f7532 13  14   .rdata  ascii   GdipDeletePen
+61   0x001f7542 0x005f7542 15  16   .rdata  ascii   GdipSetPenWidth
+62   0x001f7554 0x005f7554 15  16   .rdata  ascii   GdipSetPenColor
+63   0x001f7566 0x005f7566 20  21   .rdata  ascii   GdipSetSmoothingMode
+64   0x001f757e 0x005f757e 13  14   .rdata  ascii   GdipDrawLineI
+65   0x001f758e 0x005f758e 16  17   .rdata  ascii   GdipSetClipRectI
+66   0x001f75a2 0x005f75a2 13  14   .rdata  ascii   GdipResetClip
+67   0x001f75b0 0x005f75b0 11  12   .rdata  ascii   gdiplus.dll
+68   0x001f75be 0x005f75be 11  12   .rdata  ascii   DrawDibOpen
+69   0x001f75cc 0x005f75cc 12  13   .rdata  ascii   DrawDibClose
+70   0x001f75dc 0x005f75dc 11  12   .rdata  ascii   DrawDibDraw
+71   0x001f75e8 0x005f75e8 11  12   .rdata  ascii   MSVFW32.dll
+72   0x001f75f6 0x005f75f6 14  15   .rdata  ascii   wglMakeCurrent
+73   0x001f7608 0x005f7608 16  17   .rdata  ascii   wglCreateContext
+74   0x001f761c 0x005f761c 14  15   .rdata  ascii   glLoadIdentity
+75   0x001f762e 0x005f762e 12  13   .rdata  ascii   glMatrixMode
+76   0x001f763e 0x005f763e 10  11   .rdata  ascii   glViewport
+77   0x001f764c 0x005f764c 7   8    .rdata  ascii   glOrtho
+78   0x001f7656 0x005f7656 9   10   .rdata  ascii   glDisable
+79   0x001f7662 0x005f7662 8   9    .rdata  ascii   glEnable
+80   0x001f766e 0x005f766e 9   10   .rdata  ascii   glLightfv
+81   0x001f767a 0x005f767a 14  15   .rdata  ascii   glLightModelfv
+82   0x001f768c 0x005f768c 11  12   .rdata  ascii   glGetString
+83   0x001f769a 0x005f769a 16  17   .rdata  ascii   wglDeleteContext
+84   0x001f76ae 0x005f76ae 6   7    .rdata  ascii   glHint
+85   0x001f76b8 0x005f76b8 11  12   .rdata  ascii   glBlendFunc
+86   0x001f76c6 0x005f76c6 11  12   .rdata  ascii   glPopAttrib
+87   0x001f76d4 0x005f76d4 9   10   .rdata  ascii   glEndList
+88   0x001f76e0 0x005f76e0 11  12   .rdata  ascii   glPopMatrix
+89   0x001f76ee 0x005f76ee 5   6    .rdata  ascii   glEnd
+90   0x001f76f6 0x005f76f6 10  11   .rdata  ascii   glVertex3f
+91   0x001f7704 0x005f7704 10  11   .rdata  ascii   glColor3fv
+92   0x001f7712 0x005f7712 7   8    .rdata  ascii   glBegin
+93   0x001f771c 0x005f771c 12  13   .rdata  ascii   glPushMatrix
+94   0x001f772c 0x005f772c 9   10   .rdata  ascii   glNewList
+95   0x001f7738 0x005f7738 12  13   .rdata  ascii   glPushAttrib
+96   0x001f7748 0x005f7748 13  14   .rdata  ascii   glDeleteLists
+97   0x001f7758 0x005f7758 11  12   .rdata  ascii   glCallLists
+98   0x001f7766 0x005f7766 13  14   .rdata  ascii   glRasterPos3f
+99   0x001f7776 0x005f7776 10  11   .rdata  ascii   glListBase
+100  0x001f7784 0x005f7784 18  19   .rdata  ascii   wglUseFontBitmapsA
+101  0x001f779a 0x005f779a 9   10   .rdata  ascii   glColor3f
+102  0x001f77a6 0x005f77a6 12  13   .rdata  ascii   glTranslatef
+103  0x001f77b6 0x005f77b6 10  11   .rdata  ascii   glGenLists
+104  0x001f77c4 0x005f77c4 15  16   .rdata  ascii   wglGetCurrentDC
+105  0x001f77d6 0x005f77d6 8   9    .rdata  ascii   glBitmap
+106  0x001f77e2 0x005f77e2 13  14   .rdata  ascii   glRasterPos2i
+107  0x001f77f2 0x005f77f2 13  14   .rdata  ascii   glPixelStorei
+108  0x001f7802 0x005f7802 11  12   .rdata  ascii   glVertex3fv
+109  0x001f7810 0x005f7810 7   8    .rdata  ascii   glFlush
+110  0x001f781a 0x005f781a 10  11   .rdata  ascii   glCallList
+111  0x001f7828 0x005f7828 11  12   .rdata  ascii   glLineWidth
+112  0x001f7836 0x005f7836 7   8    .rdata  ascii   glClear
+113  0x001f7840 0x005f7840 12  13   .rdata  ascii   glClearColor
+114  0x001f7850 0x005f7850 12  13   .rdata  ascii   glReadPixels
+115  0x001f785e 0x005f785e 12  13   .rdata  ascii   OPENGL32.dll
+116  0x001f786e 0x005f786e 14  15   .rdata  ascii   gluPerspective
+117  0x001f7880 0x005f7880 9   10   .rdata  ascii   gluLookAt
+118  0x001f788a 0x005f788a 9   10   .rdata  ascii   GLU32.dll
+119  0x001f7894 0x005f7894 10  11   .rdata  ascii   WS2_32.dll
+120  0x001f78a2 0x005f78a2 11  12   .rdata  ascii   RegCloseKey
+121  0x001f78b0 0x005f78b0 16  17   .rdata  ascii   RegQueryValueExA
+122  0x001f78c4 0x005f78c4 13  14   .rdata  ascii   RegOpenKeyExA
+123  0x001f78d4 0x005f78d4 14  15   .rdata  ascii   RegSetValueExA
+124  0x001f78e6 0x005f78e6 15  16   .rdata  ascii   RegCreateKeyExA
+125  0x001f78f8 0x005f78f8 13  14   .rdata  ascii   RegDeleteKeyA
+126  0x001f7908 0x005f7908 11  12   .rdata  ascii   RegOpenKeyA
+127  0x001f7916 0x005f7916 18  19   .rdata  ascii   CloseServiceHandle
+128  0x001f792c 0x005f792c 14  15   .rdata  ascii   ControlService
+129  0x001f793e 0x005f793e 18  19   .rdata  ascii   QueryServiceStatus
+130  0x001f7954 0x005f7954 12  13   .rdata  ascii   OpenServiceA
+131  0x001f7964 0x005f7964 14  15   .rdata  ascii   OpenSCManagerA
+132  0x001f7976 0x005f7976 13  14   .rdata  ascii   StartServiceA
+133  0x001f7986 0x005f7986 14  15   .rdata  ascii   RegQueryValueA
+134  0x001f7998 0x005f7998 13  14   .rdata  ascii   RegEnumValueA
+135  0x001f79a8 0x005f79a8 15  16   .rdata  ascii   RegDeleteValueA
+136  0x001f79b8 0x005f79b8 12  13   .rdata  ascii   ADVAPI32.dll
+137  0x001f79c8 0x005f79c8 13  14   .rdata  ascii   timeEndPeriod
+138  0x001f79d8 0x005f79d8 12  13   .rdata  ascii   timeSetEvent
+139  0x001f79e8 0x005f79e8 15  16   .rdata  ascii   timeBeginPeriod
+140  0x001f79fa 0x005f79fa 14  15   .rdata  ascii   timeGetDevCaps
+141  0x001f7a0c 0x005f7a0c 13  14   .rdata  ascii   timeKillEvent
+142  0x001f7a1a 0x005f7a1a 9   10   .rdata  ascii   WINMM.dll
+143  0x001f7a24 0x005f7a24 9   10   .rdata  ascii   MFC42.DLL
+144  0x001f7a30 0x005f7a30 17  18   .rdata  ascii   __CxxFrameHandler
+145  0x001f7a44 0x005f7a44 6   7    .rdata  ascii   memcpy
+146  0x001f7a4e 0x005f7a4e 6   7    .rdata  ascii   strcpy
+147  0x001f7a58 0x005f7a58 6   7    .rdata  ascii   memset
+148  0x001f7a62 0x005f7a62 5   6    .rdata  ascii   _ftol
+149  0x001f7a6a 0x005f7a6a 4   5    .rdata  ascii   atoi
+150  0x001f7a72 0x005f7a72 8   9    .rdata  ascii   _mbsicmp
+151  0x001f7a7e 0x005f7a7e 18  19   .rdata  ascii   _CxxThrowException
+152  0x001f7a9a 0x005f7a9a 4   5    .rdata  ascii   atof
+153  0x001f7aa2 0x005f7aa2 7   8    .rdata  ascii   _mbscmp
+154  0x001f7aac 0x005f7aac 4   5    .rdata  ascii   sqrt
+155  0x001f7ab4 0x005f7ab4 6   7    .rdata  ascii   strcat
+156  0x001f7abe 0x005f7abe 6   7    .rdata  ascii   strlen
+157  0x001f7ac8 0x005f7ac8 4   5    .rdata  ascii   fabs
+158  0x001f7ad0 0x005f7ad0 4   5    .rdata  ascii   atol
+159  0x001f7ad8 0x005f7ad8 7   8    .rdata  ascii   strncat
+160  0x001f7ae2 0x005f7ae2 7   8    .rdata  ascii   memmove
+161  0x001f7afe 0x005f7afe 4   5    .rdata  ascii   atan
+162  0x001f7b06 0x005f7b06 5   6    .rdata  ascii   atan2
+163  0x001f7b14 0x005f7b14 7   8    .rdata  ascii   strtoul
+164  0x001f7b1e 0x005f7b1e 4   5    .rdata  ascii   free
+165  0x001f7b26 0x005f7b26 6   7    .rdata  ascii   malloc
+166  0x001f7b30 0x005f7b30 6   7    .rdata  ascii   wcscmp
+167  0x001f7b3a 0x005f7b3a 4   5    .rdata  ascii   asin
+168  0x001f7b42 0x005f7b42 9   10   .rdata  ascii   _mbsnbcpy
+169  0x001f7b4e 0x005f7b4e 7   8    .rdata  ascii   isdigit
+170  0x001f7b58 0x005f7b58 7   8    .rdata  ascii   strncpy
+171  0x001f7b62 0x005f7b62 4   5    .rdata  ascii   acos
+172  0x001f7b6a 0x005f7b6a 6   7    .rdata  ascii   fclose
+173  0x001f7b74 0x005f7b74 7   8    .rdata  ascii   fprintf
+174  0x001f7b7e 0x005f7b7e 5   6    .rdata  ascii   fopen
+175  0x001f7b86 0x005f7b86 5   6    .rdata  ascii   fread
+176  0x001f7b8e 0x005f7b8e 6   7    .rdata  ascii   fwrite
+177  0x001f7b98 0x005f7b98 5   6    .rdata  ascii   fseek
+178  0x001f7ba0 0x005f7ba0 5   6    .rdata  ascii   ftell
+179  0x001f7ba8 0x005f7ba8 7   8    .rdata  ascii   sprintf
+180  0x001f7bb2 0x005f7bb2 6   7    .rdata  ascii   sscanf
+181  0x001f7bbc 0x005f7bbc 5   6    .rdata  ascii   fgets
+182  0x001f7bca 0x005f7bca 7   8    .rdata  ascii   _strdup
+183  0x001f7bd2 0x005f7bd2 10  11   .rdata  ascii   MSVCRT.dll
+184  0x001f7be0 0x005f7be0 16  17   .rdata  ascii   _except_handler3
+185  0x001f7bf4 0x005f7bf4 17  18   .rdata  ascii   ?terminate@@YAXXZ
+186  0x001f7c08 0x005f7c08 11  12   .rdata  ascii   __dllonexit
+187  0x001f7c16 0x005f7c16 7   8    .rdata  ascii   _onexit
+188  0x001f7c20 0x005f7c20 20  21   .rdata  ascii   ??1type_info@@UAE@XZ
+189  0x001f7c38 0x005f7c38 5   6    .rdata  ascii   _exit
+190  0x001f7c40 0x005f7c40 11  12   .rdata  ascii   _XcptFilter
+191  0x001f7c4e 0x005f7c4e 4   5    .rdata  ascii   exit
+192  0x001f7c56 0x005f7c56 7   8    .rdata  ascii   _acmdln
+193  0x001f7c60 0x005f7c60 13  14   .rdata  ascii   __getmainargs
+194  0x001f7c70 0x005f7c70 9   10   .rdata  ascii   _initterm
+195  0x001f7c7c 0x005f7c7c 16  17   .rdata  ascii   __setusermatherr
+196  0x001f7c90 0x005f7c90 12  13   .rdata  ascii   _adjust_fdiv
+197  0x001f7ca0 0x005f7ca0 12  13   .rdata  ascii   __p__commode
+198  0x001f7cb0 0x005f7cb0 10  11   .rdata  ascii   __p__fmode
+199  0x001f7cbe 0x005f7cbe 14  15   .rdata  ascii   __set_app_type
+200  0x001f7cd0 0x005f7cd0 10  11   .rdata  ascii   _controlfp
+201  0x001f7cde 0x005f7cde 14  15   .rdata  ascii   GetProcAddress
+202  0x001f7cf0 0x005f7cf0 16  17   .rdata  ascii   GetModuleHandleA
+203  0x001f7d04 0x005f7d04 6   7    .rdata  ascii   MulDiv
+204  0x001f7d0e 0x005f7d0e 8   9    .rdata  ascii   lstrcpyA
+205  0x001f7d1a 0x005f7d1a 9   10   .rdata  ascii   CopyFileA
+206  0x001f7d26 0x005f7d26 11  12   .rdata  ascii   DeleteFileA
+207  0x001f7d34 0x005f7d34 9   10   .rdata  ascii   MoveFileA
+208  0x001f7d40 0x005f7d40 12  13   .rdata  ascii   GetLocalTime
+209  0x001f7d50 0x005f7d50 19  20   .rdata  ascii   WaitForSingleObject
+210  0x001f7d66 0x005f7d66 11  12   .rdata  ascii   CloseHandle
+211  0x001f7d74 0x005f7d74 14  15   .rdata  ascii   CreateProcessA
+212  0x001f7d86 0x005f7d86 8   9    .rdata  ascii   lstrcmpA
+213  0x001f7d92 0x005f7d92 5   6    .rdata  ascii   Sleep
+214  0x001f7d9a 0x005f7d9a 13  14   .rdata  ascii   MapViewOfFile
+215  0x001f7daa 0x005f7daa 12  13   .rdata  ascii   GetLastError
+216  0x001f7dba 0x005f7dba 18  19   .rdata  ascii   CreateFileMappingA
+217  0x001f7dd0 0x005f7dd0 11  12   .rdata  ascii   GetFileSize
+218  0x001f7dde 0x005f7dde 11  12   .rdata  ascii   CreateFileA
+219  0x001f7dec 0x005f7dec 10  11   .rdata  ascii   GlobalFree
+220  0x001f7dfa 0x005f7dfa 12  13   .rdata  ascii   GlobalUnlock
+221  0x001f7e0a 0x005f7e0a 15  16   .rdata  ascii   UnmapViewOfFile
+222  0x001f7e1c 0x005f7e1c 12  13   .rdata  ascii   LoadLibraryA
+223  0x001f7e2c 0x005f7e2c 11  12   .rdata  ascii   FreeLibrary
+224  0x001f7e3a 0x005f7e3a 19  20   .rdata  ascii   GetSystemDirectoryA
+225  0x001f7e50 0x005f7e50 12  13   .rdata  ascii   FreeResource
+226  0x001f7e60 0x005f7e60 14  15   .rdata  ascii   SizeofResource
+227  0x001f7e72 0x005f7e72 12  13   .rdata  ascii   LockResource
+228  0x001f7e82 0x005f7e82 12  13   .rdata  ascii   LoadResource
+229  0x001f7e92 0x005f7e92 13  14   .rdata  ascii   FindResourceA
+230  0x001f7ea2 0x005f7ea2 12  13   .rdata  ascii   GetTickCount
+231  0x001f7eb2 0x005f7eb2 12  13   .rdata  ascii   CreateEventA
+232  0x001f7ec2 0x005f7ec2 10  11   .rdata  ascii   ResetEvent
+233  0x001f7ed0 0x005f7ed0 12  13   .rdata  ascii   ResumeThread
+234  0x001f7ee0 0x005f7ee0 17  18   .rdata  ascii   SetThreadPriority
+235  0x001f7ef4 0x005f7ef4 12  13   .rdata  ascii   CreateThread
+236  0x001f7f04 0x005f7f04 8   9    .rdata  ascii   SetEvent
+237  0x001f7f10 0x005f7f10 20  21   .rdata  ascii   SetCurrentDirectoryA
+238  0x001f7f28 0x005f7f28 18  19   .rdata  ascii   GetModuleFileNameA
+239  0x001f7f3e 0x005f7f3e 19  20   .rdata  ascii   MultiByteToWideChar
+240  0x001f7f54 0x005f7f54 10  11   .rdata  ascii   HeapCreate
+241  0x001f7f62 0x005f7f62 11  12   .rdata  ascii   HeapDestroy
+242  0x001f7f70 0x005f7f70 8   9    .rdata  ascii   HeapFree
+243  0x001f7f7c 0x005f7f7c 9   10   .rdata  ascii   HeapAlloc
+244  0x001f7f88 0x005f7f88 14  15   .rdata  ascii   GetProcessHeap
+245  0x001f7f9a 0x005f7f9a 9   10   .rdata  ascii   FindClose
+246  0x001f7fa6 0x005f7fa6 13  14   .rdata  ascii   FindNextFileA
+247  0x001f7fb6 0x005f7fb6 14  15   .rdata  ascii   FindFirstFileA
+248  0x001f7fc8 0x005f7fc8 13  14   .rdata  ascii   GetVersionExA
+249  0x001f7fd8 0x005f7fd8 16  17   .rdata  ascii   CreateDirectoryA
+250  0x001f7fec 0x005f7fec 16  17   .rdata  ascii   RemoveDirectoryA
+251  0x001f8000 0x005f8000 18  19   .rdata  ascii   SetFileAttributesA
+252  0x001f8016 0x005f8016 9   10   .rdata  ascii   lstrcmpiA
+253  0x001f8022 0x005f8022 19  20   .rdata  ascii   GetDiskFreeSpaceExA
+254  0x001f8038 0x005f8038 12  13   .rdata  ascii   GetTempPathA
+255  0x001f8048 0x005f8048 8   9    .rdata  ascii   ReadFile
+256  0x001f8054 0x005f8054 9   10   .rdata  ascii   WriteFile
+257  0x001f8060 0x005f8060 10  11   .rdata  ascii   GlobalLock
+258  0x001f806e 0x005f806e 11  12   .rdata  ascii   GlobalAlloc
+259  0x001f807c 0x005f807c 16  17   .rdata  ascii   SetWaitableTimer
+260  0x001f8090 0x005f8090 20  21   .rdata  ascii   CreateWaitableTimerA
+261  0x001f80a8 0x005f80a8 9   10   .rdata  ascii   PurgeComm
+262  0x001f80b4 0x005f80b4 9   10   .rdata  ascii   SetupComm
+263  0x001f80c0 0x005f80c0 12  13   .rdata  ascii   SetCommState
+264  0x001f80d0 0x005f80d0 12  13   .rdata  ascii   GetCommState
+265  0x001f80e0 0x005f80e0 15  16   .rdata  ascii   SetCommTimeouts
+266  0x001f80f2 0x005f80f2 17  18   .rdata  ascii   GetExitCodeThread
+267  0x001f8106 0x005f8106 20  21   .rdata  ascii   GetCurrentDirectoryA
+268  0x001f811e 0x005f811e 9   10   .rdata  ascii   LocalFree
+269  0x001f812a 0x005f812a 14  15   .rdata  ascii   FormatMessageA
+270  0x001f813c 0x005f813c 14  15   .rdata  ascii   ClearCommError
+271  0x001f814e 0x005f814e 15  16   .rdata  ascii   DeviceIoControl
+272  0x001f8160 0x005f8160 15  16   .rdata  ascii   TerminateThread
+273  0x001f8172 0x005f8172 8   9    .rdata  ascii   lstrlenA
+274  0x001f817e 0x005f817e 26  27   .rdata  ascii   WritePrivateProfileStringA
+275  0x001f819c 0x005f819c 15  16   .rdata  ascii   GetStartupInfoA
+276  0x001f81ac 0x005f81ac 12  13   .rdata  ascii   KERNEL32.dll
+277  0x001f81bc 0x005f81bc 14  15   .rdata  ascii   SetWindowLongA
+278  0x001f81ce 0x005f81ce 14  15   .rdata  ascii   GetWindowLongA
+279  0x001f81e0 0x005f81e0 15  16   .rdata  ascii   GetComboBoxInfo
+280  0x001f81f2 0x005f81f2 12  13   .rdata  ascii   EnableWindow
+281  0x001f8202 0x005f8202 12  13   .rdata  ascii   SendMessageA
+282  0x001f8212 0x005f8212 11  12   .rdata  ascii   GetKeyState
+283  0x001f8220 0x005f8220 9   10   .rdata  ascii   SetCursor
+284  0x001f822c 0x005f822c 14  15   .rdata  ascii   ReleaseCapture
+285  0x001f823e 0x005f823e 11  12   .rdata  ascii   SetCaretPos
+286  0x001f824c 0x005f824c 26  27   .rdata  ascii   IsClipboardFormatAvailable
+287  0x001f826a 0x005f826a 10  11   .rdata  ascii   GetSubMenu
+288  0x001f8278 0x005f8278 16  17   .rdata  ascii   GetMenuItemCount
+289  0x001f828c 0x005f828c 7   8    .rdata  ascii   GetMenu
+290  0x001f8296 0x005f8296 8   9    .rdata  ascii   PtInRect
+291  0x001f82a2 0x005f82a2 15  16   .rdata  ascii   CreatePopupMenu
+292  0x001f82b4 0x005f82b4 13  14   .rdata  ascii   GetMenuItemID
+293  0x001f82c4 0x005f82c4 11  12   .rdata  ascii   InsertMenuA
+294  0x001f82d2 0x005f82d2 9   10   .rdata  ascii   LoadMenuA
+295  0x001f82de 0x005f82de 13  14   .rdata  ascii   GetClientRect
+296  0x001f82ee 0x005f82ee 14  15   .rdata  ascii   ClientToScreen
+297  0x001f8300 0x005f8300 10  11   .rdata  ascii   SetCapture
+298  0x001f830e 0x005f830e 9   10   .rdata  ascii   GetParent
+299  0x001f831a 0x005f831a 15  16   .rdata  ascii   WindowFromPoint
+300  0x001f832c 0x005f832c 11  12   .rdata  ascii   GetCaretPos
+301  0x001f833a 0x005f833a 11  12   .rdata  ascii   LoadCursorA
+302  0x001f8348 0x005f8348 10  11   .rdata  ascii   LoadImageA
+303  0x001f8356 0x005f8356 11  12   .rdata  ascii   DestroyIcon
+304  0x001f8364 0x005f8364 8   9    .rdata  ascii   IsWindow
+305  0x001f8370 0x005f8370 8   9    .rdata  ascii   CopyRect
+306  0x001f837c 0x005f837c 10  11   .rdata  ascii   OffsetRect
+307  0x001f838a 0x005f838a 8   9    .rdata  ascii   FillRect
+308  0x001f8396 0x005f8396 10  11   .rdata  ascii   DrawStateA
+309  0x001f83a4 0x005f83a4 13  14   .rdata  ascii   DrawFocusRect
+310  0x001f83b4 0x005f83b4 14  15   .rdata  ascii   InvalidateRect
+311  0x001f83c6 0x005f83c6 16  17   .rdata  ascii   GetSystemMetrics
+312  0x001f83da 0x005f83da 12  13   .rdata  ascii   SetWindowPos
+313  0x001f83ea 0x005f83ea 7   8    .rdata  ascii   SetRect
+314  0x001f83f4 0x005f83f4 13  14   .rdata  ascii   GetWindowRect
+315  0x001f8404 0x005f8404 15  16   .rdata  ascii   IsWindowVisible
+316  0x001f8416 0x005f8416 11  12   .rdata  ascii   GetSysColor
+317  0x001f8424 0x005f8424 5   6    .rdata  ascii   GetDC
+318  0x001f842c 0x005f842c 9   10   .rdata  ascii   ReleaseDC
+319  0x001f8438 0x005f8438 12  13   .rdata  ascii   SetScrollPos
+320  0x001f8448 0x005f8448 21  22   .rdata  ascii   TranslateAcceleratorA
+321  0x001f8460 0x005f8460 17  18   .rdata  ascii   LoadAcceleratorsA
+322  0x001f8474 0x005f8474 12  13   .rdata  ascii   PostMessageA
+323  0x001f8484 0x005f8484 9   10   .rdata  ascii   GetWindow
+324  0x001f8490 0x005f8490 16  17   .rdata  ascii   DrawFrameControl
+325  0x001f84a4 0x005f84a4 11  12   .rdata  ascii   GetIconInfo
+326  0x001f84b2 0x005f84b2 9   10   .rdata  ascii   FrameRect
+327  0x001f84be 0x005f84be 15  16   .rdata  ascii   GetActiveWindow
+328  0x001f84d0 0x005f84d0 8   9    .rdata  ascii   SetTimer
+329  0x001f84dc 0x005f84dc 9   10   .rdata  ascii   KillTimer
+330  0x001f84e8 0x005f84e8 11  12   .rdata  ascii   LoadBitmapA
+331  0x001f84f6 0x005f84f6 12  13   .rdata  ascii   RedrawWindow
+332  0x001f8506 0x005f8506 13  14   .rdata  ascii   CheckMenuItem
+333  0x001f8516 0x005f8516 14  15   .rdata  ascii   EnableMenuItem
+334  0x001f8528 0x005f8528 8   9    .rdata  ascii   GetFocus
+335  0x001f8534 0x005f8534 22  23   .rdata  ascii   RegisterWindowMessageA
+336  0x001f854e 0x005f854e 8   9    .rdata  ascii   IsIconic
+337  0x001f855a 0x005f855a 11  12   .rdata  ascii   FindWindowA
+338  0x001f8568 0x005f8568 18  19   .rdata  ascii   GetLastActivePopup
+339  0x001f857e 0x005f857e 19  20   .rdata  ascii   SetForegroundWindow
+340  0x001f8594 0x005f8594 10  11   .rdata  ascii   ShowWindow
+341  0x001f85a2 0x005f85a2 8   9    .rdata  ascii   DrawIcon
+342  0x001f85ae 0x005f85ae 9   10   .rdata  ascii   LoadIconA
+343  0x001f85ba 0x005f85ba 12  13   .rdata  ascii   PeekMessageA
+344  0x001f85ca 0x005f85ca 25  26   .rdata  ascii   MsgWaitForMultipleObjects
+345  0x001f85e6 0x005f85e6 16  17   .rdata  ascii   DispatchMessageA
+346  0x001f85fa 0x005f85fa 10  11   .rdata  ascii   DrawIconEx
+347  0x001f8608 0x005f8608 10  11   .rdata  ascii   ClipCursor
+348  0x001f8616 0x005f8616 12  13   .rdata  ascii   GetScrollPos
+349  0x001f8626 0x005f8626 14  15   .rdata  ascii   GetScrollRange
+350  0x001f8638 0x005f8638 12  13   .rdata  ascii   GetCursorPos
+351  0x001f8648 0x005f8648 12  13   .rdata  ascii   SetCursorPos
+352  0x001f8658 0x005f8658 14  15   .rdata  ascii   ScreenToClient
+353  0x001f866a 0x005f866a 22  23   .rdata  ascii   ActivateKeyboardLayout
+354  0x001f8684 0x005f8684 19  20   .rdata  ascii   LoadKeyboardLayoutA
+355  0x001f869a 0x005f869a 13  14   .rdata  ascii   GetClassNameA
+356  0x001f86aa 0x005f86aa 16  17   .rdata  ascii   GetDesktopWindow
+357  0x001f86be 0x005f86be 21  22   .rdata  ascii   SystemParametersInfoA
+358  0x001f86d6 0x005f86d6 14  15   .rdata  ascii   DefWindowProcA
+359  0x001f86e8 0x005f86e8 13  14   .rdata  ascii   GetClassInfoA
+360  0x001f86f8 0x005f86f8 13  14   .rdata  ascii   IntersectRect
+361  0x001f8708 0x005f8708 14  15   .rdata  ascii   TabbedTextOutA
+362  0x001f871a 0x005f871a 9   10   .rdata  ascii   DrawTextA
+363  0x001f8726 0x005f8726 11  12   .rdata  ascii   GrayStringA
+364  0x001f8734 0x005f8734 10  11   .rdata  ascii   InvertRect
+365  0x001f8742 0x005f8742 10  11   .rdata  ascii   GetCapture
+366  0x001f8750 0x005f8750 11  12   .rdata  ascii   InflateRect
+367  0x001f875e 0x005f875e 8   9    .rdata  ascii   DrawEdge
+368  0x001f876a 0x005f876a 20  21   .rdata  ascii   EnumDisplaySettingsA
+369  0x001f8782 0x005f8782 16  17   .rdata  ascii   TranslateMessage
+370  0x001f8796 0x005f8796 12  13   .rdata  ascii   UpdateWindow
+371  0x001f87a6 0x005f87a6 10  11   .rdata  ascii   ShowCursor
+372  0x001f87b4 0x005f87b4 11  12   .rdata  ascii   GetWindowDC
+373  0x001f87c2 0x005f87c2 19  20   .rdata  ascii   GetForegroundWindow
+374  0x001f87d8 0x005f87d8 11  12   .rdata  ascii   MessageBoxA
+375  0x001f87e4 0x005f87e4 10  11   .rdata  ascii   USER32.dll
+376  0x001f87f2 0x005f87f2 19  20   .rdata  ascii   CreateFontIndirectA
+377  0x001f8808 0x005f8808 10  11   .rdata  ascii   GetObjectA
+378  0x001f8816 0x005f8816 21  22   .rdata  ascii   GetTextExtentPoint32A
+379  0x001f882e 0x005f882e 9   10   .rdata  ascii   CreatePen
+380  0x001f883a 0x005f883a 22  23   .rdata  ascii   CreateCompatibleBitmap
+381  0x001f8854 0x005f8854 18  19   .rdata  ascii   CreateCompatibleDC
+382  0x001f886a 0x005f886a 6   7    .rdata  ascii   BitBlt
+383  0x001f8874 0x005f8874 8   9    .rdata  ascii   SetPixel
+384  0x001f8880 0x005f8880 13  14   .rdata  ascii   CreateRectRgn
+385  0x001f8890 0x005f8890 9   10   .rdata  ascii   Rectangle
+386  0x001f889c 0x005f889c 12  13   .rdata  ascii   DeleteObject
+387  0x001f88ac 0x005f88ac 12  13   .rdata  ascii   SelectObject
+388  0x001f88bc 0x005f88bc 14  15   .rdata  ascii   RealizePalette
+389  0x001f88ce 0x005f88ce 13  14   .rdata  ascii   SelectPalette
+390  0x001f88de 0x005f88de 13  14   .rdata  ascii   StretchDIBits
+391  0x001f88ee 0x005f88ee 16  17   .rdata  ascii   CreateDIBSection
+392  0x001f8902 0x005f8902 13  14   .rdata  ascii   CreatePalette
+393  0x001f8912 0x005f8912 21  22   .rdata  ascii   CreateHalftonePalette
+394  0x001f892a 0x005f892a 14  15   .rdata  ascii   CreateDIBitmap
+395  0x001f893c 0x005f893c 9   10   .rdata  ascii   GetDIBits
+396  0x001f8948 0x005f8948 9   10   .rdata  ascii   SetDIBits
+397  0x001f8954 0x005f8954 11  12   .rdata  ascii   CreateFontA
+398  0x001f8962 0x005f8962 13  14   .rdata  ascii   GetDeviceCaps
+399  0x001f8972 0x005f8972 8   9    .rdata  ascii   ResetDCA
+400  0x001f897e 0x005f897e 9   10   .rdata  ascii   StartDocA
+401  0x001f898a 0x005f898a 9   10   .rdata  ascii   StartPage
+402  0x001f8996 0x005f8996 7   8    .rdata  ascii   EndPage
+403  0x001f89a0 0x005f89a0 6   7    .rdata  ascii   EndDoc
+404  0x001f89aa 0x005f89aa 7   8    .rdata  ascii   Ellipse
+405  0x001f89b4 0x005f89b4 10  11   .rdata  ascii   StretchBlt
+406  0x001f89c2 0x005f89c2 12  13   .rdata  ascii   SetTextColor
+407  0x001f89d2 0x005f89d2 10  11   .rdata  ascii   SetBkColor
+408  0x001f89e0 0x005f89e0 12  13   .rdata  ascii   CreateBitmap
+409  0x001f89f0 0x005f89f0 8   9    .rdata  ascii   DeleteDC
+410  0x001f89fc 0x005f89fc 9   10   .rdata  ascii   PtVisible
+411  0x001f8a08 0x005f8a08 11  12   .rdata  ascii   RectVisible
+412  0x001f8a16 0x005f8a16 8   9    .rdata  ascii   TextOutA
+413  0x001f8a22 0x005f8a22 11  12   .rdata  ascii   ExtTextOutA
+414  0x001f8a30 0x005f8a30 15  16   .rdata  ascii   GetTextMetricsA
+415  0x001f8a42 0x005f8a42 6   7    .rdata  ascii   Escape
+416  0x001f8a4c 0x005f8a4c 8   9    .rdata  ascii   AbortDoc
+417  0x001f8a58 0x005f8a58 16  17   .rdata  ascii   GetCurrentObject
+418  0x001f8a6c 0x005f8a6c 21  22   .rdata  ascii   CreateRectRgnIndirect
+419  0x001f8a84 0x005f8a84 16  17   .rdata  ascii   CreateSolidBrush
+420  0x001f8a98 0x005f8a98 14  15   .rdata  ascii   SetPixelFormat
+421  0x001f8aaa 0x005f8aaa 17  18   .rdata  ascii   ChoosePixelFormat
+422  0x001f8abe 0x005f8abe 11  12   .rdata  ascii   SwapBuffers
+423  0x001f8acc 0x005f8acc 14  15   .rdata  ascii   GetStockObject
+424  0x001f8ade 0x005f8ade 10  11   .rdata  ascii   GetMapMode
+425  0x001f8aec 0x005f8aec 9   10   .rdata  ascii   BeginPath
+426  0x001f8af8 0x005f8af8 7   8    .rdata  ascii   EndPath
+427  0x001f8b02 0x005f8b02 16  17   .rdata  ascii   SetViewportExtEx
+428  0x001f8b16 0x005f8b16 14  15   .rdata  ascii   SetWindowExtEx
+429  0x001f8b28 0x005f8b28 8   9    .rdata  ascii   GetPixel
+430  0x001f8b34 0x005f8b34 9   10   .rdata  ascii   SetPixelV
+431  0x001f8b40 0x005f8b40 16  17   .rdata  ascii   CreatePolygonRgn
+432  0x001f8b54 0x005f8b54 7   8    .rdata  ascii   FillRgn
+433  0x001f8b5c 0x005f8b5c 9   10   .rdata  ascii   GDI32.dll
+434  0x001f8b68 0x005f8b68 12  13   .rdata  ascii   ClosePrinter
+435  0x001f8b78 0x005f8b78 11  12   .rdata  ascii   GetPrinterA
+436  0x001f8b86 0x005f8b86 12  13   .rdata  ascii   OpenPrinterA
+437  0x001f8b94 0x005f8b94 12  13   .rdata  ascii   WINSPOOL.DRV
+438  0x001f8ba4 0x005f8ba4 13  14   .rdata  ascii   ShellExecuteA
+439  0x001f8bb4 0x005f8bb4 20  21   .rdata  ascii   SHGetPathFromIDListA
+440  0x001f8bcc 0x005f8bcc 18  19   .rdata  ascii   SHBrowseForFolderA
+441  0x001f8be2 0x005f8be2 18  19   .rdata  ascii   SHGetDesktopFolder
+442  0x001f8bf8 0x005f8bf8 11  12   .rdata  ascii   SHGetMalloc
+443  0x001f8c06 0x005f8c06 15  16   .rdata  ascii   ShellExecuteExA
+444  0x001f8c18 0x005f8c18 23  24   .rdata  ascii   SHGetSpecialFolderPathA
+445  0x001f8c30 0x005f8c30 11  12   .rdata  ascii   SHELL32.dll
+446  0x001f8c3e 0x005f8c3e 16  17   .rdata  ascii   _TrackMouseEvent
+447  0x001f8c52 0x005f8c52 19  20   .rdata  ascii   ImageList_AddMasked
+448  0x001f8c68 0x005f8c68 14  15   .rdata  ascii   ImageList_Draw
+449  0x001f8c7a 0x005f8c7a 22  23   .rdata  ascii   ImageList_GetImageInfo
+450  0x001f8c94 0x005f8c94 21  22   .rdata  ascii   ImageList_ReplaceIcon
+451  0x001f8cac 0x005f8cac 25  26   .rdata  ascii   ImageList_SetOverlayImage
+452  0x001f8cc6 0x005f8cc6 12  13   .rdata  ascii   COMCTL32.dll
+453  0x001f8cd6 0x005f8cd6 13  14   .rdata  ascii   OleInitialize
+454  0x001f8ce6 0x005f8ce6 21  22   .rdata  ascii   CreateStreamOnHGlobal
+455  0x001f8cfe 0x005f8cfe 12  13   .rdata  ascii   CoInitialize
+456  0x001f8d0e 0x005f8d0e 14  15   .rdata  ascii   CoUninitialize
+457  0x001f8d1e 0x005f8d1e 9   10   .rdata  ascii   ole32.dll
+458  0x001f8d2a 0x005f8d2a 5   6    .rdata  ascii   _itoa
+459  0x001f8d32 0x005f8d32 8   9    .rdata  ascii   _setmbcp
+460  0x001f9060 0x005f9060 10  11   .data   ascii   user32.dll
+461  0x001f906c 0x005f906c 26  27   .data   ascii   SetLayeredWindowAttributes
+462  0x001f908c 0x005f908c 8   9    .data   ascii   CAdvEdit
+463  0x001f90a0 0x005f90a0 4   5    .data   ascii   &Run
+464  0x001f90a8 0x005f90a8 7   8    .data   ascii   LISTBOX
+465  0x001f90b0 0x005f90b0 7   8    .data   ascii   LISTBOX
+466  0x001f90b8 0x005f90b8 7   8    .data   ascii   LISTBOX
+467  0x001f90c0 0x005f90c0 7   8    .data   ascii   LISTBOX
+468  0x001f90f8 0x005f90f8 7   8    .data   ascii   LISTBOX
+469  0x001f9100 0x005f9100 10  11   .data   ascii   \Stage.c8k
+470  0x001f910c 0x005f910c 4   5    .data   ascii   0000
+471  0x001f9114 0x005f9114 9   10   .data   ascii   [%d/%d]%s
+472  0x001f9120 0x005f9120 11  12   .data   ascii   %02d:%d0
+473  0x001f9138 0x005f9138 12  13   .data   ascii   \complex.c8k
+474  0x001f9148 0x005f9148 12  13   .data   ascii   \complex.c8k
+475  0x001f9158 0x005f9158 5   6    .data   ascii   pages
+476  0x001f9160 0x005f9160 4   5    .data   ascii   page
+477  0x001f9168 0x005f9168 4   5    .data   ascii   page
+478  0x001f91a0 0x005f91a0 5   6    .data   ascii   Arial
+479  0x001f91a8 0x005f91a8 18  19   .data   ascii   %dmm/mV  %0.1fmm/s
+480  0x001f91bc 0x005f91bc 15  16   .data   ascii   %dmm/mV  %dmm/s
+481  0x001f91fc 0x005f91fc 8   9    .data   ascii   %5.2f mV
+482  0x001f9208 0x005f9208 10  11   .data   ascii   %5.1f deg.
+483  0x001f9214 0x005f9214 10  11   .data   ascii   %5.1f mV/s
+484  0x001f9220 0x005f9220 9   10   .data   ascii    10 mm/mV
+485  0x001f922c 0x005f922c 9   10   .data   ascii    20 mm/mV
+486  0x001f9238 0x005f9238 8   9    .data   ascii    25 mm/s
+487  0x001f9244 0x005f9244 8   9    .data   ascii    50 mm/s
+488  0x001f9250 0x005f9250 4   5    .data   ascii   page
+489  0x001f9258 0x005f9258 5   6    .data   ascii   pages
+490  0x001f9260 0x005f9260 4   5    .data   ascii   page
+491  0x001f9268 0x005f9268 4   5    .data   ascii   page
+492  0x001f9270 0x005f9270 13  14   .data   ascii   \complex.~tmp
+493  0x001f9280 0x005f9280 13  14   .data   ascii   \complex.~tmp
+494  0x001f9290 0x005f9290 12  13   .data   ascii   \complex.c8k
+495  0x001f92a0 0x005f92a0 13  14   .data   ascii   \complex.~tmp
+496  0x001f92b0 0x005f92b0 12  13   .data   ascii   \complex.c8k
+497  0x001f92c0 0x005f92c0 12  13   .data   ascii   \complex.c8k
+498  0x001f92d0 0x005f92d0 13  14   .data   ascii   \complex.~tmp
+499  0x001f92e0 0x005f92e0 6   7    .data   ascii    %H:%M
+500  0x001f92e8 0x005f92e8 4   5    .data   ascii   [%d]
+501  0x001f92f0 0x005f92f0 6   7    .data   ascii    %H:%M
+502  0x001f92f8 0x005f92f8 4   5    .data   ascii   [%d]
+503  0x001f9306 0x005f9306 11  12   .data   ascii    A%02d:%1d0
+504  0x001f9314 0x005f9314 4   5    .data   ascii   J+%d
+505  0x001f9320 0x005f9320 6   7    .data   ascii   %.2f%%
+506  0x001f9328 0x005f9328 5   6    .data   ascii   Arial
+507  0x001f9360 0x005f9360 8   9    .data   ascii   %5.2f mV
+508  0x001f936c 0x005f936c 10  11   .data   ascii   %5.1f deg.
+509  0x001f9378 0x005f9378 10  11   .data   ascii   %5.1f mV/s
+510  0x001f9384 0x005f9384 12  13   .data   ascii   \complex.c8k
+511  0x001f9394 0x005f9394 9   10   .data   ascii   [%d/%d]%s
+512  0x001f93a0 0x005f93a0 12  13   .data   ascii   \complex.c8k
+513  0x001f93bc 0x005f93bc 10  11   .data   ascii   user32.dll
+514  0x001f93c8 0x005f93c8 26  27   .data   ascii   SetLayeredWindowAttributes
+515  0x001f93e4 0x005f93e4 8   9    .data   ascii   20 mm/mV
+516  0x001f93f0 0x005f93f0 8   9    .data   ascii   50 mm/mV
+517  0x001f93fc 0x005f93fc 8   9    .data   ascii   80 mm/mV
+518  0x001f9408 0x005f9408 9   10   .data   ascii   100 mm/mV
+519  0x001f9414 0x005f9414 9   10   .data   ascii   150 mm/mV
+520  0x001f9420 0x005f9420 8   9    .data   ascii   125 mm/s
+521  0x001f942c 0x005f942c 8   9    .data   ascii   250 mm/s
+522  0x001f9468 0x005f9468 5   6    .data   ascii   %3.2f
+523  0x001f9484 0x005f9484 4   5    .data   ascii   Type
+524  0x001f94f4 0x005f94f4 5   6    .data   ascii   %3.2f
+525  0x001f9504 0x005f9504 10  11   .data   ascii   \stage.c8k
+526  0x001f9530 0x005f9530 6   7    .data   ascii    %H:%M
+527  0x001f9538 0x005f9538 6   7    .data   ascii    %H:%M
+528  0x001f9540 0x005f9540 8   9    .data   ascii   \qrs.c8k
+529  0x001f954c 0x005f954c 8   9    .data   ascii   \ecg.c8k
+530  0x001f9558 0x005f9558 8   9    .data   ascii   \qrs.c8k
+531  0x001f9564 0x005f9564 8   9    .data   ascii   \ecg.c8k
+532  0x001f9570 0x005f9570 8   9    .data   ascii   00000409
+533  0x001f957c 0x005f957c 8   9    .data   ascii   \ecg.c8k
+534  0x001f9588 0x005f9588 60  61   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\System
+535  0x001f95c8 0x005f95c8 12  13   .data   ascii   Default time
+536  0x001f95d8 0x005f95d8 11  12   .data   ascii   Default QRS
+537  0x001f95e4 0x005f95e4 14  15   .data   ascii   Default Select
+538  0x001f95f4 0x005f95f4 20  21   .data   ascii   Default AnalysisType
+539  0x001f960c 0x005f960c 13  14   .data   ascii   Save settings
+540  0x001f961c 0x005f961c 8   9    .data   ascii   \qrs.c8k
+541  0x001f9628 0x005f9628 60  61   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\System
+542  0x001f9668 0x005f9668 12  13   .data   ascii   Default time
+543  0x001f9678 0x005f9678 11  12   .data   ascii   Default QRS
+544  0x001f9684 0x005f9684 14  15   .data   ascii   Default Select
+545  0x001f9694 0x005f9694 20  21   .data   ascii   Default AnalysisType
+546  0x001f96ac 0x005f96ac 13  14   .data   ascii   Save settings
+547  0x001f96bc 0x005f96bc 10  11   .data   ascii   \stage.c8k
+548  0x001f96c8 0x005f96c8 8   9    .data   ascii   \qrs.c8k
+549  0x001f96d4 0x005f96d4 4   5    .data   ascii   %d%%
+550  0x001f96e0 0x005f96e0 15  16   .data   ascii   Times New Roman
+551  0x001f96f0 0x005f96f0 8   9    .data   ascii   CBaseDlg
+552  0x001f9700 0x005f9700 13  14   .data   ascii   CBmpTxtButton
+553  0x001f9710 0x005f9710 10  11   .data   ascii   CBorderDlg
+554  0x001f971c 0x005f971c 10  11   .data   ascii   user32.dll
+555  0x001f9728 0x005f9728 26  27   .data   ascii   SetLayeredWindowAttributes
+556  0x001f9744 0x005f9744 4   5    .data   ascii   mmHg
+557  0x001f9750 0x005f9750 8   9    .data   ascii   BP Trend
+558  0x001f975c 0x005f975c 7   8    .data   ascii   %1d0:00
+559  0x001f9768 0x005f9768 4   5    .data   ascii   mmHg
+560  0x001f977c 0x005f977c 4   5    .data   ascii   aVRg
+561  0x001f9788 0x005f9788 4   5    .data   ascii   9988
+562  0x001f9790 0x005f9790 15  16   .data   ascii   .\CacheInfo.sys
+563  0x001f97a0 0x005f97a0 15  16   .data   ascii   .\CacheInfo.sys
+564  0x001f97b0 0x005f97b0 15  16   .data   ascii   .\CacheInfo.sys
+565  0x001f97c0 0x005f97c0 16  17   .data   ascii   .\CacheInfo.~tmp
+566  0x001f97d4 0x005f97d4 15  16   .data   ascii   .\CacheInfo.sys
+567  0x001f97e4 0x005f97e4 15  16   .data   ascii   .\CacheInfo.sys
+568  0x001f97f4 0x005f97f4 16  17   .data   ascii   .\CacheInfo.~tmp
+569  0x001f9808 0x005f9808 15  16   .data   ascii   .\CacheInfo.sys
+570  0x001f9818 0x005f9818 6   7    .data   ascii   Wilson
+571  0x001f9820 0x005f9820 11  12   .data   ascii   \common.c8k
+572  0x001f982c 0x005f982c 12  13   .data   ascii   \common3.c8k
+573  0x001f983c 0x005f983c 11  12   .data   ascii   \hrvqrs.c8k
+574  0x001f9848 0x005f9848 11  12   .data   ascii   \hrvqrs.c8k
+575  0x001f9854 0x005f9854 10  11   .data   ascii   SubItem%2d
+576  0x001f9860 0x005f9860 64  65   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Favorite\ListColumn
+577  0x001f98a4 0x005f98a4 10  11   .data   ascii   SubItem%2d
+578  0x001f98b0 0x005f98b0 64  65   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Favorite\ListColumn
+579  0x001f98f4 0x005f98f4 64  65   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Favorite\ListColumn
+580  0x001f9938 0x005f9938 11  12   .data   ascii   ColumnCount
+581  0x001f9944 0x005f9944 7   8    .data   ascii   Columns
+582  0x001f994c 0x005f994c 16  17   .data   ascii   ColumnOrderArray
+583  0x001f9960 0x005f9960 64  65   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Favorite\ListColumn
+584  0x001f99a4 0x005f99a4 11  12   .data   ascii   ColumnCount
+585  0x001f99b0 0x005f99b0 7   8    .data   ascii   Columns
+586  0x001f99b8 0x005f99b8 16  17   .data   ascii   ColumnOrderArray
+587  0x001f99d0 0x005f99d0 11  12   .data   ascii   CCaseMngDlg
+588  0x001f99e8 0x005f99e8 6   7    .data   ascii    %H:%M
+589  0x001f99f0 0x005f99f0 6   7    .data   ascii   Report
+590  0x001f99f8 0x005f99f8 7   8    .data   ascii   Archive
+591  0x001f9a00 0x005f9a00 7   8    .data   ascii   explore
+592  0x001f9a08 0x005f9a08 14  15   .data   ascii   IECases.exe -e
+593  0x001f9a28 0x005f9a28 14  15   .data   ascii   IECases.exe -i
+594  0x001f9a38 0x005f9a38 36  37   .data   ascii   DSN=ContecDB;USR=admin;PWD=aboutface
+595  0x001f9a60 0x005f9a60 8   9    .data   ascii    WHERE 0
+596  0x001f9a70 0x005f9a70 18  19   .data   ascii    OR OrderID LIKE '
+597  0x001f9a84 0x005f9a84 27  28   .data   ascii   UPDATE Cases SET Deleted=1
+598  0x001f9aa0 0x005f9aa0 42  43   .data   ascii   F:\Workspace\StressECG\code\CaseMngDlg.cpp
+599  0x001f9acc 0x005f9acc 23  24   .data   ascii   Error!\nFile:%s\nLine:%5d
+600  0x001f9ae4 0x005f9ae4 36  37   .data   ascii   (Deleted=0 OR Deleted IS NULL) AND (
+601  0x001f9b10 0x005f9b10 18  19   .data   ascii   TestTime BETWEEN #
+602  0x001f9b28 0x005f9b28 8   9    .data   ascii   %Y/%m/%d
+603  0x001f9b34 0x005f9b34 7   8    .data   ascii   # AND #
+604  0x001f9b3c 0x005f9b3c 8   9    .data   ascii   %Y/%m/%d
+605  0x001f9b48 0x005f9b48 13  14   .data   ascii   TestTime DESC
+606  0x001f9b58 0x005f9b58 36  37   .data   ascii   (Deleted=0 OR Deleted IS NULL) AND (
+607  0x001f9b84 0x005f9b84 18  19   .data   ascii   TestTime BETWEEN #
+608  0x001f9b9c 0x005f9b9c 8   9    .data   ascii   %Y/%m/%d
+609  0x001f9ba8 0x005f9ba8 7   8    .data   ascii   # AND #
+610  0x001f9bb0 0x005f9bb0 8   9    .data   ascii   %Y/%m/%d
+611  0x001f9bbc 0x005f9bbc 13  14   .data   ascii   TestTime DESC
+612  0x001f9c08 0x005f9c08 42  43   .data   ascii   F:\Workspace\StressECG\code\CaseMngDlg.cpp
+613  0x001f9c34 0x005f9c34 23  24   .data   ascii   Error!\nFile:%s\nLine:%5d
+614  0x001f9c50 0x005f9c50 42  43   .data   ascii   F:\Workspace\StressECG\code\CaseMngDlg.cpp
+615  0x001f9c7c 0x005f9c7c 23  24   .data   ascii   Error!\nFile:%s\nLine:%5d
+616  0x001f9c94 0x005f9c94 12  13   .data   ascii   OrderID DESC
+617  0x001f9ca4 0x005f9ca4 9   10   .data   ascii   Deleted=0
+618  0x001f9cb0 0x005f9cb0 42  43   .data   ascii   F:\Workspace\StressECG\code\CaseMngDlg.cpp
+619  0x001f9cdc 0x005f9cdc 23  24   .data   ascii   Error!\nFile:%s\nLine:%5d
+620  0x001f9cf8 0x005f9cf8 14  15   .data   ascii   OrderID LIKE '
+621  0x001f9d0c 0x005f9d0c 42  43   .data   ascii   F:\Workspace\StressECG\code\CaseMngDlg.cpp
+622  0x001f9d38 0x005f9d38 23  24   .data   ascii   Error!\nFile:%s\nLine:%5d
+623  0x001f9d58 0x005f9d58 4   5    .data   ascii   %.2f
+624  0x001f9d60 0x005f9d60 4   5    .data   ascii   %.2f
+625  0x001f9d68 0x005f9d68 6   7    .data   ascii    %H:%M
+626  0x001f9d78 0x005f9d78 4   5    .data   ascii   %.2f
+627  0x001f9d80 0x005f9d80 4   5    .data   ascii   %.2f
+628  0x001f9d88 0x005f9d88 42  43   .data   ascii   F:\Workspace\StressECG\code\CaseMngDlg.cpp
+629  0x001f9db4 0x005f9db4 23  24   .data   ascii   Error!\nFile:%s\nLine:%5d
+630  0x001f9dcc 0x005f9dcc 14  15   .data   ascii   OrderID LIKE '
+631  0x001f9de0 0x005f9de0 36  37   .data   ascii   DSN=ContecDB;USR=admin;PWD=aboutface
+632  0x001f9e08 0x005f9e08 42  43   .data   ascii   F:\Workspace\StressECG\code\CaseMngDlg.cpp
+633  0x001f9e34 0x005f9e34 23  24   .data   ascii   Error!\nFile:%s\nLine:%5d
+634  0x001f9e84 0x005f9e84 36  37   .data   ascii   (Deleted=0 OR Deleted IS NULL) AND (
+635  0x001f9eb0 0x005f9eb0 5   6    .data   ascii    AND
+636  0x001f9ebc 0x005f9ebc 4   5    .data   ascii    OR
+637  0x001f9ecc 0x005f9ecc 10  11   .data   ascii    NOT LIKE
+638  0x001f9ed8 0x005f9ed8 20  21   .data   ascii   ' OR CaseID IS NULL)
+639  0x001f9ef4 0x005f9ef4 7   8    .data   ascii   (CaseID
+640  0x001f9f04 0x005f9f04 7   8    .data   ascii   (CaseID
+641  0x001f9f0c 0x005f9f0c 10  11   .data   ascii    NOT LIKE
+642  0x001f9f18 0x005f9f18 18  19   .data   ascii   ' OR Name IS NULL)
+643  0x001f9f30 0x005f9f30 5   6    .data   ascii   (Name
+644  0x001f9f40 0x005f9f40 5   6    .data   ascii   (Name
+645  0x001f9f4c 0x005f9f4c 4   5    .data   ascii    <>
+646  0x001f9f5c 0x005f9f5c 4   5    .data   ascii   (Sex
+647  0x001f9f64 0x005f9f64 7   8    .data   ascii   BETWEEN
+648  0x001f9f70 0x005f9f70 4   5    .data   ascii   (Age
+649  0x001f9f7c 0x005f9f7c 5   6    .data   ascii    AND
+650  0x001f9f84 0x005f9f84 13  14   .data   ascii   (Age BETWEEN
+651  0x001f9f94 0x005f9f94 7   8    .data   ascii   BETWEEN
+652  0x001f9fa0 0x005f9fa0 8   9    .data   ascii   %Y/%m/%d
+653  0x001f9fb0 0x005f9fb0 9   10   .data   ascii   (BirthDay
+654  0x001f9fc0 0x005f9fc0 8   9    .data   ascii   %Y/%m/%d
+655  0x001f9fcc 0x005f9fcc 7   8    .data   ascii   # AND #
+656  0x001f9fd4 0x005f9fd4 8   9    .data   ascii   %Y/%m/%d
+657  0x001f9fe0 0x005f9fe0 19  20   .data   ascii   (BirthDay BETWEEN #
+658  0x001f9ff4 0x005f9ff4 7   8    .data   ascii   BETWEEN
+659  0x001fa000 0x005fa000 9   10   .data   ascii   (TargetHR
+660  0x001fa010 0x005fa010 5   6    .data   ascii    AND
+661  0x001fa018 0x005fa018 18  19   .data   ascii   (TargetHR BETWEEN
+662  0x001fa02c 0x005fa02c 7   8    .data   ascii   BETWEEN
+663  0x001fa038 0x005fa038 8   9    .data   ascii   %Y/%m/%d
+664  0x001fa048 0x005fa048 9   10   .data   ascii   (TestTime
+665  0x001fa058 0x005fa058 8   9    .data   ascii   %Y/%m/%d
+666  0x001fa064 0x005fa064 7   8    .data   ascii   # AND #
+667  0x001fa06c 0x005fa06c 8   9    .data   ascii   %Y/%m/%d
+668  0x001fa078 0x005fa078 19  20   .data   ascii   (TestTime BETWEEN #
+669  0x001fa08c 0x005fa08c 10  11   .data   ascii    NOT LIKE
+670  0x001fa098 0x005fa098 21  22   .data   ascii   ' OR Address IS NULL)
+671  0x001fa0b4 0x005fa0b4 8   9    .data   ascii   (Address
+672  0x001fa0c8 0x005fa0c8 8   9    .data   ascii   (Address
+673  0x001fa0d4 0x005fa0d4 10  11   .data   ascii    NOT LIKE
+674  0x001fa0e0 0x005fa0e0 23  24   .data   ascii   ' OR Telephone IS NULL)
+675  0x001fa0fc 0x005fa0fc 10  11   .data   ascii   (Telephone
+676  0x001fa110 0x005fa110 10  11   .data   ascii   (Telephone
+677  0x001fa11c 0x005fa11c 10  11   .data   ascii    NOT LIKE
+678  0x001fa128 0x005fa128 22  23   .data   ascii   ' OR Operator IS NULL)
+679  0x001fa144 0x005fa144 9   10   .data   ascii   (Operator
+680  0x001fa158 0x005fa158 9   10   .data   ascii   (Operator
+681  0x001fa164 0x005fa164 10  11   .data   ascii    NOT LIKE
+682  0x001fa170 0x005fa170 26  27   .data   ascii   ' OR RefPhysician IS NULL)
+683  0x001fa190 0x005fa190 13  14   .data   ascii   (RefPhysician
+684  0x001fa1a8 0x005fa1a8 13  14   .data   ascii   (RefPhysician
+685  0x001fa1b8 0x005fa1b8 10  11   .data   ascii    NOT LIKE
+686  0x001fa1c4 0x005fa1c4 26  27   .data   ascii   %' OR Indications IS NULL)
+687  0x001fa1e4 0x005fa1e4 12  13   .data   ascii   (Indications
+688  0x001fa1fc 0x005fa1fc 12  13   .data   ascii   (Indications
+689  0x001fa20c 0x005fa20c 10  11   .data   ascii    NOT LIKE
+690  0x001fa218 0x005fa218 26  27   .data   ascii   %' OR Medications IS NULL)
+691  0x001fa238 0x005fa238 12  13   .data   ascii   (Medications
+692  0x001fa250 0x005fa250 12  13   .data   ascii   (Medications
+693  0x001fa260 0x005fa260 10  11   .data   ascii    NOT LIKE
+694  0x001fa26c 0x005fa26c 20  21   .data   ascii   %' OR Notes IS NULL)
+695  0x001fa288 0x005fa288 6   7    .data   ascii   (Notes
+696  0x001fa298 0x005fa298 6   7    .data   ascii   (Notes
+697  0x001fa2a4 0x005fa2a4 13  14   .data   ascii   TestTime DESC
+698  0x001fa2b4 0x005fa2b4 6   7    .data   ascii    LIKE
+699  0x001fa2bc 0x005fa2bc 10  11   .data   ascii    NOT LIKE
+700  0x001fa2cc 0x005fa2cc 4   5    .data   ascii    >=
+701  0x001fa2d8 0x005fa2d8 4   5    .data   ascii    <=
+702  0x001fa2e0 0x005fa2e0 9   10   .data   ascii    BETWEEN
+703  0x001fa2f0 0x005fa2f0 4   5    .data   ascii    <>
+704  0x001fa2fc 0x005fa2fc 53  54   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Favorite
+705  0x001fa334 0x005fa334 24  25   .data   ascii   Show Case List Maximized
+706  0x001fa350 0x005fa350 53  54   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Favorite
+707  0x001fa388 0x005fa388 24  25   .data   ascii   Show Case List Maximized
+708  0x001fa3b0 0x005fa3b0 22  23   .data   ascii   .PAVCMemoryException@@
+709  0x001fa3c8 0x005fa3c8 14  15   .data   ascii   CCaseRecordset
+710  0x001fa3d8 0x005fa3d8 41  42   .data   ascii   ODBC;DSN=ContecDB;USR=admin;PWD=aboutface
+711  0x001fa404 0x005fa404 7   8    .data   ascii   [Cases]
+712  0x001fa40c 0x005fa40c 9   10   .data   ascii   [OrderID]
+713  0x001fa418 0x005fa418 8   9    .data   ascii   [CaseID]
+714  0x001fa424 0x005fa424 6   7    .data   ascii   [Name]
+715  0x001fa42c 0x005fa42c 5   6    .data   ascii   [Sex]
+716  0x001fa434 0x005fa434 6   7    .data   ascii   [Race]
+717  0x001fa43c 0x005fa43c 10  11   .data   ascii   [BirthDay]
+718  0x001fa448 0x005fa448 10  11   .data   ascii   [TargetHR]
+719  0x001fa454 0x005fa454 5   6    .data   ascii   [Age]
+720  0x001fa45c 0x005fa45c 8   9    .data   ascii   [Height]
+721  0x001fa468 0x005fa468 8   9    .data   ascii   [Weight]
+722  0x001fa474 0x005fa474 9   10   .data   ascii   [Address]
+723  0x001fa480 0x005fa480 11  12   .data   ascii   [Telephone]
+724  0x001fa48c 0x005fa48c 9   10   .data   ascii   [Smoking]
+725  0x001fa498 0x005fa498 10  11   .data   ascii   [Diabetic]
+726  0x001fa4a4 0x005fa4a4 4   5    .data   ascii   [MI]
+727  0x001fa4ac 0x005fa4ac 8   9    .data   ascii   [Family]
+728  0x001fa4b8 0x005fa4b8 14  15   .data   ascii   [Hypertension]
+729  0x001fa4c8 0x005fa4c8 16  17   .data   ascii   [Hyperlipidemia]
+730  0x001fa4dc 0x005fa4dc 14  15   .data   ascii   [RefPhysician]
+731  0x001fa4ec 0x005fa4ec 13  14   .data   ascii   [Indications]
+732  0x001fa4fc 0x005fa4fc 13  14   .data   ascii   [Medications]
+733  0x001fa50c 0x005fa50c 7   8    .data   ascii   [Notes]
+734  0x001fa514 0x005fa514 10  11   .data   ascii   [Operator]
+735  0x001fa520 0x005fa520 10  11   .data   ascii   [TestTime]
+736  0x001fa52c 0x005fa52c 14  15   .data   ascii   [ProtocolName]
+737  0x001fa53c 0x005fa53c 15  16   .data   ascii   [FinishedGrade]
+738  0x001fa54c 0x005fa54c 10  11   .data   ascii   [FilePath]
+739  0x001fa558 0x005fa558 8   9    .data   ascii   [Report]
+740  0x001fa564 0x005fa564 7   8    .data   ascii   [Print]
+741  0x001fa56c 0x005fa56c 8   9    .data   ascii   [Export]
+742  0x001fa578 0x005fa578 9   10   .data   ascii   [Deleted]
+743  0x001fa584 0x005fa584 12  13   .data   ascii   [DepartName]
+744  0x001fa594 0x005fa594 12  13   .data   ascii   [HospitalID]
+745  0x001fa5a4 0x005fa5a4 8   9    .data   ascii   [RoomID]
+746  0x001fa5b0 0x005fa5b0 7   8    .data   ascii   [BedID]
+747  0x001fa5b8 0x005fa5b8 8   9    .data   ascii   [DoorID]
+748  0x001fa5c4 0x005fa5c4 17  18   .data   ascii   CCaseSubRecordset
+749  0x001fa5d8 0x005fa5d8 41  42   .data   ascii   ODBC;DSN=ContecDB;USR=admin;PWD=aboutface
+750  0x001fa604 0x005fa604 7   8    .data   ascii   [Cases]
+751  0x001fa60c 0x005fa60c 10  11   .data   ascii   [FilePath]
+752  0x001fa618 0x005fa618 9   10   .data   ascii   [Deleted]
+753  0x001fa640 0x005fa640 4   5    .data   ascii   CDib
+754  0x001fa648 0x005fa648 17  18   .data   ascii   Empty bitmap file
+755  0x001fa65c 0x005fa65c 19  20   .data   ascii   Invalid bitmap file
+756  0x001fa670 0x005fa670 18  19   .data   ascii   AttachMemory error
+757  0x001fa684 0x005fa684 47  48   .data   ascii   CDib::MakePalette -- m_nColorTableEntries = %d\n
+758  0x001fa6b4 0x005fa6b4 37  38   .data   ascii   Compress: original palette size = %d\n
+759  0x001fa6dc 0x005fa6dc 27  28   .data   ascii   Unable to compress this DIB
+760  0x001fa6f8 0x005fa6f8 27  28   .data   ascii   Driver can't do compression
+761  0x001fa714 0x005fa714 39  40   .data   ascii   dib successfully created - height = %d\n
+762  0x001fa73c 0x005fa73c 32  33   .data   ascii   Compress: new palette size = %d\n
+763  0x001fa760 0x005fa760 10  11   .data   ascii   Read error
+764  0x001fa76c 0x005fa76c 17  18   .data   ascii   ReadSection error
+765  0x001fa780 0x005fa780 11  12   .data   ascii   write error
+766  0x001fa78c 0x005fa78c 28  29   .data   ascii   CDib::Serialize -- pos = %d\n
+767  0x001fa7ac 0x005fa7ac 28  29   .data   ascii   CDib::Serialize -- pos = %d\n
+768  0x001fa7cc 0x005fa7cc 54  55   .data   ascii   Not a valid Windows bitmap -- probably an OS/2 bitmap\n
+769  0x001fa810 0x005fa810 16  17   .data   ascii   .PAVCException@@
+770  0x001fa830 0x005fa830 4   5    .data   ascii   .PAX
+771  0x001fa840 0x005fa840 13  14   .data   ascii   .PAVCObject@@
+772  0x001fa850 0x005fa850 22  23   .data   ascii   Contec Medical Systems
+773  0x001fa868 0x005fa868 38  39   .data   ascii   CONTEC8000S Stress ECG Analysis System
+774  0x001fa890 0x005fa890 50  51   .data   ascii   CONTEC MEDICAL SYSTEMS CO.,LTD All Rights Reserved
+775  0x001fa8c4 0x005fa8c4 23  24   .data   ascii   Copyright (C) 2012-2016
+776  0x001fa8dc 0x005fa8dc 5   6    .data   ascii
+777  0x001fa8e4 0x005fa8e4 11  12   .data   ascii   [%02d:%02d]
+778  0x001fa8f0 0x005fa8f0 24  25   .data   ascii   CONTEC__UTITLITY__NOTIFY
+779  0x001fa90c 0x005fa90c 4   5    .data   ascii
+780  0x001fa920 0x005fa920 11  12   .data   ascii   \CtcRen.dll
+781  0x001fa92c 0x005fa92c 11  12   .data   ascii   \CtcRcn.dll
+782  0x001fa948 0x005fa948 6   7    .data   ascii   (.dll)
+783  0x001fa958 0x005fa958 55  56   .data   ascii   the language Dynamic Link Library (.dll) loaded failed!
+784  0x001fa990 0x005fa990 17  18   .data   ascii   Contec Treadmill
+785  0x001fa9a4 0x005fa9a4 6   7    .data   ascii   #32770
+786  0x001fa9ac 0x005fa9ac 13  14   .data   ascii   StressECG.mdb
+787  0x001fa9c0 0x005fa9c0 31  32   .data   ascii   SOFTWARE\ODBC\ODBC.INI\ContecDB
+788  0x001fa9e4 0x005fa9e4 31  32   .data   ascii   SOFTWARE\ODBC\ODBC.INI\ContecDB
+789  0x001faa04 0x005faa04 13  14   .data   ascii   \ODBCJT32.dll
+790  0x001faa14 0x005faa14 31  32   .data   ascii   SOFTWARE\ODBC\ODBC.INI\ContecDB
+791  0x001faa34 0x005faa34 10  11   .data   ascii   MS Access;
+792  0x001faa40 0x005faa40 26  27   .data   ascii   Stress ECG System Database
+793  0x001faa60 0x005faa60 11  12   .data   ascii   Description
+794  0x001faa6c 0x005faa6c 6   7    .data   ascii   Driver
+795  0x001faa74 0x005faa74 8   9    .data   ascii   DriverId
+796  0x001faa84 0x005faa84 16  17   .data   ascii   SafeTransactions
+797  0x001faaa0 0x005faaa0 12  13   .data   ascii   \Engines\Jet
+798  0x001faab4 0x005faab4 18  19   .data   ascii   ImplicitCommitSync
+799  0x001faac8 0x005faac8 13  14   .data   ascii   MaxBufferSize
+800  0x001faad8 0x005faad8 11  12   .data   ascii   PageTimeout
+801  0x001faae4 0x005faae4 7   8    .data   ascii   Threads
+802  0x001faaec 0x005faaec 14  15   .data   ascii   UserCommitSync
+803  0x001faafc 0x005faafc 40  41   .data   ascii   SOFTWARE\ODBC\ODBC.INI\ODBC Data Sources
+804  0x001fab28 0x005fab28 31  32   .data   ascii   Microsoft Access Driver (*.mdb)
+805  0x001fab48 0x005fab48 8   9    .data   ascii   ContecDB
+806  0x001fab54 0x005fab54 44  45   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM
+807  0x001fab84 0x005fab84 32  33   .data   ascii   Contec 8000 Treadmill ECG System
+808  0x001faba8 0x005faba8 7   8    .data   ascii   AppPath
+809  0x001fabb0 0x005fabb0 11  12   .data   ascii   Description
+810  0x001fabbc 0x005fabbc 44  45   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM
+811  0x001fabec 0x005fabec 32  33   .data   ascii   Contec 8000 Treadmill ECG System
+812  0x001fac10 0x005fac10 7   8    .data   ascii   AppPath
+813  0x001fac18 0x005fac18 11  12   .data   ascii   Description
+814  0x001fac24 0x005fac24 13  14   .data   ascii   StressECG.mdb
+815  0x001fac38 0x005fac38 8   9    .data   ascii   DATABASE
+816  0x001fac44 0x005fac44 6   7    .data   ascii   WZCSVC
+817  0x001fac4c 0x005fac4c 6   7    .data   ascii   WZCSVC
+818  0x001fac60 0x005fac60 20  21   .data   ascii   .PAVCFileException@@
+819  0x001fac78 0x005fac78 13  14   .data   ascii   \Win32dll.dll
+820  0x001fac88 0x005fac88 8   9    .data   ascii   GS_MHDog
+821  0x001fac94 0x005fac94 23  24   .data   ascii   WIN32DLL.DLL not found!
+822  0x001facac 0x005facac 20  21   .data   ascii   Can't find MicroDog!
+823  0x001faccc 0x005faccc 17  18   .data   ascii   Contec Treadmill
+824  0x001face4 0x005face4 20  21   .data   ascii   Can't find MicroDog!
+825  0x001facfc 0x005facfc 20  21   .data   ascii   Can't find MicroDog!
+826  0x001fad14 0x005fad14 20  21   .data   ascii   Can't find MicroDog!
+827  0x001fad2c 0x005fad2c 20  21   .data   ascii   Can't find MicroDog!
+828  0x001fad44 0x005fad44 20  21   .data   ascii   Can't find MicroDog!
+829  0x001fad5c 0x005fad5c 20  21   .data   ascii   Can't find MicroDog!
+830  0x001fad74 0x005fad74 20  21   .data   ascii   Can't find MicroDog!
+831  0x001fad8c 0x005fad8c 20  21   .data   ascii   Can't find MicroDog!
+832  0x001fada4 0x005fada4 20  21   .data   ascii   Can't find MicroDog!
+833  0x001fadbc 0x005fadbc 20  21   .data   ascii   Can't find MicroDog!
+834  0x001fadd4 0x005fadd4 20  21   .data   ascii   Can't find MicroDog!
+835  0x001fadec 0x005fadec 20  21   .data   ascii   Can't find MicroDog!
+836  0x001fae08 0x005fae08 16  17   .data   ascii   CONTEC_TM_CN.chm
+837  0x001fae1c 0x005fae1c 4   5    .data   ascii   open
+838  0x001fae30 0x005fae30 10  11   .data   ascii   CDataModel
+839  0x001fae3c 0x005fae3c 14  15   .data   ascii   Modified BRUCE
+840  0x001fae4c 0x005fae4c 12  13   .data   ascii   %y%m%d%H%M%S
+841  0x001fae5c 0x005fae5c 8   9    .data   ascii   \Archive
+842  0x001fae68 0x005fae68 45  46   .data   ascii   CDataModel g_SearchTipDlg->m_bReconnect===%d\n
+843  0x001fae98 0x005fae98 8   9    .data   ascii   \ecg.c8k
+844  0x001faeac 0x005faeac 4   5    .data   ascii
+845  0x001faeb4 0x005faeb4 6   7    .data   ascii   #32770
+846  0x001faebc 0x005faebc 5   6    .data   ascii   Arial
+847  0x001faec4 0x005faec4 5   6    .data   ascii   Arial
+848  0x001faecc 0x005faecc 5   6    .data   ascii   Arial
+849  0x001faed4 0x005faed4 5   6    .data   ascii   Arial
+850  0x001faedc 0x005faedc 5   6    .data   ascii   Arial
+851  0x001faee4 0x005faee4 5   6    .data   ascii   Arial
+852  0x001faeec 0x005faeec 6   7    .data   ascii    %H:%M
+853  0x001faef4 0x005faef4 8   9    .data   ascii   \ecg.c8k
+854  0x001faf00 0x005faf00 6   7    .data   ascii   25mm/s
+855  0x001faf08 0x005faf08 6   7    .data   ascii   50mm/s
+856  0x001faf10 0x005faf10 6   7    .data   ascii   25mm/s
+857  0x001faf18 0x005faf18 8   9    .data   ascii   12.5mm/s
+858  0x001faf24 0x005faf24 8   9    .data   ascii   RT - ECG
+859  0x001faf30 0x005faf30 6   7    .data   ascii   CONTEC
+860  0x001faf38 0x005faf38 5   6    .data   ascii   00:00
+861  0x001faf70 0x005faf70 9   10   .data   ascii   %02d:%02d
+862  0x001faf7c 0x005faf7c 10  11   .data   ascii   \stage.c8k
+863  0x001faf88 0x005faf88 35  36   .data   ascii   [%d] %s [ %0.1f km / h   %0.1f %% ]
+864  0x001fafac 0x005fafac 34  35   .data   ascii   [%d] %s [ %0.1f Watt   %0.1f rpm ]
+865  0x001fafd0 0x005fafd0 34  35   .data   ascii   [%d] %s [ %0.1f Watt   %0.1f rpm ]
+866  0x001faff4 0x005faff4 7   8    .data   ascii   \bp.c8k
+867  0x001faffc 0x005faffc 9   10   .data   ascii   HR: %dbpm
+868  0x001fb008 0x005fb008 18  19   .data   ascii   BP: ----/---- mmHg
+869  0x001fb01c 0x005fb01c 18  19   .data   ascii   BP: %.1f/%.1f mmHg
+870  0x001fb030 0x005fb030 12  13   .data   ascii   ST: J + %dms
+871  0x001fb040 0x005fb040 10  11   .data   ascii   METS: %.1f
+872  0x001fb04c 0x005fb04c 9   10   .data   ascii   METS: ---
+873  0x001fb058 0x005fb058 9   10   .data   ascii   METS: ---
+874  0x001fb064 0x005fb064 35  36   .data   ascii   ST unit: mV     ST angle unit: deg.
+875  0x001fb088 0x005fb088 37  38   .data   ascii   ST unit: mV     ST slope unit: mV / s
+876  0x001fb0b0 0x005fb0b0 7   8    .data   ascii   10mm/mV
+877  0x001fb0b8 0x005fb0b8 6   7    .data   ascii   5mm/mV
+878  0x001fb0c0 0x005fb0c0 7   8    .data   ascii   10mm/mV
+879  0x001fb0c8 0x005fb0c8 7   8    .data   ascii   20mm/mV
+880  0x001fb0d4 0x005fb0d4 6   7    .data   ascii   AC50Hz
+881  0x001fb0dc 0x005fb0dc 6   7    .data   ascii   AC60Hz
+882  0x001fb0e4 0x005fb0e4 7   8    .data   ascii   EMG35Hz
+883  0x001fb0ec 0x005fb0ec 7   8    .data   ascii   EMG25Hz
+884  0x001fb100 0x005fb100 61  62   .data   ascii   EF_BASELINE g_pDataModel->m_nFilterType====%d, strFilter==%s\n
+885  0x001fb140 0x005fb140 14  15   .data   ascii   %s\n\r%.2f\n\r%.2f
+886  0x001fb150 0x005fb150 8   9    .data   ascii   \ecg.c8k
+887  0x001fb15c 0x005fb15c 12  13   .data   ascii   \complex.c8k
+888  0x001fb16c 0x005fb16c 8   9    .data   ascii   \qrs.c8k
+889  0x001fb178 0x005fb178 10  11   .data   ascii   \stage.c8k
+890  0x001fb184 0x005fb184 7   8    .data   ascii   \bp.c8k
+891  0x001fb18c 0x005fb18c 11  12   .data   ascii   \report.c8k
+892  0x001fb198 0x005fb198 12  13   .data   ascii   \summary.c8k
+893  0x001fb1a8 0x005fb1a8 11  12   .data   ascii   \report.c8k
+894  0x001fb1b4 0x005fb1b4 12  13   .data   ascii   \summary.c8k
+895  0x001fb1c4 0x005fb1c4 11  12   .data   ascii   \report.c8k
+896  0x001fb1d0 0x005fb1d0 12  13   .data   ascii   \summary.c8k
+897  0x001fb1e0 0x005fb1e0 11  12   .data   ascii   \report.c8k
+898  0x001fb1ec 0x005fb1ec 12  13   .data   ascii   \Summary.c8k
+899  0x001fb1fc 0x005fb1fc 40  41   .data   ascii   F:\Workspace\StressECG\code\DBGlobal.cpp
+900  0x001fb228 0x005fb228 10  12   .data   utf8    Warning: δ
+901  0x001fb239 0x005fb239 11  12   .data   ascii    DBVariant
+902  0x001fb250 0x005fb250 6   7    .data   ascii   : %s;
+903  0x001fb258 0x005fb258 5   6    .data   ascii   : %d\n
+904  0x001fb260 0x005fb260 40  41   .data   ascii   F:\Workspace\StressECG\code\DBGlobal.cpp
+905  0x001fb28c 0x005fb28c 10  12   .data   utf8    Warning: δ
+906  0x001fb29d 0x005fb29d 11  12   .data   ascii    DBVariant
+907  0x001fb2b4 0x005fb2b4 6   7    .data   ascii   : %s;
+908  0x001fb2bc 0x005fb2bc 5   6    .data   ascii   : %d\n
+909  0x001fb2c4 0x005fb2c4 40  41   .data   ascii   F:\Workspace\StressECG\code\DBGlobal.cpp
+910  0x001fb2f0 0x005fb2f0 10  12   .data   utf8    Warning: δ
+911  0x001fb301 0x005fb301 11  12   .data   ascii    DBVariant
+912  0x001fb318 0x005fb318 6   7    .data   ascii   : %s;
+913  0x001fb320 0x005fb320 5   6    .data   ascii   : %d\n
+914  0x001fb328 0x005fb328 40  41   .data   ascii   F:\Workspace\StressECG\code\DBGlobal.cpp
+915  0x001fb354 0x005fb354 10  12   .data   utf8    Warning: δ
+916  0x001fb365 0x005fb365 11  12   .data   ascii    DBVariant
+917  0x001fb37c 0x005fb37c 6   7    .data   ascii   : %s;
+918  0x001fb384 0x005fb384 5   6    .data   ascii   : %d\n
+919  0x001fb38c 0x005fb38c 40  41   .data   ascii   F:\Workspace\StressECG\code\DBGlobal.cpp
+920  0x001fb3b8 0x005fb3b8 10  12   .data   utf8    Warning: δ
+921  0x001fb3c9 0x005fb3c9 11  12   .data   ascii    DBVariant
+922  0x001fb3e0 0x005fb3e0 6   7    .data   ascii   : %s;
+923  0x001fb3e8 0x005fb3e8 5   6    .data   ascii   : %d\n
+924  0x001fb3fc 0x005fb3fc 4   5    .data   ascii   %.4f
+925  0x001fb404 0x005fb404 4   5    .data   ascii   %.8f
+926  0x001fb40c 0x005fb40c 4   5    .data   ascii   TRUE
+927  0x001fb414 0x005fb414 5   6    .data   ascii   FALSE
+928  0x001fb41c 0x005fb41c 7   8    .data   ascii   UN_KNOW
+929  0x001fb424 0x005fb424 78  79   .data   ascii   SELECT COUNT(OrderID) AS IdCount FROM Cases WHERE Deleted=0 OR Deleted IS NULL
+930  0x001fb474 0x005fb474 7   8    .data   ascii   IdCount
+931  0x001fb47c 0x005fb47c 40  41   .data   ascii   F:\Workspace\StressECG\code\DBGlobal.cpp
+932  0x001fb4a8 0x005fb4a8 23  24   .data   ascii   Error!\nFile:%s\nLine:%5d
+933  0x001fb4c0 0x005fb4c0 71  72   .data   ascii   SELECT FilePath, Deleted FROM Cases WHERE Deleted=0  OR Deleted IS NULL
+934  0x001fb508 0x005fb508 35  36   .data   ascii   SELECT FilePath, Deleted FROM Cases
+935  0x001fb52c 0x005fb52c 8   9    .data   ascii   \ecg.c8k
+936  0x001fb538 0x005fb538 40  41   .data   ascii   F:\Workspace\StressECG\code\DBGlobal.cpp
+937  0x001fb564 0x005fb564 23  24   .data   ascii   Error!\nFile:%s\nLine:%5d
+938  0x001fb580 0x005fb580 12  13   .data   ascii   CDBRecordset
+939  0x001fb590 0x005fb590 41  42   .data   ascii   ODBC;DSN=ContecDB;USR=admin;PWD=aboutface
+940  0x001fb5bc 0x005fb5bc 7   8    .data   ascii   [Cases]
+941  0x001fb5cc 0x005fb5cc 9   10   .data   ascii   ()[]{}+-.
+942  0x001fb5d8 0x005fb5d8 6   7    .data   ascii   ()[]{}
+943  0x001fb9a8 0x005fb9a8 18  19   .data   ascii   %dmm/mV  %0.1fmm/s
+944  0x001fb9bc 0x005fb9bc 15  16   .data   ascii   %dmm/mV  %dmm/s
+945  0x001fb9cc 0x005fb9cc 5   6    .data   ascii   Arial
+946  0x001fb9dc 0x005fb9dc 5   6    .data   ascii   99:99
+947  0x001fb9e4 0x005fb9e4 18  19   .data   ascii   %dmm/mV  %0.1fmm/s
+948  0x001fb9f8 0x005fb9f8 15  16   .data   ascii   %dmm/mV  %dmm/s
+949  0x001fba08 0x005fba08 18  19   .data   ascii   %dmm/mV  %0.1fmm/s
+950  0x001fba1c 0x005fba1c 15  16   .data   ascii   %dmm/mV  %dmm/s
+951  0x001fba2c 0x005fba2c 8   9    .data   ascii   \ecg.c8k
+952  0x001fba38 0x005fba38 8   9    .data   ascii   \qrs.c8k
+953  0x001fbaa4 0x005fbaa4 8   9    .data   ascii   \ecg.c8k
+954  0x001fbab0 0x005fbab0 8   9    .data   ascii   \qrs.c8k
+955  0x001fbac0 0x005fbac0 8   9    .data   ascii   \ecg.c8k
+956  0x001fbacc 0x005fbacc 8   9    .data   ascii   \qrs.c8k
+957  0x001fbad8 0x005fbad8 8   9    .data   ascii   \ecg.c8k
+958  0x001fbae4 0x005fbae4 8   9    .data   ascii   \qrs.c8k
+959  0x001fbaf0 0x005fbaf0 9   10   .data   ascii   %02d:%02d
+960  0x001fbafc 0x005fbafc 8   9    .data   ascii   \qrs.c8k
+961  0x001fbb08 0x005fbb08 8   9    .data   ascii   \qrs.c8k
+962  0x001fbb14 0x005fbb14 8   9    .data   ascii   \qrs.c8k
+963  0x001fbb20 0x005fbb20 8   9    .data   ascii   \qrs.c8k
+964  0x001fbb2c 0x005fbb2c 8   9    .data   ascii   \ecg.c8k
+965  0x001fbb38 0x005fbb38 8   9    .data   ascii   \vcg.c8k
+966  0x001fbb44 0x005fbb44 8   9    .data   ascii   \qrs.c8k
+967  0x001fbb50 0x005fbb50 5   6    .data   ascii   Arial
+968  0x001fbb64 0x005fbb64 5   6    .data   ascii   Arial
+969  0x001fbb6c 0x005fbb6c 4   5    .data   ascii   Ch.X
+970  0x001fbb74 0x005fbb74 4   5    .data   ascii   Ch.Y
+971  0x001fbb7c 0x005fbb7c 4   5    .data   ascii   Ch.Z
+972  0x001fbb84 0x005fbb84 10  11   .data   ascii    00:00:00
+973  0x001fbb90 0x005fbb90 8   9    .data   ascii   \vcg.c8k
+974  0x001fbb9c 0x005fbb9c 8   9    .data   ascii   \qrs.c8k
+975  0x001fbba8 0x005fbba8 8   9    .data   ascii   \qrs.c8k
+976  0x001fbbb4 0x005fbbb4 8   9    .data   ascii   \vlp.c8k
+977  0x001fbbc0 0x005fbbc0 8   9    .data   ascii   \qrs.c8k
+978  0x001fbbcc 0x005fbbcc 8   9    .data   ascii   \qrs.c8k
+979  0x001fbbd8 0x005fbbd8 14  15   .data   ascii   %02d:%02d:%02d
+980  0x001fbbe8 0x005fbbe8 8   9    .data   ascii   \vlp.c8k
+981  0x001fbbf8 0x005fbbf8 8   9    .data   ascii    ST[V5]
+982  0x001fbc04 0x005fbc04 5   6    .data   ascii   Arial
+983  0x001fbc10 0x005fbc10 4   5    .data   ascii   aVRg
+984  0x001fbc1c 0x005fbc1c 4   5    .data   ascii   9988
+985  0x001fbc24 0x005fbc24 7   8    .data   ascii   %1d0:00
+986  0x001fbc30 0x005fbc30 4   5    .data   ascii   %.1f
+987  0x001fbc70 0x005fbc70 8   9    .data   ascii    ST[%s]
+988  0x001fbc80 0x005fbc80 8   9    .data   ascii    ST[V5]
+989  0x001fbc8c 0x005fbc8c 5   6    .data   ascii   Arial
+990  0x001fbc98 0x005fbc98 4   5    .data   ascii   aVRg
+991  0x001fbca4 0x005fbca4 4   5    .data   ascii   9988
+992  0x001fbcac 0x005fbcac 7   8    .data   ascii   %1d0:00
+993  0x001fbcb8 0x005fbcb8 4   5    .data   ascii   %.1f
+994  0x001fbcfc 0x005fbcfc 8   9    .data   ascii    ST[%s]
+995  0x001fbd08 0x005fbd08 8   9    .data   ascii   \qrs.c8k
+996  0x001fbd14 0x005fbd14 8   9    .data   ascii   \ecg.c8k
+997  0x001fbd20 0x005fbd20 8   9    .data   ascii   \qrs.c8k
+998  0x001fbd2c 0x005fbd2c 12  13   .data   ascii   \complex.c8k
+999  0x001fbd3c 0x005fbd3c 12  13   .data   ascii   \complex.c8k
+1000 0x001fbd4c 0x005fbd4c 8   9    .data   ascii   \ecg.c8k
+1001 0x001fbd58 0x005fbd58 10  11   .data   ascii   \~tqrs.tmp
+1002 0x001fbd64 0x005fbd64 8   9    .data   ascii   \ecg.c8k
+1003 0x001fbd70 0x005fbd70 10  11   .data   ascii   \~tqrs.tmp
+1004 0x001fbd7c 0x005fbd7c 8   9    .data   ascii   \qrs.c8k
+1005 0x001fbd88 0x005fbd88 8   9    .data   ascii   \qrs.c8k
+1006 0x001fbd94 0x005fbd94 8   9    .data   ascii   \ecg.c8k
+1007 0x001fbda0 0x005fbda0 8   9    .data   ascii   \qrs.c8k
+1008 0x001fbdac 0x005fbdac 4   5    .data   ascii   .dll
+1009 0x001fbdb4 0x005fbdb4 4   5    .data   ascii   Drvt
+1010 0x001fbdc0 0x005fbdc0 4   5    .data   ascii   .dll
+1011 0x001fbdc8 0x005fbdc8 4   5    .data   ascii   Drve
+1012 0x001fbdd4 0x005fbdd4 10  11   .data   ascii   \Drvt*.dll
+1013 0x001fbde0 0x005fbde0 4   5    .data   ascii   Drvt
+1014 0x001fbde8 0x005fbde8 4   5    .data   ascii   .dll
+1015 0x001fbdf0 0x005fbdf0 10  11   .data   ascii   \Drve*.dll
+1016 0x001fbdfc 0x005fbdfc 4   5    .data   ascii   Drve
+1017 0x001fbe04 0x005fbe04 4   5    .data   ascii   .dll
+1018 0x001fbe0c 0x005fbe0c 7   8    .data   ascii   5 mm/mV
+1019 0x001fbe14 0x005fbe14 8   9    .data   ascii   10 mm/mV
+1020 0x001fbe20 0x005fbe20 8   9    .data   ascii   20 mm/mV
+1021 0x001fbe2c 0x005fbe2c 9   10   .data   ascii   12.5 mm/s
+1022 0x001fbe38 0x005fbe38 7   8    .data   ascii   25 mm/s
+1023 0x001fbe40 0x005fbe40 7   8    .data   ascii   50 mm/s
+1024 0x001fbe78 0x005fbe78 10  11   .data   ascii   \event.c8k
+1025 0x001fbe84 0x005fbe84 10  11   .data   ascii   \event.c8k
+1026 0x001fbe90 0x005fbe90 7   8    .data   ascii   No.%02d
+1027 0x001fbe98 0x005fbe98 6   7    .data   ascii    %H:%M
+1028 0x001fbea0 0x005fbea0 5   6    .data   ascii   EVENT
+1029 0x001fbea8 0x005fbea8 6   7    .data   ascii    %H:%M
+1030 0x001fbeb0 0x005fbeb0 5   6    .data   ascii   EVENT
+1031 0x001fbebc 0x005fbebc 5   6    .data   ascii   Arial
+1032 0x001fbef4 0x005fbef4 7   8    .data   ascii   No.%02d
+1033 0x001fbefc 0x005fbefc 9   10   .data   ascii   %02d:%02d
+1034 0x001fbf0c 0x005fbf0c 11  12   .data   ascii   [%02d:%02d]
+1035 0x001fbf18 0x005fbf18 8   9    .data   ascii   \ecg.c8k
+1036 0x001fbf68 0x005fbf68 8   9    .data   ascii   CFormDlg
+1037 0x001fbf78 0x005fbf78 6   7    .data   ascii   %%.%df
+1038 0x001fbf80 0x005fbf80 5   6    .data   ascii   IMAGE
+1039 0x001fbf88 0x005fbf88 33  34   .data   ascii   .DEFAULT\keyboard layout\preload\
+1040 0x001fbfac 0x005fbfac 33  34   .data   ascii   .DEFAULT\keyboard layout\preload\
+1041 0x001fbfd0 0x005fbfd0 50  51   .data   ascii   System\CurrentControlSet\Control\Keyboard Layouts\
+1042 0x001fc004 0x005fc004 11  12   .data   ascii   Layout text
+1043 0x001fc010 0x005fc010 24  25   .data   ascii   keyboard layout\preload\
+1044 0x001fc030 0x005fc030 50  51   .data   ascii   System\CurrentControlSet\Control\Keyboard Layouts\
+1045 0x001fc064 0x005fc064 11  12   .data   ascii   Layout text
+1046 0x001fc078 0x005fc078 6   7    .data   ascii    %H:%M
+1047 0x001fc080 0x005fc080 8   9    .data   ascii   %m-%d-%Y
+1048 0x001fc09c 0x005fc09c 4   5    .data   ascii   foot
+1049 0x001fc0a4 0x005fc0a4 4   5    .data   ascii   inch
+1050 0x001fc0b0 0x005fc0b0 5   6    .data   ascii   pound
+1051 0x001fc0b8 0x005fc0b8 8   9    .data   ascii   combobox
+1052 0x001fc0c4 0x005fc0c4 8   9    .data   ascii   %02d%02d
+1053 0x001fc0d0 0x005fc0d0 414 415  .data   ascii   cjwgnspgcenegypbtwxzdxykygtpjnmjqmbsgzscyjsyyfpggbzgydywjkgaljswkbjqhyjwpdzlsgmrybywwccgznkydgttngjeyekzydcjnmcylqlypyqbqrpzslwbdgkjfyxjwcltbncxjjjjcxdtqsqzycdxxhgckbphffsspybgmxjbbyglbhlssmzmpjhsojnghdzcdklgjhsgqzhxqgkezzwymcscjnyetxadzpmdssmzjjqjyzcjjfwqjbdzbjgdnzcbwhgxhqkmwfbpbqdtjjzkqhylcgxfptyjyyzpsjlfchmqshgmmxsxjpkdcmbbqbefsjwhwwgckpylqbgldlcctnmaeddksjngkcsgxlhzaybdbtsdkdylhgymylcxpycjndqjwxqxfyyfjlejbz
+1054 0x001fc270 0x005fc270 414 415  .data   ascii   rwccqhqcsbzkymgplbmcrqcflnymyqmsqtrbcjthztqfrxchxmcjcjlxqgjmshzkbswxemdlckfsydsglycjjssjnqbjctyhbftdcyjdgwyghqfrxwckqkxebpdjpxjqsrmebwgjlbjslyysmdxlclqkxlhtjrjjmbjhxhwywcbhtrxxglhjhfbmgykldyxzpplggpmtcbbajjzyljtyanjgbjflqgdzyqcaxbkclecjsznslyzhlxlzcghbxzhznytdsbcjkdlzayffydlabbgqszkggldndnyskjshdlxxbcghxyggdjmmzngmmccgwzszxsjbznmlzdthcqydbdllscddnlkjyhjsycjlkohqasdhnhcsgaehdaashtcplcpqybsdmpjlpcjaqlcdhjjasprchn
+1055 0x001fc410 0x005fc410 414 415  .data   ascii   gjnlhlyyqyhwzpnccgwwmzffjqqqqxxaclbhkdjxdgmmydjxzllsygxgkjrywzwyclzmcsjzldbndcfcxyhlschycjqppqagmnyxpfrkssbjlyxyjjglnscmhcwwmnzjjlhmhchsyppttxrycsxbyhcsmxjsxnbwgpxxtaybgajcxlypdccwqocwkccsbnhcpdyznbcyytyckskybsqkkytqqxfcwchcwkelcqbsqyjqcclmthsywhmktlkjlychwheqjhtjhppqpqscfymmcmgbmhglgsllysdllljpchmjhwljcyhzjxhdxjlhxrswlwzjcbxmhzqxsdzpmgfcsglsdymjshxpjxomyqknmyblrthbcftpmgyxlchlhlzylxgsssscclsldclepbhshxyyfhbmgd
+1056 0x001fc5b0 0x005fc5b0 414 415  .data   ascii   fycnjqwlqhjjcywjztejjdhfblqxtqkwhdchqxagtlxljxmsljhdzkzjecxjcjnmbbjcsfywkbjzghysdcpqyrsljpclpwxsdwejbjcbcnaytmgmbapclyqbclzxcbnmsggfnzjjbzsfqyndxhpcqkzczwalsbccjxpozgwkybsgxfcfcdkhjbstlqfsgdslqwzkxtmhsbgzhjcrglyjbpmljsxlcjqqhzmjczydjwbmjklddpmjegxyhylxhlqyqhkycwcjmyhxnatjhyccxzpcqlbzwwwtwbqcmlbmynjcccxbbsnzzljpljxyztzlgcldcklyrzzgqtgjhhgjljaxfgfjzslcfdqzlclgjdjcsnclljpjqdcclcjxmyzftsxgcgsbrzxjqqcczhgyjdjqqlzxjy
+1057 0x001fc750 0x005fc750 414 415  .data   ascii   ldlbcyamcstylbdjbyregklzdzhldszchznwczcllwjqjjjkdgjcolbbzppglghtgzcygezmycnqcycyhbhgxkamtxyxnbskyzzgjzlqjdfcjxdygjqjjpmgwgjjjpkjsbgbmmcjssclpqpdxcdyykypcjddyygywchjrtgcnyqldkljczzgzccjgdyksgpzmdlcphnjafyzdjcnmwescsglbtzcgmsdllyxqsxsbljsbbsgghfjlwpmzjnlyywdqshzxtyywhmcyhywdbxbtlmswyyfsbjcbdxxlhjhfpsxzqhfzmqcztqcxzxrdkdjhnnyzqqfnqdmmgnydxmjgdhcdycbffallztdltfkmxqzdngeqdbdczjdxbzgsqqddjcmbkxffxmkdmcsychzcmljdjynhp
+1058 0x001fc8f0 0x005fc8f0 414 415  .data   ascii   rsjmkmpcklgdbqtfzswtfgglyplljzhgjjgypzltcsmcnbtjbhfkdhbyzgkpbbymtdlsxsbnpdkleycjnycdykzddhqgsdzsctarlltkzlgecllkjljjaqnbdggghfjtzqjsecshalqfmmgjnlyjbbtmlycxdcjpldlpcqdhsycbzsckbzmsljflhrbjsnbrgjhxpdgdjybzgdlgcsezgxlblgyxtwmabchecmwyjyzlljjshlgndjlslygkdzpzxjyyzlpcxszfgwyydlyhcljscmbjhblyjlycblydpdqysxktbytdkdxjypcnrjmfdjgklccjbctbjddbblblcdqrppxjcglzcshltoljnmdddlngkaqakgjgyhheznmshrphqqjchgmfprxcjgdychghlyrzql
+1059 0x001fca90 0x005fca90 414 415  .data   ascii   cngjnzsqdkqjymszswlcfqjqxgbggxmdjwlmcrnfkkfsyyljbmqammmycctbshcptxxzzsmphfshmclmldjfyqxsdyjdjjzzhqpdszglssjbckbxyqzjsgpsxjzqznqtbdkwxjkhhgflbcsmdldgdzdblzkycqnncsybzbfglzzxswmsccmqnjqsbdqsjtxxmbldxcclzshzcxrqjgjylxzfjphymzqqydfqjjlcznzjcdgzygcdxmzysctlkphtxhtlbjxjlxscdqccbbqjfqzfsltjbtkqbsxjjljchczdbzjdczjccprnlqcgpfczlclcxzdmxmphgsgzgszzqjxlwtjpfsyaslcjbtckwcwmytcsjjljcqlwzmalbxyfbpnlschtgjwejjxxglljstgshjqlzf
+1060 0x001fcc30 0x005fcc30 110 111  .data   ascii   kcgnndszfdeqfhbsaqdgylbxmmygszldydjmjjrgbjgkgdhgkblgkbdmbylxwcxyttybkmrjjzxqjbhlmhmjjzmqasldcyxyqdlqcafywyxqhz
+1061 0x001fcca0 0x005fcca0 4   5    .data   ascii   %04d
+1062 0x001fcca8 0x005fcca8 5   6    .data   ascii   --:--
+1063 0x001fccb0 0x005fccb0 4   5    .data   ascii   km/h
+1064 0x001fccb8 0x005fccb8 4   5    .data   ascii   Watt
+1065 0x001fccc4 0x005fccc4 48  49   .data   ascii   [ %d / %d ] %s  %02d:%02d  [ %.1f %s  %.1f rpm ]
+1066 0x001fccf8 0x005fccf8 48  49   .data   ascii   [ %d / %d ] %s  %02d:%02d  [ %.1f %s  %.1f rpm ]
+1067 0x001fcd2c 0x005fcd2c 47  48   .data   ascii   [ %d / %d ] %s  %02d:%02d  [ %.1f %s  %.1f %% ]
+1068 0x001fcd5c 0x005fcd5c 47  48   .data   ascii   [ %d / %d ] %s  %02d:%02d  [ %.1f %s  %.1f %% ]
+1069 0x001fcd8c 0x005fcd8c 63  64   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\Interface
+1070 0x001fcdcc 0x005fcdcc 8   9    .data   ascii   Language
+1071 0x001fcdd8 0x005fcdd8 5   6    .data   ascii   Pic_1
+1072 0x001fcde4 0x005fcde4 6   7    .data   ascii   Pic_%d
+1073 0x001fcdf0 0x005fcdf0 29  30   .data   ascii   HARDWARE\DEVICEMAP\SERIALCOMM
+1074 0x001fce10 0x005fce10 13  14   .data   ascii   \Glossary.sys
+1075 0x001fce20 0x005fce20 13  14   .data   ascii   \Glossary.sys
+1076 0x001fce34 0x005fce34 12  13   .data   ascii   ~0~1~2_3.glp
+1077 0x001fce44 0x005fce44 4   5    .data   ascii   km/h
+1078 0x001fce50 0x005fce50 36  37   .data   ascii   [ %d / %d ] %s  [ %.1f %s  %.1f %% ]
+1079 0x001fce78 0x005fce78 36  37   .data   ascii   [ %d / %d ] %s  [ %.1f %s  %.1f %% ]
+1080 0x001fcea0 0x005fcea0 8   9    .data   ascii   \vcg.c8k
+1081 0x001fceac 0x005fceac 8   9    .data   ascii   \qrs.c8k
+1082 0x001fceb8 0x005fceb8 8   9    .data   ascii   \ecg.c8k
+1083 0x001fcec4 0x005fcec4 8   9    .data   ascii   \vcg.c8k
+1084 0x001fced0 0x005fced0 4   5    .data   ascii   km/h
+1085 0x001fcedc 0x005fcedc 11  12   .data   ascii   [ %d / %d ]
+1086 0x001fcef0 0x005fcef0 9   10   .data   ascii   %02d:%02d
+1087 0x001fcefc 0x005fcefc 6   7    .data   ascii   %.1f%s
+1088 0x001fcf04 0x005fcf04 6   7    .data   ascii   %.1f%%
+1089 0x001fcf14 0x005fcf14 9   10   .data   ascii   CGridCtrl
+1090 0x001fcf20 0x005fcf20 21  22   .data   ascii   Control Panel\Desktop
+1091 0x001fcf38 0x005fcf38 16  17   .data   ascii   WheelScrollLines
+1092 0x001fcf4c 0x005fcf4c 11  12   .data   ascii   CTCGridCtrl
+1093 0x001fcf58 0x005fcf58 11  12   .data   ascii   CTCGridCtrl
+1094 0x001fcf64 0x005fcf64 11  12   .data   ascii   CTCGridCtrl
+1095 0x001fcf70 0x005fcf70 4   5    .data   ascii   TRUE
+1096 0x001fcf78 0x005fcf78 5   6    .data   ascii   FALSE
+1097 0x001fcf80 0x005fcf80 25  26   .data   ascii   %s: Setting redraw to %s\n
+1098 0x001fcf9c 0x005fcf9c 15  16   .data   ascii   Times New Roman
+1099 0x001fcfac 0x005fcfac 53  54   .data   ascii   abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSATUVWXYZ
+1100 0x001fcfe4 0x005fcfe4 13  14   .data   ascii   Page %d of %d
+1101 0x001fcff4 0x005fcff4 4   20   .data   utf32le \n,\n,
+1102 0x001fd008 0x005fd008 20  21   .data   ascii   le to save grid list
+1103 0x001fd020 0x005fd020 24  25   .data   ascii   Unable to load grid data
+1104 0x001fd048 0x005fd048 24  25   .data   ascii   .PAVCResourceException@@
+1105 0x001fd070 0x005fd070 5   6    .data   ascii   0.1mV
+1106 0x001fd07c 0x005fd07c 7   8    .data   ascii   %1d0:00
+1107 0x001fd088 0x005fd088 4   5    .data   ascii   %.1f
+1108 0x001fd0a0 0x005fd0a0 4   5    .data   ascii   aVRg
+1109 0x001fd0ac 0x005fd0ac 4   5    .data   ascii   9988
+1110 0x001fd0bc 0x005fd0bc 21  22   .data   ascii   Test Time:  %02d:%02d
+1111 0x001fd0d4 0x005fd0d4 19  20   .data   ascii   Heart Rate: %3d bpm
+1112 0x001fd0e8 0x005fd0e8 20  21   .data   ascii   ST Change:  %3.2f mV
+1113 0x001fd100 0x005fd100 11  12   .data   ascii   [%02d:%02d]
+1114 0x001fd10c 0x005fd10c 12  13   .data   ascii   HR:  %3d bpm
+1115 0x001fd11c 0x005fd11c 13  14   .data   ascii   ST:  %3.2f mV
+1116 0x001fd12c 0x005fd12c 11  12   .data   ascii   ST:  --- mV
+1117 0x001fd138 0x005fd138 7   8    .data   ascii   %1d0:00
+1118 0x001fd140 0x005fd140 4   5    .data   ascii   %.1f
+1119 0x001fd148 0x005fd148 12  13   .data   ascii   HR*BP(*1000)
+1120 0x001fd164 0x005fd164 4   5    .data   ascii   aVRg
+1121 0x001fd170 0x005fd170 4   5    .data   ascii   9988
+1122 0x001fd17c 0x005fd17c 7   8    .data   ascii   %1d0:00
+1123 0x001fd198 0x005fd198 4   5    .data   ascii   aVRg
+1124 0x001fd1a4 0x005fd1a4 4   5    .data   ascii   9988
+1125 0x001fd1e8 0x005fd1e8 4   5    .data   ascii   SDNN
+1126 0x001fd1f0 0x005fd1f0 5   6    .data   ascii   rMSSD
+1127 0x001fd1f8 0x005fd1f8 4   5    .data   ascii   SDSD
+1128 0x001fd200 0x005fd200 5   6    .data   ascii   pNN10
+1129 0x001fd208 0x005fd208 5   6    .data   ascii   pNN20
+1130 0x001fd210 0x005fd210 5   6    .data   ascii   pNN30
+1131 0x001fd218 0x005fd218 5   6    .data   ascii   pNN40
+1132 0x001fd220 0x005fd220 5   6    .data   ascii   pNN50
+1133 0x001fd228 0x005fd228 5   6    .data   ascii   pNN60
+1134 0x001fd230 0x005fd230 5   6    .data   ascii   pNN70
+1135 0x001fd238 0x005fd238 10  11   .data   ascii   TotalPower
+1136 0x001fd250 0x005fd250 5   6    .data   ascii   LF/HF
+1137 0x001fd258 0x005fd258 11  12   .data   ascii   \common.c8k
+1138 0x001fd264 0x005fd264 8   9    .data   ascii   \hrv.c8k
+1139 0x001fd270 0x005fd270 8   9    .data   ascii   \ecg.c8k
+1140 0x001fd27c 0x005fd27c 8   9    .data   ascii   \qrs.c8k
+1141 0x001fd288 0x005fd288 6   7    .data   ascii   Wilson
+1142 0x001fd290 0x005fd290 4   5    .data   ascii   SDNN
+1143 0x001fd298 0x005fd298 5   6    .data   ascii   rMSSD
+1144 0x001fd2a0 0x005fd2a0 4   5    .data   ascii   SDSD
+1145 0x001fd2a8 0x005fd2a8 5   6    .data   ascii   pNN10
+1146 0x001fd2b0 0x005fd2b0 5   6    .data   ascii   pNN20
+1147 0x001fd2b8 0x005fd2b8 5   6    .data   ascii   pNN30
+1148 0x001fd2c0 0x005fd2c0 5   6    .data   ascii   pNN40
+1149 0x001fd2c8 0x005fd2c8 5   6    .data   ascii   pNN50
+1150 0x001fd2d0 0x005fd2d0 5   6    .data   ascii   pNN60
+1151 0x001fd2d8 0x005fd2d8 5   6    .data   ascii   pNN70
+1152 0x001fd2e0 0x005fd2e0 10  11   .data   ascii   TotalPower
+1153 0x001fd2f8 0x005fd2f8 5   6    .data   ascii   LF/HF
+1154 0x001fd300 0x005fd300 4   5    .data   ascii     ms
+1155 0x001fd30c 0x005fd30c 5   6    .data   ascii   ms*ms
+1156 0x001fd318 0x005fd318 14  15   .data   ascii   %02d:%02d:%02d
+1157 0x001fd328 0x005fd328 14  15   .data   ascii   %02d:%02d:%02d
+1158 0x001fd338 0x005fd338 4   5    .data   ascii    bpm
+1159 0x001fd340 0x005fd340 4   5    .data   ascii    sec
+1160 0x001fd348 0x005fd348 6   7    .data   ascii    %H:%M
+1161 0x001fd350 0x005fd350 6   7    .data   ascii    %H:%M
+1162 0x001fd358 0x005fd358 8   9    .data   ascii   \ecg.c8k
+1163 0x001fd364 0x005fd364 8   9    .data   ascii   \qrs.c8k
+1164 0x001fd370 0x005fd370 11  12   .data   ascii   \common.c8k
+1165 0x001fd37c 0x005fd37c 8   9    .data   ascii   \hrv.c8k
+1166 0x001fd388 0x005fd388 6   7    .data   ascii   Wilson
+1167 0x001fd3c0 0x005fd3c0 4   5    .data   ascii   2000
+1168 0x001fd3c8 0x005fd3c8 4   5    .data   ascii   1600
+1169 0x001fd3d0 0x005fd3d0 4   5    .data   ascii   1200
+1170 0x001fd3e4 0x005fd3e4 4   5    .data   ascii   1000
+1171 0x001fd3f4 0x005fd3f4 4   5    .data   ascii   -200
+1172 0x001fd3fc 0x005fd3fc 4   5    .data   ascii   -600
+1173 0x001fd404 0x005fd404 5   6    .data   ascii   -1000
+1174 0x001fd40c 0x005fd40c 15  16   .data   ascii   Times New Roman
+1175 0x001fd41c 0x005fd41c 15  16   .data   ascii   Times New Roman
+1176 0x001fd42c 0x005fd42c 10  22   .data   utf16le image/jpeg
+1177 0x001fd444 0x005fd444 9   20   .data   utf16le image/bmp
+1178 0x001fd458 0x005fd458 10  22   .data   utf16le image/tiff
+1179 0x001fd470 0x005fd470 9   20   .data   utf16le image/gif
+1180 0x001fd484 0x005fd484 9   20   .data   utf16le image/png
+1181 0x001fd49c 0x005fd49c 4   5    .data   ascii   .bmp
+1182 0x001fd4a4 0x005fd4a4 4   5    .data   ascii   .tif
+1183 0x001fd4ac 0x005fd4ac 4   5    .data   ascii   .gif
+1184 0x001fd4b4 0x005fd4b4 4   5    .data   ascii   .png
+1185 0x001fd4bc 0x005fd4bc 4   5    .data   ascii   .tif
+1186 0x001fd4c4 0x005fd4c4 10  22   .data   utf16le image/tiff
+1187 0x001fd4e0 0x005fd4e0 8   9    .data   ascii   00000409
+1188 0x001fd4f0 0x005fd4f0 8   9    .data   ascii   00000409
+1189 0x001fd4fc 0x005fd4fc 8   9    .data   ascii   00000409
+1190 0x001fd540 0x005fd540 5   6    .data   ascii   Arial
+1191 0x001fd548 0x005fd548 18  19   .data   ascii   %dmm/mV  %0.1fmm/s
+1192 0x001fd55c 0x005fd55c 15  16   .data   ascii   %dmm/mV  %dmm/s
+1193 0x001fd574 0x005fd574 10  11   .data   ascii   CLogWriter
+1194 0x001fd580 0x005fd580 8   9    .data   ascii   CMainDlg
+1195 0x001fd58c 0x005fd58c 8   9    .data   ascii   \r\n%s \r\n
+1196 0x001fd598 0x005fd598 9   10   .data   ascii   \DemoFile
+1197 0x001fd5a4 0x005fd5a4 78  79   .data   ascii   SELECT * FROM Cases WHERE (Deleted=0 OR Deleted IS NULL) ORDER BY OrderID DESC
+1198 0x001fd5f4 0x005fd5f4 6   7    .data   ascii    %H:%M
+1199 0x001fd5fc 0x005fd5fc 30  31   .data   ascii   %-16s  %-12s %-10s %-6s  %-26s
+1200 0x001fd624 0x005fd624 6   7    .data   ascii   Female
+1201 0x001fd630 0x005fd630 4   5    .data   ascii   Male
+1202 0x001fd640 0x005fd640 7   8    .data   ascii   Unknown
+1203 0x001fd650 0x005fd650 4   5    .data   ascii   %.3f
+1204 0x001fd664 0x005fd664 10  11   .data   ascii   \Drvb*.dll
+1205 0x001fd670 0x005fd670 4   5    .data   ascii   Drvb
+1206 0x001fd678 0x005fd678 4   5    .data   ascii   .dll
+1207 0x001fd680 0x005fd680 4   5    .data   ascii   .dll
+1208 0x001fd688 0x005fd688 4   5    .data   ascii   Drvb
+1209 0x001fd694 0x005fd694 5   6    .data   ascii   Error
+1210 0x001fd69c 0x005fd69c 27  28   .data   ascii   Can not find matching mode!
+1211 0x001fd6c0 0x005fd6c0 5   6    .data   ascii   ERROR
+1212 0x001fd6c8 0x005fd6c8 25  26   .data   ascii   Failed To Create Window !
+1213 0x001fd6f8 0x005fd6f8 4   5    .data   ascii    >=
+1214 0x001fd700 0x005fd700 5   6    .data   ascii       0
+1215 0x001fd708 0x005fd708 4   5    .data   ascii    <=
+1216 0x001fd748 0x005fd748 5   6    .data   ascii   Arial
+1217 0x001fd750 0x005fd750 4   20   .data   utf32le   **
+1218 0x001fd778 0x005fd778 14  15   .data   ascii   OrderID LIKE '
+1219 0x001fd78c 0x005fd78c 36  37   .data   ascii   DSN=ContecDB;USR=admin;PWD=aboutface
+1220 0x001fd7bc 0x005fd7bc 4   5    .data   ascii   %.2f
+1221 0x001fd7c4 0x005fd7c4 4   5    .data   ascii   %.2f
+1222 0x001fd7cc 0x005fd7cc 46  47   .data   ascii   F:\Workspace\StressECG\code\PatientInfoDlg.cpp
+1223 0x001fd7fc 0x005fd7fc 23  24   .data   ascii   Error!\nFile:%s\nLine:%5d
+1224 0x001fd814 0x005fd814 14  15   .data   ascii   OrderID LIKE '
+1225 0x001fd828 0x005fd828 36  37   .data   ascii   DSN=ContecDB;USR=admin;PWD=aboutface
+1226 0x001fd850 0x005fd850 46  47   .data   ascii   F:\Workspace\StressECG\code\PatientInfoDlg.cpp
+1227 0x001fd880 0x005fd880 23  24   .data   ascii   Error!\nFile:%s\nLine:%5d
+1228 0x001fd898 0x005fd898 36  37   .data   ascii   DSN=ContecDB;USR=admin;PWD=aboutface
+1229 0x001fd8c0 0x005fd8c0 7   8    .data   ascii   OrderID
+1230 0x001fd8c8 0x005fd8c8 12  13   .data   ascii   %y%m%d%H%M%S
+1231 0x001fd8dc 0x005fd8dc 12  13   .data   ascii   %y%m%d%H%M%S
+1232 0x001fd8ec 0x005fd8ec 5   24   .data   utf32le .NNN搥
+1233 0x001fd904 0x005fd904 42  43   .data   ascii   orkspace\StressECG\code\PatientInfoDlg.cpp
+1234 0x001fd930 0x005fd930 23  24   .data   ascii   Error!\nFile:%s\nLine:%5d
+1235 0x001fd95c 0x005fd95c 4   5    .data   ascii   %.2f
+1236 0x001fd964 0x005fd964 4   5    .data   ascii   %.2f
+1237 0x001fd970 0x005fd970 9   10   .data   ascii     5 mm/mV
+1238 0x001fd97c 0x005fd97c 9   10   .data   ascii    10 mm/mV
+1239 0x001fd988 0x005fd988 9   10   .data   ascii    20 mm/mV
+1240 0x001fd994 0x005fd994 9   10   .data   ascii   12.5 mm/s
+1241 0x001fd9a0 0x005fd9a0 9   10   .data   ascii     25 mm/s
+1242 0x001fd9ac 0x005fd9ac 9   10   .data   ascii     50 mm/s
+1243 0x001fda00 0x005fda00 7   8    .data   ascii   English
+1244 0x001fda10 0x005fda10 4   5    .data   ascii   foot
+1245 0x001fda18 0x005fda18 4   5    .data   ascii   inch
+1246 0x001fda24 0x005fda24 5   6    .data   ascii   pound
+1247 0x001fda30 0x005fda30 4   5    .data   ascii   km/h
+1248 0x001fda38 0x005fda38 10  11   .data   ascii   YYYY-MM-DD
+1249 0x001fda44 0x005fda44 10  11   .data   ascii   YYYY/MM/DD
+1250 0x001fda50 0x005fda50 10  11   .data   ascii   MM-DD-YYYY
+1251 0x001fda5c 0x005fda5c 10  11   .data   ascii   MM/DD/YYYY
+1252 0x001fda68 0x005fda68 10  11   .data   ascii   DD-MM-YYYY
+1253 0x001fda74 0x005fda74 10  11   .data   ascii   DD/MM/YYYY
+1254 0x001fda80 0x005fda80 11  12   .data   ascii   MMM DD,YYYY
+1255 0x001fda8c 0x005fda8c 5   6    .data   ascii   mm:ss
+1256 0x001fda9c 0x005fda9c 4   5    .data   ascii   BMP
+1257 0x001fdaa4 0x005fdaa4 4   5    .data   ascii   GIF
+1258 0x001fdaac 0x005fdaac 4   5    .data   ascii   JPG
+1259 0x001fdab4 0x005fdab4 4   5    .data   ascii   PNG
+1260 0x001fdabc 0x005fdabc 5   6    .data   ascii   TIFF
+1261 0x001fdac4 0x005fdac4 4   5    .data   ascii   PDF
+1262 0x001fdb18 0x005fdb18 5   6    .data   ascii   50 Hz
+1263 0x001fdb20 0x005fdb20 5   6    .data   ascii   60 Hz
+1264 0x001fdb28 0x005fdb28 5   6    .data   ascii   35 Hz
+1265 0x001fdb30 0x005fdb30 5   6    .data   ascii   25 Hz
+1266 0x001fdb6c 0x005fdb6c 12  13   .data   ascii   \complex.c8k
+1267 0x001fdb7c 0x005fdb7c 8   9    .data   ascii   \ecg.c8k
+1268 0x001fdbb8 0x005fdbb8 32  33   .data   ascii   \nPrintECGWave Processing Failed!
+1269 0x001fdbdc 0x005fdbdc 5   6    .data   ascii   00:00
+1270 0x001fdc14 0x005fdc14 6   7    .data   ascii   HAN:02
+1271 0x001fdc1c 0x005fdc1c 5   6    .data   ascii   %4.2f
+1272 0x001fdc24 0x005fdc24 5   6    .data   ascii   %4.2f
+1273 0x001fdc2c 0x005fdc2c 4   5    .data   ascii   2240
+1274 0x001fdc40 0x005fdc40 4   5    .data   ascii   2240
+1275 0x001fdc4c 0x005fdc4c 4   5    .data   ascii   mmHg
+1276 0x001fdc58 0x005fdc58 5   6    .data   ascii   22400
+1277 0x001fdc64 0x005fdc64 4   5    .data   ascii   METs
+1278 0x001fdc70 0x005fdc70 4   5    .data   ascii   2240
+1279 0x001fdc7c 0x005fdc7c 12  13   .data   ascii   HR*BP(*1000)
+1280 0x001fdc90 0x005fdc90 5   6    .data   ascii   22400
+1281 0x001fdc98 0x005fdc98 4   5    .data   ascii   %.0f
+1282 0x001fdca0 0x005fdca0 4   5    .data   ascii   km/h
+1283 0x001fdcac 0x005fdcac 4   5    .data   ascii   Watt
+1284 0x001fdcb8 0x005fdcb8 5   6    .data   ascii   22400
+1285 0x001fdcc0 0x005fdcc0 4   5    .data   ascii   %.0f
+1286 0x001fdcd4 0x005fdcd4 11  12   .data   ascii   \rotate.c8k
+1287 0x001fdce0 0x005fdce0 4   5    .data   ascii   2220
+1288 0x001fdcec 0x005fdcec 4   5    .data   ascii   2220
+1289 0x001fdcf8 0x005fdcf8 5   6    .data   ascii   Pdf_1
+1290 0x001fdd00 0x005fdd00 4   5    .data   ascii   .pdf
+1291 0x001fdd0c 0x005fdd0c 6   7    .data   ascii   Pdf_%d
+1292 0x001fdd14 0x005fdd14 4   5    .data   ascii   .pdf
+1293 0x001fdd20 0x005fdd20 8   9    .data   ascii   \ecg.c8k
+1294 0x001fdd2c 0x005fdd2c 9   10   .data   ascii   %02d:%02d
+1295 0x001fdd38 0x005fdd38 32  33   .data   ascii   \nPrintECGWave Processing Failed!
+1296 0x001fdd5c 0x005fdd5c 5   6    .data   ascii   %d/%d
+1297 0x001fdd6c 0x005fdd6c 6   7    .data   ascii    %H:%M
+1298 0x001fddb0 0x005fddb0 12  13   .data   ascii   \history.c8k
+1299 0x001fddc0 0x005fddc0 12  13   .data   ascii   \history.c8k
+1300 0x001fddd0 0x005fddd0 12  13   .data   ascii   \history.c8k
+1301 0x001fdde0 0x005fdde0 12  13   .data   ascii   \history.c8k
+1302 0x001fddf4 0x005fddf4 6   7    .data   ascii    %H:%M
+1303 0x001fddfc 0x005fddfc 12  13   .data   ascii   CWrapperView
+1304 0x001fde0c 0x005fde0c 15  16   .data   ascii   CAdvPreviewView
+1305 0x001fde1c 0x005fde1c 13  14   .data   ascii   CPreviewFrame
+1306 0x001fde2c 0x005fde2c 13  14   .data   ascii   ECG Reporting
+1307 0x001fde3c 0x005fde3c 13  56   .data   utf32le 0123450搥][搥0搥
+1308 0x001fde78 0x005fde78 7   8    .data   ascii   Archive
+1309 0x001fde80 0x005fde80 4   5    .data   ascii   .bmp
+1310 0x001fde88 0x005fde88 4   5    .data   ascii   .gif
+1311 0x001fde90 0x005fde90 4   5    .data   ascii   .jpg
+1312 0x001fde98 0x005fde98 4   5    .data   ascii   .png
+1313 0x001fdea0 0x005fdea0 5   6    .data   ascii   .tiff
+1314 0x001fdea8 0x005fdea8 36  37   .data   ascii   could not found Bullzip PDF Printer!
+1315 0x001fded0 0x005fded0 6   7    .data   ascii   Report
+1316 0x001fded8 0x005fded8 7   8    .data   ascii   Archive
+1317 0x001fdee4 0x005fdee4 6   7    .data   ascii   CONTEC
+1318 0x001fdeec 0x005fdeec 6   7    .data   ascii   CONTEC
+1319 0x001fdef4 0x005fdef4 6   7    .data   ascii   CONTEC
+1320 0x001fdefc 0x005fdefc 26  27   .data   ascii   Printer wouldn't initalize
+1321 0x001fdf18 0x005fdf18 20  21   .data   ascii   Could not start page
+1322 0x001fdf30 0x005fdf30 6   7    .data   ascii   CONTEC
+1323 0x001fdf3c 0x005fdf3c 14  15   .data   ascii   OrderID LIKE '
+1324 0x001fdf4c 0x005fdf4c 8   9    .data   ascii   %Y-%m-%d
+1325 0x001fdf58 0x005fdf58 4   5    .data   ascii   %.2f
+1326 0x001fdf60 0x005fdf60 8   9    .data   ascii
+1327 0x001fdf70 0x005fdf70 4   5    .data   ascii   %.2f
+1328 0x001fdf78 0x005fdf78 8   9    .data   ascii
+1329 0x001fdf88 0x005fdf88 10  11   .data   ascii   \stage.c8k
+1330 0x001fdf94 0x005fdf94 12  13   .data   ascii   \summary.c8k
+1331 0x001fdfb8 0x005fdfb8 6   7    .data   ascii   (km/h)
+1332 0x001fdfc8 0x005fdfc8 5   6    .data   ascii   (mph)
+1333 0x001fdfd0 0x005fdfd0 5   6    .data   ascii   (rpm)
+1334 0x001fdfdc 0x005fdfdc 6   7    .data   ascii   (Watt)
+1335 0x001fdfe4 0x005fdfe4 4   5    .data   ascii   ----
+1336 0x001fdff0 0x005fdff0 4   5    .data   ascii   ----
+1337 0x001fdffc 0x005fdffc 4   5    .data   ascii   ----
+1338 0x001fe00c 0x005fe00c 9   10   .data   ascii   %02d:%02d
+1339 0x001fe018 0x005fe018 4   5    .data   ascii   ----
+1340 0x001fe020 0x005fe020 4   5    .data   ascii   %.1f
+1341 0x001fe028 0x005fe028 4   5    .data   ascii   ----
+1342 0x001fe030 0x005fe030 4   5    .data   ascii   %.1f
+1343 0x001fe038 0x005fe038 4   5    .data   ascii   ----
+1344 0x001fe040 0x005fe040 4   5    .data   ascii   %.1f
+1345 0x001fe048 0x005fe048 4   5    .data   ascii   ----
+1346 0x001fe050 0x005fe050 4   5    .data   ascii   %.1f
+1347 0x001fe05c 0x005fe05c 11  12   .data   ascii   \report.c8k
+1348 0x001fe070 0x005fe070 9   10   .data   ascii   %02d:%02d
+1349 0x001fe07c 0x005fe07c 5   6    .data   ascii   mm:ss
+1350 0x001fe084 0x005fe084 4   5    .data   ascii   ----
+1351 0x001fe08c 0x005fe08c 4   5    .data   ascii   %.1f
+1352 0x001fe094 0x005fe094 4   5    .data   ascii   ----
+1353 0x001fe09c 0x005fe09c 4   5    .data   ascii   %.1f
+1354 0x001fe0a4 0x005fe0a4 4   5    .data   ascii   km/h
+1355 0x001fe0b0 0x005fe0b0 4   5    .data   ascii   ----
+1356 0x001fe0b8 0x005fe0b8 4   5    .data   ascii   %.1f
+1357 0x001fe0c0 0x005fe0c0 4   5    .data   ascii   Watt
+1358 0x001fe0c8 0x005fe0c8 4   5    .data   ascii   ----
+1359 0x001fe0d0 0x005fe0d0 4   5    .data   ascii   %.1f
+1360 0x001fe114 0x005fe114 4   5    .data   ascii   ----
+1361 0x001fe120 0x005fe120 4   5    .data   ascii   ----
+1362 0x001fe130 0x005fe130 5   6    .data   ascii   --:--
+1363 0x001fe138 0x005fe138 9   10   .data   ascii   %02d:%02d
+1364 0x001fe144 0x005fe144 4   5    .data   ascii   %.1f
+1365 0x001fe150 0x005fe150 4   5    .data   ascii   ----
+1366 0x001fe158 0x005fe158 4   5    .data   ascii   %.1f
+1367 0x001fe160 0x005fe160 5   6    .data   ascii   -----
+1368 0x001fe168 0x005fe168 4   5    .data   ascii   METs
+1369 0x001fe170 0x005fe170 5   6    .data   ascii   --:--
+1370 0x001fe178 0x005fe178 9   10   .data   ascii   %02d:%02d
+1371 0x001fe184 0x005fe184 5   6    .data   ascii   --:--
+1372 0x001fe18c 0x005fe18c 7   8    .data   ascii   -------
+1373 0x001fe194 0x005fe194 4   5    .data   ascii   %.1f
+1374 0x001fe19c 0x005fe19c 8   9    .data   ascii   bpm*mmHg
+1375 0x001fe1a8 0x005fe1a8 5   6    .data   ascii   --:--
+1376 0x001fe1b0 0x005fe1b0 9   10   .data   ascii   %02d:%02d
+1377 0x001fe1bc 0x005fe1bc 4   5    .data   ascii   ----
+1378 0x001fe1c4 0x005fe1c4 4   5    .data   ascii   %.1f
+1379 0x001fe1cc 0x005fe1cc 4   5    .data   ascii   mmHg
+1380 0x001fe1d4 0x005fe1d4 5   6    .data   ascii   --:--
+1381 0x001fe1dc 0x005fe1dc 9   10   .data   ascii   %02d:%02d
+1382 0x001fe1e8 0x005fe1e8 4   5    .data   ascii   ----
+1383 0x001fe1f0 0x005fe1f0 4   5    .data   ascii   %.1f
+1384 0x001fe1f8 0x005fe1f8 4   5    .data   ascii   mmHg
+1385 0x001fe200 0x005fe200 5   6    .data   ascii   --:--
+1386 0x001fe208 0x005fe208 9   10   .data   ascii   %02d:%02d
+1387 0x001fe214 0x005fe214 4   5    .data   ascii   ----
+1388 0x001fe21c 0x005fe21c 4   5    .data   ascii   %.2f
+1389 0x001fe228 0x005fe228 5   6    .data   ascii   --:--
+1390 0x001fe230 0x005fe230 9   10   .data   ascii   %02d:%02d
+1391 0x001fe23c 0x005fe23c 4   5    .data   ascii   ----
+1392 0x001fe244 0x005fe244 4   5    .data   ascii   ----
+1393 0x001fe24c 0x005fe24c 4   5    .data   ascii   %.2f
+1394 0x001fe258 0x005fe258 5   6    .data   ascii   --:--
+1395 0x001fe260 0x005fe260 9   10   .data   ascii   %02d:%02d
+1396 0x001fe26c 0x005fe26c 4   5    .data   ascii   ----
+1397 0x001fe274 0x005fe274 4   5    .data   ascii   ----
+1398 0x001fe27c 0x005fe27c 4   5    .data   ascii   %.2f
+1399 0x001fe288 0x005fe288 5   6    .data   ascii   --:--
+1400 0x001fe290 0x005fe290 9   10   .data   ascii   %02d:%02d
+1401 0x001fe29c 0x005fe29c 4   5    .data   ascii   ----
+1402 0x001fe2a4 0x005fe2a4 4   5    .data   ascii   ----
+1403 0x001fe2ac 0x005fe2ac 4   5    .data   ascii   %.2f
+1404 0x001fe2b8 0x005fe2b8 5   6    .data   ascii   --:--
+1405 0x001fe2c0 0x005fe2c0 9   10   .data   ascii   %02d:%02d
+1406 0x001fe2cc 0x005fe2cc 4   5    .data   ascii   ----
+1407 0x001fe33c 0x005fe33c 31  32   .data   ascii   \nPrintResult Processing Failed!
+1408 0x001fe360 0x005fe360 14  15   .data   ascii   OrderID LIKE '
+1409 0x001fe370 0x005fe370 8   9    .data   ascii   %Y-%m-%d
+1410 0x001fe37c 0x005fe37c 4   5    .data   ascii   %.2f
+1411 0x001fe384 0x005fe384 7   8    .data   ascii
+1412 0x001fe390 0x005fe390 4   5    .data   ascii   %.2f
+1413 0x001fe398 0x005fe398 7   8    .data   ascii
+1414 0x001fe3a4 0x005fe3a4 10  11   .data   ascii   \stage.c8k
+1415 0x001fe3b0 0x005fe3b0 12  13   .data   ascii   \summary.c8k
+1416 0x001fe3cc 0x005fe3cc 6   7    .data   ascii   (km/h)
+1417 0x001fe3e0 0x005fe3e0 5   6    .data   ascii   (mph)
+1418 0x001fe3e8 0x005fe3e8 5   6    .data   ascii   (rpm)
+1419 0x001fe3f8 0x005fe3f8 6   7    .data   ascii   (Watt)
+1420 0x001fe400 0x005fe400 4   5    .data   ascii   ----
+1421 0x001fe40c 0x005fe40c 4   5    .data   ascii   ----
+1422 0x001fe418 0x005fe418 4   5    .data   ascii   ----
+1423 0x001fe428 0x005fe428 9   10   .data   ascii   %02d:%02d
+1424 0x001fe434 0x005fe434 4   5    .data   ascii   ----
+1425 0x001fe43c 0x005fe43c 4   5    .data   ascii   %.1f
+1426 0x001fe444 0x005fe444 4   5    .data   ascii   ----
+1427 0x001fe44c 0x005fe44c 4   5    .data   ascii   %.1f
+1428 0x001fe454 0x005fe454 4   5    .data   ascii   ----
+1429 0x001fe45c 0x005fe45c 4   5    .data   ascii   %.1f
+1430 0x001fe464 0x005fe464 4   5    .data   ascii   ----
+1431 0x001fe46c 0x005fe46c 4   5    .data   ascii   %.1f
+1432 0x001fe478 0x005fe478 11  12   .data   ascii   \report.c8k
+1433 0x001fe48c 0x005fe48c 9   10   .data   ascii   %02d:%02d
+1434 0x001fe498 0x005fe498 5   6    .data   ascii   mm:ss
+1435 0x001fe4a0 0x005fe4a0 4   5    .data   ascii   ----
+1436 0x001fe4a8 0x005fe4a8 4   5    .data   ascii   %.1f
+1437 0x001fe4b0 0x005fe4b0 4   5    .data   ascii   ----
+1438 0x001fe4b8 0x005fe4b8 4   5    .data   ascii   %.1f
+1439 0x001fe4c0 0x005fe4c0 4   5    .data   ascii   km/h
+1440 0x001fe4cc 0x005fe4cc 4   5    .data   ascii   ----
+1441 0x001fe4d4 0x005fe4d4 4   5    .data   ascii   %.1f
+1442 0x001fe4dc 0x005fe4dc 4   5    .data   ascii   Watt
+1443 0x001fe4e4 0x005fe4e4 4   5    .data   ascii   ----
+1444 0x001fe4ec 0x005fe4ec 4   5    .data   ascii   %.1f
+1445 0x001fe530 0x005fe530 4   5    .data   ascii   ----
+1446 0x001fe53c 0x005fe53c 4   5    .data   ascii   ----
+1447 0x001fe54c 0x005fe54c 5   6    .data   ascii   --:--
+1448 0x001fe554 0x005fe554 9   10   .data   ascii   %02d:%02d
+1449 0x001fe560 0x005fe560 4   5    .data   ascii   %.1f
+1450 0x001fe56c 0x005fe56c 4   5    .data   ascii   ----
+1451 0x001fe574 0x005fe574 4   5    .data   ascii   %.1f
+1452 0x001fe57c 0x005fe57c 5   6    .data   ascii   -----
+1453 0x001fe584 0x005fe584 4   5    .data   ascii   METs
+1454 0x001fe58c 0x005fe58c 5   6    .data   ascii   --:--
+1455 0x001fe594 0x005fe594 9   10   .data   ascii   %02d:%02d
+1456 0x001fe5a0 0x005fe5a0 5   6    .data   ascii   --:--
+1457 0x001fe5a8 0x005fe5a8 7   8    .data   ascii   -------
+1458 0x001fe5b0 0x005fe5b0 4   5    .data   ascii   %.1f
+1459 0x001fe5b8 0x005fe5b8 8   9    .data   ascii   bpm*mmHg
+1460 0x001fe5c4 0x005fe5c4 5   6    .data   ascii   --:--
+1461 0x001fe5cc 0x005fe5cc 9   10   .data   ascii   %02d:%02d
+1462 0x001fe5d8 0x005fe5d8 4   5    .data   ascii   ----
+1463 0x001fe5e0 0x005fe5e0 4   5    .data   ascii   %.1f
+1464 0x001fe5e8 0x005fe5e8 4   5    .data   ascii   mmHg
+1465 0x001fe5f0 0x005fe5f0 5   6    .data   ascii   --:--
+1466 0x001fe5f8 0x005fe5f8 9   10   .data   ascii   %02d:%02d
+1467 0x001fe604 0x005fe604 4   5    .data   ascii   ----
+1468 0x001fe60c 0x005fe60c 4   5    .data   ascii   %.1f
+1469 0x001fe614 0x005fe614 4   5    .data   ascii   mmHg
+1470 0x001fe61c 0x005fe61c 5   6    .data   ascii   --:--
+1471 0x001fe624 0x005fe624 9   10   .data   ascii   %02d:%02d
+1472 0x001fe630 0x005fe630 4   5    .data   ascii   ----
+1473 0x001fe638 0x005fe638 4   5    .data   ascii   %.2f
+1474 0x001fe644 0x005fe644 5   6    .data   ascii   --:--
+1475 0x001fe64c 0x005fe64c 9   10   .data   ascii   %02d:%02d
+1476 0x001fe658 0x005fe658 4   5    .data   ascii   ----
+1477 0x001fe660 0x005fe660 4   5    .data   ascii   ----
+1478 0x001fe668 0x005fe668 4   5    .data   ascii   %.2f
+1479 0x001fe674 0x005fe674 5   6    .data   ascii   --:--
+1480 0x001fe67c 0x005fe67c 9   10   .data   ascii   %02d:%02d
+1481 0x001fe688 0x005fe688 4   5    .data   ascii   ----
+1482 0x001fe690 0x005fe690 4   5    .data   ascii   ----
+1483 0x001fe698 0x005fe698 4   5    .data   ascii   %.2f
+1484 0x001fe6a4 0x005fe6a4 5   6    .data   ascii   --:--
+1485 0x001fe6ac 0x005fe6ac 9   10   .data   ascii   %02d:%02d
+1486 0x001fe6b8 0x005fe6b8 4   5    .data   ascii   ----
+1487 0x001fe6c0 0x005fe6c0 4   5    .data   ascii   ----
+1488 0x001fe6c8 0x005fe6c8 4   5    .data   ascii   %.2f
+1489 0x001fe6d4 0x005fe6d4 5   6    .data   ascii   --:--
+1490 0x001fe6dc 0x005fe6dc 9   10   .data   ascii   %02d:%02d
+1491 0x001fe6e8 0x005fe6e8 4   5    .data   ascii   ----
+1492 0x001fe758 0x005fe758 31  32   .data   ascii   \nPrintResult Processing Failed!
+1493 0x001fe7a8 0x005fe7a8 4   5    .data   ascii   km/h
+1494 0x001fe7b4 0x005fe7b4 5   6    .data   ascii   00:00
+1495 0x001fe7c8 0x005fe7c8 7   8    .data   ascii   135/100
+1496 0x001fe7d4 0x005fe7d4 6   7    .data   ascii   -17850
+1497 0x001fe7dc 0x005fe7dc 4   5    .data   ascii   -1.6
+1498 0x001fe7e4 0x005fe7e4 12  13   .data   ascii   \complex.c8k
+1499 0x001fe7f4 0x005fe7f4 10  11   .data   ascii   \stage.c8k
+1500 0x001fe800 0x005fe800 7   8    .data   ascii   \bp.c8k
+1501 0x001fe808 0x005fe808 5   6    .data   ascii   00:00
+1502 0x001fe810 0x005fe810 14  15   .data   ascii   %dmm/mV %dmm/s
+1503 0x001fe820 0x005fe820 16  17   .data   ascii   %dmm/mV %.1fmm/s
+1504 0x001fe834 0x005fe834 9   10   .data   ascii   %02d:%02d
+1505 0x001fe840 0x005fe840 10  11   .data   ascii   \stage.c8k
+1506 0x001fe84c 0x005fe84c 12  13   .data   ascii   \complex.c8k
+1507 0x001fe85c 0x005fe85c 6   7    .data   ascii   %d bpm
+1508 0x001fe864 0x005fe864 7   8    .data   ascii   \bp.c8k
+1509 0x001fe86c 0x005fe86c 10  11   .data   ascii   %d/%d mmHg
+1510 0x001fe8a8 0x005fe8a8 9   10   .data   ascii   %02d:%02d
+1511 0x001fe8b4 0x005fe8b4 10  11   .data   ascii   \stage.c8k
+1512 0x001fe8c0 0x005fe8c0 12  13   .data   ascii   \complex.c8k
+1513 0x001fe8d0 0x005fe8d0 6   7    .data   ascii   %d bpm
+1514 0x001fe8d8 0x005fe8d8 7   8    .data   ascii   \bp.c8k
+1515 0x001fe8e0 0x005fe8e0 10  11   .data   ascii   %d/%d mmHg
+1516 0x001fe91c 0x005fe91c 10  11   .data   ascii   \event.c8k
+1517 0x001fe928 0x005fe928 9   10   .data   ascii   %02d:%02d
+1518 0x001fe934 0x005fe934 14  15   .data   ascii   %dmm/mV %dmm/s
+1519 0x001fe944 0x005fe944 16  17   .data   ascii   %dmm/mV %.1fmm/s
+1520 0x001fe988 0x005fe988 12  13   .data   ascii   \complex.c8k
+1521 0x001fe998 0x005fe998 4   5    .data   ascii   %.1f
+1522 0x001fe9d4 0x005fe9d4 12  13   .data   ascii   \complex.c8k
+1523 0x001fe9e4 0x005fe9e4 4   5    .data   ascii   %.1f
+1524 0x001fea20 0x005fea20 12  13   .data   ascii   \complex.c8k
+1525 0x001fea30 0x005fea30 4   5    .data   ascii   %.0f
+1526 0x001fea38 0x005fea38 4   5    .data   ascii   deg.
+1527 0x001fea40 0x005fea40 4   5    .data   ascii   %.0f
+1528 0x001fea48 0x005fea48 4   5    .data   ascii   mV/s
+1529 0x001feab0 0x005feab0 12  13   .data   ascii   \complex.c8k
+1530 0x001feac0 0x005feac0 4   5    .data   ascii   %.1f
+1531 0x001feacc 0x005feacc 5   6    .data   ascii   00:00
+1532 0x001fead4 0x005fead4 9   10   .data   ascii   %02d:%02d
+1533 0x001feae0 0x005feae0 12  13   .data   ascii   \complex.c8k
+1534 0x001feaf0 0x005feaf0 6   7    .data   ascii   %d bpm
+1535 0x001feaf8 0x005feaf8 7   8    .data   ascii   \bp.c8k
+1536 0x001feb00 0x005feb00 10  11   .data   ascii   %d/%d mmHg
+1537 0x001feb3c 0x005feb3c 12  13   .data   ascii   \complex.c8k
+1538 0x001feb4c 0x005feb4c 4   5    .data   ascii   %.1f
+1539 0x001feb54 0x005feb54 6   7    .data   ascii   uV/bpm
+1540 0x001feb8c 0x005feb8c 12  13   .data   ascii   \complex.c8k
+1541 0x001feb9c 0x005feb9c 12  13   .data   ascii   \complex.c8k
+1542 0x001febac 0x005febac 4   5    .data   ascii   %.1f
+1543 0x001febb8 0x005febb8 12  13   .data   ascii   \complex.c8k
+1544 0x001febc8 0x005febc8 4   5    .data   ascii   %.1f
+1545 0x001febd4 0x005febd4 12  13   .data   ascii   \complex.c8k
+1546 0x001febe4 0x005febe4 4   5    .data   ascii   %.0f
+1547 0x001febec 0x005febec 4   5    .data   ascii   deg.
+1548 0x001febf4 0x005febf4 4   5    .data   ascii   %.0f
+1549 0x001febfc 0x005febfc 4   5    .data   ascii   mV/s
+1550 0x001fec04 0x005fec04 12  13   .data   ascii   \complex.c8k
+1551 0x001fec14 0x005fec14 4   5    .data   ascii   %.1f
+1552 0x001fec1c 0x005fec1c 6   7    .data   ascii   uV/bpm
+1553 0x001fec24 0x005fec24 12  13   .data   ascii   \complex.c8k
+1554 0x001fec34 0x005fec34 4   5    .data   ascii   %.1f
+1555 0x001fec40 0x005fec40 5   6    .data   ascii   (X-Y)
+1556 0x001fec48 0x005fec48 5   6    .data   ascii   (X-Z)
+1557 0x001fec5c 0x005fec5c 7   8    .data   ascii   %dmm/mV
+1558 0x001fec64 0x005fec64 10  11   .data   ascii   II %2.2f%%
+1559 0x001fec70 0x005fec70 11  12   .data   ascii   III %2.2f%%
+1560 0x001fec7c 0x005fec7c 9   10   .data   ascii   I %2.2f%%
+1561 0x001fec88 0x005fec88 10  11   .data   ascii   IV %2.2f%%
+1562 0x001feca8 0x005feca8 8   9    .data   ascii   50mm/s
+1563 0x001fecb4 0x005fecb4 6   7    .data   ascii    %d ms
+1564 0x001fecc0 0x005fecc0 6   7    .data   ascii    %d ms
+1565 0x001feccc 0x005feccc 6   7    .data   ascii    %d ms
+1566 0x001fecd4 0x005fecd4 4   5    .data   ascii   QRS:
+1567 0x001fece4 0x005fece4 6   7    .data   ascii   0.01s:
+1568 0x001fecec 0x005fecec 6   7    .data   ascii   0.02s:
+1569 0x001fecf4 0x005fecf4 6   7    .data   ascii   0.03s:
+1570 0x001fecfc 0x005fecfc 6   7    .data   ascii   0.04s:
+1571 0x001fed24 0x005fed24 10  11   .data   ascii   \stage.c8k
+1572 0x001fed30 0x005fed30 8   9    .data   ascii   \vpt.c8k
+1573 0x001fed3c 0x005fed3c 10  11   .data   ascii   \stage.c8k
+1574 0x001fed48 0x005fed48 8   9    .data   ascii   \vpt.c8k
+1575 0x001fed54 0x005fed54 8   9    .data   ascii   \hrv.c8k
+1576 0x001fed64 0x005fed64 6   7    .data   ascii   SDNN :
+1577 0x001fed6c 0x005fed6c 7   8    .data   ascii   rMSSD :
+1578 0x001fed74 0x005fed74 6   7    .data   ascii   SDSD :
+1579 0x001fed7c 0x005fed7c 12  13   .data   ascii   TotalPower :
+1580 0x001fed8c 0x005fed8c 5   6    .data   ascii   VLF :
+1581 0x001fed94 0x005fed94 4   5    .data   ascii   LF :
+1582 0x001fed9c 0x005fed9c 4   5    .data   ascii   HF :
+1583 0x001feda4 0x005feda4 7   8    .data   ascii   LF/HF :
+1584 0x001fedb8 0x005fedb8 5   6    .data   ascii   ms*ms
+1585 0x001fedc0 0x005fedc0 5   6    .data   ascii   ms*ms
+1586 0x001fedc8 0x005fedc8 5   6    .data   ascii   ms*ms
+1587 0x001fedd0 0x005fedd0 5   6    .data   ascii   ms*ms
+1588 0x001fedd8 0x005fedd8 5   6    .data   ascii   ms*ms
+1589 0x001fede0 0x005fede0 5   6    .data   ascii   %0.2f
+1590 0x001fede8 0x005fede8 5   6    .data   ascii   %0.2f
+1591 0x001fedf0 0x005fedf0 5   6    .data   ascii   pNN10
+1592 0x001fedf8 0x005fedf8 5   6    .data   ascii   pNN20
+1593 0x001fee00 0x005fee00 5   6    .data   ascii   pNN30
+1594 0x001fee08 0x005fee08 5   6    .data   ascii   pNN40
+1595 0x001fee10 0x005fee10 5   6    .data   ascii   pNN50
+1596 0x001fee18 0x005fee18 5   6    .data   ascii   pNN60
+1597 0x001fee20 0x005fee20 5   6    .data   ascii   pNN70
+1598 0x001fee28 0x005fee28 7   8    .data   ascii   %0.2f%%
+1599 0x001fee30 0x005fee30 8   9    .data   ascii   \ecg.c8k
+1600 0x001fee3c 0x005fee3c 11  12   .data   ascii   \common.c8k
+1601 0x001fee48 0x005fee48 6   7    .data   ascii   Wilson
+1602 0x001fee50 0x005fee50 14  15   .data   ascii   %02d:%02d:%02d
+1603 0x001fee60 0x005fee60 14  15   .data   ascii   %02d:%02d:%02d
+1604 0x001fee84 0x005fee84 5   24   .data   utf32le \nXYZ穈
+1605 0x001fee9c 0x005fee9c 5   6    .data   ascii   50Hz\n
+1606 0x001feea4 0x005feea4 9   10   .data   ascii   40-250Hz\n
+1607 0x001feeb0 0x005feeb0 9   10   .data   ascii   25ms/div\n
+1608 0x001feebc 0x005feebc 8   9    .data   ascii   10uv/div
+1609 0x001feec8 0x005feec8 7   8    .data   ascii   5uv/div
+1610 0x001feee0 0x005feee0 12  13   .data   ascii   25Hz - 250Hz
+1611 0x001feef0 0x005feef0 12  13   .data   ascii   40Hz - 250Hz
+1612 0x001fef00 0x005fef00 10  11   .data   ascii   \stage.c8k
+1613 0x001fef0c 0x005fef0c 8   9    .data   ascii   \lpt.c8k
+1614 0x001fef18 0x005fef18 8   9    .data   ascii   40-250Hz
+1615 0x001fef24 0x005fef24 8   9    .data   ascii   25-250Hz
+1616 0x001fef30 0x005fef30 8   9    .data   ascii   DC-250Hz
+1617 0x001fef3c 0x005fef3c 8   9    .data   ascii   DC-250Hz
+1618 0x001fef48 0x005fef48 5   6    .data   ascii   Arial
+1619 0x001fef50 0x005fef50 5   6    .data   ascii   Arial
+1620 0x001fef88 0x005fef88 10  11   .data   ascii   \stage.c8k
+1621 0x001fef9c 0x005fef9c 15  16   .data   ascii   %dmm/mV %dmm/ms
+1622 0x001fefac 0x005fefac 4   5    .data   ascii   Type
+1623 0x001ff01c 0x005ff01c 4   5    .data   ascii   Type
+1624 0x001ff061 0x005ff061 5   6    .data   ascii   e.c8k
+1625 0x001ff070 0x005ff070 15  16   .data   ascii   %dmm/mV %dmm/ms
+1626 0x001ff090 0x005ff090 19  20   .data   ascii   Import User Profile
+1627 0x001ff0b4 0x005ff0b4 19  20   .data   ascii   Export User Profile
+1628 0x001ff0c8 0x005ff0c8 15  16   .data   ascii   OnSaveProfile()
+1629 0x001ff0d8 0x005ff0d8 14  15   .data   ascii   OnDelProfile()
+1630 0x001ff0e8 0x005ff0e8 5   6    .data   ascii   *.cpf
+1631 0x001ff0fc 0x005ff0fc 5   6    .data   ascii   *.cpf
+1632 0x001ff110 0x005ff110 14  15   .data   ascii   OnSetCurrent()
+1633 0x001ff128 0x005ff128 18  19   .data   ascii   .PAVCDBException@@
+1634 0x001ff13c 0x005ff13c 35  36   .data   ascii   SELECT DISTINCT Name FROM Protocols
+1635 0x001ff160 0x005ff160 4   5    .data   ascii   Name
+1636 0x001ff16c 0x005ff16c 11  12   .data   ascii   Name LIKE '
+1637 0x001ff178 0x005ff178 30  31   .data   ascii   StageType ASC, StageNumber ASC
+1638 0x001ff198 0x005ff198 40  41   .data   ascii   {{C0ntec 7re@dmi11 Pr0t0c01:Zoo4.!!.z3}}
+1639 0x001ff1c4 0x005ff1c4 40  41   .data   ascii   {{C0ntec 7re@dmi11 Pr0t0c01:Zoo4.!!.z3}}
+1640 0x001ff1f0 0x005ff1f0 36  37   .data   ascii   DSN=ContecDB;USR=admin;PWD=aboutface
+1641 0x001ff21c 0x005ff21c 39  40   .data   ascii   DELETE FROM Protocols WHERE Name LIKE '
+1642 0x001ff24c 0x005ff24c 53  54   .data   ascii   SELECT DISTINCT Name FROM Protocols WHERE Name LIKE '
+1643 0x001ff284 0x005ff284 4   5    .data   ascii   Name
+1644 0x001ff28c 0x005ff28c 4   5    .data   ascii   %s%d
+1645 0x001ff294 0x005ff294 36  37   .data   ascii   DSN=ContecDB;USR=admin;PWD=aboutface
+1646 0x001ff2c0 0x005ff2c0 36  37   .data   ascii   DSN=ContecDB;USR=admin;PWD=aboutface
+1647 0x001ff2ec 0x005ff2ec 36  37   .data   ascii   DELETE FROM Protocols WHERE Name = '
+1648 0x001ff314 0x005ff314 53  54   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings
+1649 0x001ff34c 0x005ff34c 16  17   .data   ascii   Current Protocol
+1650 0x001ff360 0x005ff360 53  54   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings
+1651 0x001ff398 0x005ff398 16  17   .data   ascii   Current Protocol
+1652 0x001ff3ac 0x005ff3ac 18  19   .data   ascii   CProtocolRecordset
+1653 0x001ff3c0 0x005ff3c0 41  42   .data   ascii   ODBC;DSN=ContecDB;USR=admin;PWD=aboutface
+1654 0x001ff3ec 0x005ff3ec 11  12   .data   ascii   [Protocols]
+1655 0x001ff3f8 0x005ff3f8 6   7    .data   ascii   [Name]
+1656 0x001ff400 0x005ff400 11  12   .data   ascii   [StageType]
+1657 0x001ff40c 0x005ff40c 13  14   .data   ascii   [StageNumber]
+1658 0x001ff41c 0x005ff41c 11  12   .data   ascii   [StageName]
+1659 0x001ff428 0x005ff428 7   8    .data   ascii   [Speed]
+1660 0x001ff430 0x005ff430 7   8    .data   ascii   [Grade]
+1661 0x001ff438 0x005ff438 8   9    .data   ascii   [ECGPrt]
+1662 0x001ff444 0x005ff444 8   9    .data   ascii   [BPMean]
+1663 0x001ff450 0x005ff450 6   7    .data   ascii   [Time]
+1664 0x001ff458 0x005ff458 11  12   .data   ascii   [RefNumber]
+1665 0x001ff464 0x005ff464 6   7    .data   ascii   [Type]
+1666 0x001ff47c 0x005ff47c 15  16   .data   ascii   Import Protocol
+1667 0x001ff49c 0x005ff49c 15  16   .data   ascii   Export Protocol
+1668 0x001ff4ac 0x005ff4ac 5   6    .data   ascii   *.cpt
+1669 0x001ff4c8 0x005ff4c8 5   6    .data   ascii   *.cpt
+1670 0x001ff4e4 0x005ff4e4 5   6    .data   ascii   Arial
+1671 0x001ff4ec 0x005ff4ec 5   6    .data   ascii   mm:ss
+1672 0x001ff4f4 0x005ff4f4 4   5    .data   ascii   km/h
+1673 0x001ff500 0x005ff500 5   6    .data   ascii   mm:ss
+1674 0x001ff510 0x005ff510 4   5    .data   ascii   %.1f
+1675 0x001ff51c 0x005ff51c 4   5    .data   ascii   km/h
+1676 0x001ff524 0x005ff524 4   5    .data   ascii   %.1f
+1677 0x001ff52c 0x005ff52c 9   10   .data   ascii   %02d:%02d
+1678 0x001ff53c 0x005ff53c 5   6    .data   ascii   %4.1f
+1679 0x001ff544 0x005ff544 5   6    .data   ascii   %4.1f
+1680 0x001ff54c 0x005ff54c 5   6    .data   ascii   %4.1f
+1681 0x001ff554 0x005ff554 5   6    .data   ascii   02:00
+1682 0x001ff568 0x005ff568 4   5    .data   ascii   Watt
+1683 0x001ff574 0x005ff574 4   5    .data   ascii   km/h
+1684 0x001ff580 0x005ff580 5   6    .data   ascii   mm:ss
+1685 0x001ff588 0x005ff588 4   5    .data   ascii   km/h
+1686 0x001ff594 0x005ff594 5   6    .data   ascii   mm:ss
+1687 0x001ff5a4 0x005ff5a4 4   5    .data   ascii   %.1f
+1688 0x001ff5b0 0x005ff5b0 4   5    .data   ascii   km/h
+1689 0x001ff5b8 0x005ff5b8 4   5    .data   ascii   %.1f
+1690 0x001ff5c0 0x005ff5c0 9   10   .data   ascii   %02d:%02d
+1691 0x001ff5d0 0x005ff5d0 5   6    .data   ascii   %4.1f
+1692 0x001ff5d8 0x005ff5d8 5   6    .data   ascii   %4.1f
+1693 0x001ff5e0 0x005ff5e0 5   6    .data   ascii   %4.1f
+1694 0x001ff5e8 0x005ff5e8 5   6    .data   ascii   01:00
+1695 0x001ff5fc 0x005ff5fc 4   5    .data   ascii   Watt
+1696 0x001ff608 0x005ff608 4   5    .data   ascii   km/h
+1697 0x001ff614 0x005ff614 5   6    .data   ascii   mm:ss
+1698 0x001ff61c 0x005ff61c 4   5    .data   ascii   km/h
+1699 0x001ff628 0x005ff628 5   6    .data   ascii   mm:ss
+1700 0x001ff638 0x005ff638 4   5    .data   ascii   %.1f
+1701 0x001ff644 0x005ff644 4   5    .data   ascii   km/h
+1702 0x001ff64c 0x005ff64c 4   5    .data   ascii   %.1f
+1703 0x001ff654 0x005ff654 9   10   .data   ascii   %02d:%02d
+1704 0x001ff664 0x005ff664 5   6    .data   ascii   %4.1f
+1705 0x001ff66c 0x005ff66c 5   6    .data   ascii   %4.1f
+1706 0x001ff674 0x005ff674 5   6    .data   ascii   %4.1f
+1707 0x001ff67c 0x005ff67c 5   6    .data   ascii   02:00
+1708 0x001ff690 0x005ff690 4   5    .data   ascii   Watt
+1709 0x001ff69c 0x005ff69c 4   5    .data   ascii   km/h
+1710 0x001ff6ac 0x005ff6ac 10  11   .data   ascii   CReplayDlg
+1711 0x001ff6e0 0x005ff6e0 4   5    .data   ascii   METs
+1712 0x001ff700 0x005ff700 8   9    .data   ascii   bpm*mmHg
+1713 0x001ff70c 0x005ff70c 5   6    .data   ascii   -----
+1714 0x001ff714 0x005ff714 6   7    .data   ascii   uV/bpm
+1715 0x001ff724 0x005ff724 4   5    .data   ascii   mmHg
+1716 0x001ff72c 0x005ff72c 5   6    .data   ascii   --:--
+1717 0x001ff734 0x005ff734 7   8    .data   ascii   SYS/DIA
+1718 0x001ff73c 0x005ff73c 7   8    .data   ascii   ---/---
+1719 0x001ff748 0x005ff748 4   5    .data   ascii   km/h
+1720 0x001ff754 0x005ff754 8   9    .data   ascii   \ecg.c8k
+1721 0x001ff760 0x005ff760 6   7    .data   ascii   REPLAY
+1722 0x001ff768 0x005ff768 8   9    .data   ascii   \ecg.c8k
+1723 0x001ff774 0x005ff774 12  13   .data   ascii   \complex.c8k
+1724 0x001ff788 0x005ff788 7   8    .data   ascii   STLevel
+1725 0x001ff794 0x005ff794 7   8    .data   ascii   STAngle
+1726 0x001ff79c 0x005ff79c 4   5    .data   ascii   deg.
+1727 0x001ff7a4 0x005ff7a4 7   8    .data   ascii   STSlope
+1728 0x001ff7ac 0x005ff7ac 4   5    .data   ascii   mV/s
+1729 0x001ff7bc 0x005ff7bc 6   7    .data   ascii   %.1f%%
+1730 0x001ff7c8 0x005ff7c8 7   8    .data   ascii   %3d/%3d
+1731 0x001ff7d0 0x005ff7d0 9   10   .data   ascii   %02d:%02d
+1732 0x001ff7e0 0x005ff7e0 5   6    .data   ascii   -----
+1733 0x001ff7e8 0x005ff7e8 9   10   .data   ascii   %02d:%02d
+1734 0x001ff7f4 0x005ff7f4 9   10   .data   ascii   %02d:%02d
+1735 0x001ff800 0x005ff800 5   6    .data   ascii   %4.1f
+1736 0x001ff808 0x005ff808 5   6    .data   ascii   %4.1f
+1737 0x001ff810 0x005ff810 4   5    .data   ascii   %.1f
+1738 0x001ff828 0x005ff828 5   6    .data   ascii   -----
+1739 0x001ff860 0x005ff860 4   5    .data   ascii   %.2f
+1740 0x001ff868 0x005ff868 5   6    .data   ascii   %4.2f
+1741 0x001ff878 0x005ff878 5   6    .data   ascii   -----
+1742 0x001ff880 0x005ff880 13  14   .data   ascii     [%02d:%02d]
+1743 0x001ff890 0x005ff890 5   6    .data   ascii   00:00
+1744 0x001ff898 0x005ff898 5   6    .data   ascii   00:00
+1745 0x001ff8a0 0x005ff8a0 12  13   .data   ascii   Replay Timer
+1746 0x001ff8b0 0x005ff8b0 4   5    .data   ascii   1/4X
+1747 0x001ff8b8 0x005ff8b8 4   5    .data   ascii   1/3X
+1748 0x001ff8c0 0x005ff8c0 4   5    .data   ascii   1/2X
+1749 0x001ff8d8 0x005ff8d8 8   9    .data   ascii   \ecg.c8k
+1750 0x001ff8e4 0x005ff8e4 12  13   .data   ascii   \complex.c8k
+1751 0x001ff95c 0x005ff95c 5   6    .data   ascii   mm:ss
+1752 0x001ff964 0x005ff964 5   6    .data   ascii   mm:ss
+1753 0x001ff96c 0x005ff96c 5   6    .data   ascii   (bpm)
+1754 0x001ff978 0x005ff978 14  15   .data   ascii   OrderID LIKE '
+1755 0x001ff988 0x005ff988 36  37   .data   ascii   DSN=ContecDB;USR=admin;PWD=aboutface
+1756 0x001ff9b0 0x005ff9b0 42  43   .data   ascii   F:\Workspace\StressECG\code\ReptMngDlg.cpp
+1757 0x001ff9dc 0x005ff9dc 23  24   .data   ascii   Error!\nFile:%s\nLine:%5d
+1758 0x001ff9f4 0x005ff9f4 30  31   .data   ascii   SELECT * FROM Cases WHERE 0=1
+1759 0x001ffa18 0x005ffa18 17  18   .data   ascii   OR OrderID LIKE '
+1760 0x001ffa2c 0x005ffa2c 16  17   .data   ascii   ORDER BY OrderID
+1761 0x001ffa40 0x005ffa40 42  43   .data   ascii   F:\Workspace\StressECG\code\ReptMngDlg.cpp
+1762 0x001ffa6c 0x005ffa6c 23  24   .data   ascii   Error!\nFile:%s\nLine:%5d
+1763 0x001ffa88 0x005ffa88 41  42   .data   ascii   Select * from Protocols where Name like '
+1764 0x001ffae4 0x005ffae4 6   7    .data   ascii    %H:%M
+1765 0x001ffaf0 0x005ffaf0 10  11   .data   ascii   \event.c8k
+1766 0x001ffafc 0x005ffafc 8   9    .data   ascii   \qrs.c8k
+1767 0x001ffb08 0x005ffb08 12  13   .data   ascii   \complex.c8k
+1768 0x001ffb48 0x005ffb48 4   5    .data   ascii   (mV)
+1769 0x001ffb50 0x005ffb50 9   10   .data   ascii   %02d:%02d
+1770 0x001ffb5c 0x005ffb5c 9   10   .data   ascii   %02d:%02d
+1771 0x001ffb68 0x005ffb68 5   6    .data   ascii   --:--
+1772 0x001ffb70 0x005ffb70 5   6    .data   ascii   --:--
+1773 0x001ffb78 0x005ffb78 6   7    .data   ascii    %H:%M
+1774 0x001ffb80 0x005ffb80 6   7    .data   ascii    %H:%M
+1775 0x001ffb98 0x005ffb98 9   10   .data   ascii   %02d:%02d
+1776 0x001ffba4 0x005ffba4 4   5    .data   ascii   %.1f
+1777 0x001ffbac 0x005ffbac 4   5    .data   ascii   %.1f
+1778 0x001ffbb4 0x005ffbb4 4   5    .data   ascii   %.1f
+1779 0x001ffbf4 0x005ffbf4 9   10   .data   ascii   %02d:%02d
+1780 0x001ffc00 0x005ffc00 6   7    .data   ascii   %.1f%%
+1781 0x001ffc08 0x005ffc08 5   6    .data   ascii   -----
+1782 0x001ffc10 0x005ffc10 4   5    .data   ascii   %.1f
+1783 0x001ffc18 0x005ffc18 5   6    .data   ascii   --:--
+1784 0x001ffc20 0x005ffc20 9   10   .data   ascii   %02d:%02d
+1785 0x001ffc2c 0x005ffc2c 4   5    .data   ascii   %.1f
+1786 0x001ffc34 0x005ffc34 5   6    .data   ascii   -----
+1787 0x001ffc3c 0x005ffc3c 9   10   .data   ascii   %02d:%02d
+1788 0x001ffc48 0x005ffc48 5   6    .data   ascii   --:--
+1789 0x001ffc50 0x005ffc50 4   5    .data   ascii   %.1f
+1790 0x001ffc5c 0x005ffc5c 9   10   .data   ascii   %02d:%02d
+1791 0x001ffc68 0x005ffc68 5   6    .data   ascii   --:--
+1792 0x001ffc70 0x005ffc70 4   5    .data   ascii   %.1f
+1793 0x001ffc7c 0x005ffc7c 9   10   .data   ascii   %02d:%02d
+1794 0x001ffc88 0x005ffc88 5   6    .data   ascii   --:--
+1795 0x001ffcc4 0x005ffcc4 4   5    .data   ascii   %.2f
+1796 0x001ffccc 0x005ffccc 9   10   .data   ascii   %02d:%02d
+1797 0x001ffcd8 0x005ffcd8 4   5    .data   ascii   ----
+1798 0x001ffce0 0x005ffce0 5   6    .data   ascii   --:--
+1799 0x001ffce8 0x005ffce8 4   5    .data   ascii   ----
+1800 0x001ffcf0 0x005ffcf0 4   5    .data   ascii   %.2f
+1801 0x001ffcf8 0x005ffcf8 9   10   .data   ascii   %02d:%02d
+1802 0x001ffd04 0x005ffd04 4   5    .data   ascii   ----
+1803 0x001ffd0c 0x005ffd0c 5   6    .data   ascii   --:--
+1804 0x001ffd14 0x005ffd14 4   5    .data   ascii   ----
+1805 0x001ffd1c 0x005ffd1c 4   5    .data   ascii   %.2f
+1806 0x001ffd24 0x005ffd24 9   10   .data   ascii   %02d:%02d
+1807 0x001ffd30 0x005ffd30 4   5    .data   ascii   ----
+1808 0x001ffd38 0x005ffd38 5   6    .data   ascii   --:--
+1809 0x001ffd40 0x005ffd40 4   5    .data   ascii   ----
+1810 0x001ffd48 0x005ffd48 4   5    .data   ascii   %.2f
+1811 0x001ffd50 0x005ffd50 9   10   .data   ascii   %02d:%02d
+1812 0x001ffd5c 0x005ffd5c 4   5    .data   ascii   ----
+1813 0x001ffd64 0x005ffd64 5   6    .data   ascii   --:--
+1814 0x001ffd6c 0x005ffd6c 4   5    .data   ascii   ----
+1815 0x001ffd74 0x005ffd74 4   5    .data   ascii   %.2f
+1816 0x001ffd7c 0x005ffd7c 9   10   .data   ascii   %02d:%02d
+1817 0x001ffd88 0x005ffd88 4   5    .data   ascii   ----
+1818 0x001ffd90 0x005ffd90 5   6    .data   ascii   --:--
+1819 0x001ffd98 0x005ffd98 4   5    .data   ascii   ----
+1820 0x001ffda0 0x005ffda0 4   5    .data   ascii   %.2f
+1821 0x001ffda8 0x005ffda8 9   10   .data   ascii   %02d:%02d
+1822 0x001ffdb4 0x005ffdb4 4   5    .data   ascii   ----
+1823 0x001ffdbc 0x005ffdbc 5   6    .data   ascii   --:--
+1824 0x001ffdc4 0x005ffdc4 4   5    .data   ascii   ----
+1825 0x001ffdcc 0x005ffdcc 4   5    .data   ascii   %.2f
+1826 0x001ffdd4 0x005ffdd4 9   10   .data   ascii   %02d:%02d
+1827 0x001ffde0 0x005ffde0 4   5    .data   ascii   ----
+1828 0x001ffde8 0x005ffde8 5   6    .data   ascii   --:--
+1829 0x001ffdf0 0x005ffdf0 4   5    .data   ascii   ----
+1830 0x001ffdf8 0x005ffdf8 4   5    .data   ascii   %.2f
+1831 0x001ffe00 0x005ffe00 9   10   .data   ascii   %02d:%02d
+1832 0x001ffe0c 0x005ffe0c 4   5    .data   ascii   ----
+1833 0x001ffe14 0x005ffe14 5   6    .data   ascii   --:--
+1834 0x001ffe1c 0x005ffe1c 4   5    .data   ascii   ----
+1835 0x001ffe2c 0x005ffe2c 4   5    .data   ascii   %.2f
+1836 0x001ffe40 0x005ffe40 4   5    .data   ascii   %.2f
+1837 0x001ffe4c 0x005ffe4c 4   5    .data   ascii   %.2f
+1838 0x001ffe5c 0x005ffe5c 4   5    .data   ascii   %.2f
+1839 0x001ffe68 0x005ffe68 9   10   .data   ascii   %02d:%02d
+1840 0x001ffe74 0x005ffe74 9   10   .data   ascii   %02d:%02d
+1841 0x001ffe80 0x005ffe80 5   6    .data   ascii   --:--
+1842 0x001ffe88 0x005ffe88 5   6    .data   ascii   --:--
+1843 0x001ffe90 0x005ffe90 11  12   .data   ascii   \report.c8k
+1844 0x001ffefc 0x005ffefc 11  12   .data   ascii   \report.c8k
+1845 0x001fff08 0x005fff08 8   9    .data   ascii   \qrs.c8k
+1846 0x001fff14 0x005fff14 8   9    .data   ascii   \qrs.c8k
+1847 0x001fff20 0x005fff20 8   9    .data   ascii   \ecg.c8k
+1848 0x001fff2c 0x005fff2c 9   10   .data   ascii   [%d/%d]%s
+1849 0x001fff38 0x005fff38 7   8    .data   ascii   [%dbpm]
+1850 0x001fff40 0x005fff40 5   6    .data   ascii   %s %d
+1851 0x001fff48 0x005fff48 5   6    .data   ascii   %s %d
+1852 0x001fff50 0x005fff50 5   6    .data   ascii   %s %d
+1853 0x001fff58 0x005fff58 5   6    .data   ascii   %s %d
+1854 0x001fff60 0x005fff60 5   6    .data   ascii   %s %d
+1855 0x001fff68 0x005fff68 5   6    .data   ascii   %s %d
+1856 0x001fff70 0x005fff70 5   6    .data   ascii   %s %d
+1857 0x001fff78 0x005fff78 5   6    .data   ascii   %s %d
+1858 0x001fff80 0x005fff80 5   6    .data   ascii   %s %d
+1859 0x001fff88 0x005fff88 5   6    .data   ascii   %s %d
+1860 0x001fff90 0x005fff90 5   6    .data   ascii   %s %d
+1861 0x001fff98 0x005fff98 7   8    .data   ascii   5 mm/mV
+1862 0x001fffa0 0x005fffa0 8   9    .data   ascii   10 mm/mV
+1863 0x001fffac 0x005fffac 8   9    .data   ascii   20 mm/mV
+1864 0x001fffb8 0x005fffb8 9   10   .data   ascii   12.5 mm/s
+1865 0x001fffc4 0x005fffc4 7   8    .data   ascii   25 mm/s
+1866 0x001fffcc 0x005fffcc 7   8    .data   ascii   50 mm/s
+1867 0x00200008 0x00600008 8   9    .data   ascii   \qrs.c8k
+1868 0x00200014 0x00600014 8   9    .data   ascii   \qrs.c8k
+1869 0x00200020 0x00600020 5   6    .data   ascii   %s %d
+1870 0x00200028 0x00600028 5   6    .data   ascii   %s %d
+1871 0x00200030 0x00600030 5   6    .data   ascii   %s %d
+1872 0x00200038 0x00600038 5   6    .data   ascii   %s %d
+1873 0x00200040 0x00600040 5   6    .data   ascii   %s %d
+1874 0x00200048 0x00600048 5   6    .data   ascii   %s %d
+1875 0x00200050 0x00600050 5   6    .data   ascii   %s %d
+1876 0x00200058 0x00600058 5   6    .data   ascii   %s %d
+1877 0x00200060 0x00600060 5   6    .data   ascii   %s %d
+1878 0x00200068 0x00600068 5   6    .data   ascii   %s %d
+1879 0x00200070 0x00600070 5   6    .data   ascii   %s %d
+1880 0x00200078 0x00600078 6   7    .data   ascii    %H:%M
+1881 0x00200080 0x00600080 6   7    .data   ascii    %H:%M
+1882 0x00200088 0x00600088 53  54   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Favorite
+1883 0x002000c0 0x006000c0 29  30   .data   ascii   Current Review Leads One Page
+1884 0x002000e0 0x006000e0 19  20   .data   ascii   Current Review Lead
+1885 0x002000f4 0x006000f4 20  21   .data   ascii   Current Review Speed
+1886 0x0020010c 0x0060010c 19  20   .data   ascii   Current Review Gain
+1887 0x00200120 0x00600120 53  54   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Favorite
+1888 0x00200158 0x00600158 29  30   .data   ascii   Current Review Leads One Page
+1889 0x00200178 0x00600178 19  20   .data   ascii   Current Review Lead
+1890 0x0020018c 0x0060018c 20  21   .data   ascii   Current Review Speed
+1891 0x002001a4 0x006001a4 19  20   .data   ascii   Current Review Gain
+1892 0x002001b8 0x006001b8 10  11   .data   ascii   \Stage.c8k
+1893 0x002001c4 0x006001c4 6   7    .data   ascii    %H:%M
+1894 0x002001cc 0x006001cc 4   5    .data   ascii   [%d]
+1895 0x002001d4 0x006001d4 8   9    .data   ascii   \ecg.c8k
+1896 0x002001e0 0x006001e0 8   9    .data   ascii   \qrs.c8k
+1897 0x002001ec 0x006001ec 11  12   .data   ascii   \hrvqrs.c8k
+1898 0x002001fc 0x006001fc 5   6    .data   ascii   mm:ss
+1899 0x00200204 0x00600204 4   5    .data   ascii   km/h
+1900 0x00200218 0x00600218 5   6    .data   ascii   mm:ss
+1901 0x00200220 0x00600220 5   6    .data   ascii   mm:ss
+1902 0x00200228 0x00600228 8   9    .data   ascii   bpm*mmHg
+1903 0x00200234 0x00600234 5   6    .data   ascii   mm:ss
+1904 0x0020023c 0x0060023c 4   5    .data   ascii   mmHg
+1905 0x00200244 0x00600244 5   6    .data   ascii   mm:ss
+1906 0x0020024c 0x0060024c 4   5    .data   ascii   mmHg
+1907 0x00200254 0x00600254 5   6    .data   ascii   mm:ss
+1908 0x0020025c 0x0060025c 4   5    .data   ascii   Watt
+1909 0x00200270 0x00600270 6   28   .data   utf32le %% \n \n
+1910 0x002002b8 0x006002b8 5   6    .data   ascii   mm:ss
+1911 0x002002c4 0x006002c4 5   6    .data   ascii   mm:ss
+1912 0x002002d0 0x006002d0 5   6    .data   ascii   mm:ss
+1913 0x002002dc 0x006002dc 5   6    .data   ascii   mm:ss
+1914 0x002002e4 0x006002e4 4   5    .data   ascii   deg.
+1915 0x002002ec 0x006002ec 4   5    .data   ascii   mV/s
+1916 0x002002f4 0x006002f4 5   6    .data   ascii   mm:ss
+1917 0x002002fc 0x006002fc 5   6    .data   ascii   mm:ss
+1918 0x00200304 0x00600304 6   7    .data   ascii   mV/bpm
+1919 0x0020030c 0x0060030c 5   6    .data   ascii   mm:ss
+1920 0x00200314 0x00600314 6   7    .data   ascii   mV/bpm
+1921 0x0020031c 0x0060031c 5   6    .data   ascii   mm:ss
+1922 0x00200354 0x00600354 4   5    .data   ascii   km/h
+1923 0x00200360 0x00600360 27  28   .data   ascii   \n OpenComm ***************\n
+1924 0x0020037c 0x0060037c 39  40   .data   ascii   \n OpenComm m_bCancel==%d**************\n
+1925 0x002003a4 0x006003a4 44  45   .data   ascii   \n OpenComm WriteComm hComm = %d, pPort==%s\n
+1926 0x002003d4 0x006003d4 28  29   .data   ascii   \n OpenComm TRUE1 hComm = %d
+1927 0x002003f4 0x006003f4 33  34   .data   ascii   \n ComThread start **************\n
+1928 0x00200418 0x00600418 19  20   .data   ascii   \SerialPortPriority
+1929 0x0020042c 0x0060042c 32  33   .data   ascii   \n ComThread end1 **************\n
+1930 0x0020045c 0x0060045c 5   6    .data   ascii   COM%d
+1931 0x00200464 0x00600464 9   10   .data   ascii   \\.\COM%d
+1932 0x00200470 0x00600470 32  33   .data   ascii   \n ComThread end2 **************\n
+1933 0x00200494 0x00600494 60  61   .data   ascii   \n StopComThread if (m_hComThread != NULL)  m_hComThread = %d
+1934 0x002004d4 0x006004d4 59  60   .data   ascii   \n CSearchTipDlg::StopComThread  m_hComm===%d**************\n
+1935 0x00200510 0x00600510 7   8    .data   ascii   LISTBOX
+1936 0x00200518 0x00600518 7   8    .data   ascii   LISTBOX
+1937 0x00200520 0x00600520 10  11   .data   ascii   \Stage.c8k
+1938 0x0020054c 0x0060054c 13  56   .data   utf32le \n\ndZPF<<72-(<
+1939 0x00200600 0x00600600 8   9    .data   ascii   Contec8k
+1940 0x0020060c 0x0060060c 13  14   .data   ascii   Hospital Name
+1941 0x0020061c 0x0060061c 8   9    .data   ascii   00000409
+1942 0x00200628 0x00600628 8   9    .data   ascii   %Y-%m-%d
+1943 0x00200634 0x00600634 60  61   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\System
+1944 0x00200674 0x00600674 9   10   .data   ascii   Treadmill
+1945 0x00200680 0x00600680 10  11   .data   ascii   TM Com No.
+1946 0x0020068c 0x0060068c 8   9    .data   ascii   Receiver
+1947 0x00200698 0x00600698 4   5    .data   ascii   NIBP
+1948 0x002006a0 0x006006a0 14  15   .data   ascii   NIBP Interface
+1949 0x002006b0 0x006006b0 8   9    .data   ascii   Hospital
+1950 0x002006bc 0x006006bc 13  14   .data   ascii   Doctor Number
+1951 0x002006cc 0x006006cc 11  12   .data   ascii   Doctor %02d
+1952 0x002006d8 0x006006d8 14  15   .data   ascii   Section Number
+1953 0x002006e8 0x006006e8 12  13   .data   ascii   Section %02d
+1954 0x002006f8 0x006006f8 12  13   .data   ascii   Label Number
+1955 0x00200708 0x00600708 10  11   .data   ascii   Label %02d
+1956 0x00200714 0x00600714 74  75   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\Testing And Analysis
+1957 0x00200760 0x00600760 7   8    .data   ascii   High HR
+1958 0x00200768 0x00600768 7   8    .data   ascii   Percent
+1959 0x00200770 0x00600770 9   10   .data   ascii   AC Filter
+1960 0x0020077c 0x0060077c 10  11   .data   ascii   EMG Filter
+1961 0x00200788 0x00600788 15  16   .data   ascii   Baseline Filter
+1962 0x00200798 0x00600798 13  14   .data   ascii   Analysis Lead
+1963 0x002007a8 0x006007a8 12  13   .data   ascii   ST Show Lead
+1964 0x002007b8 0x006007b8 15  16   .data   ascii   ST Measure Mode
+1965 0x002007c8 0x006007c8 12  13   .data   ascii   ST Auto Mode
+1966 0x002007d8 0x006007d8 12  13   .data   ascii   ST Manu Mode
+1967 0x002007e8 0x006007e8 13  14   .data   ascii   Analysis Type
+1968 0x002007f8 0x006007f8 61  62   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\Display
+1969 0x00200838 0x00600838 12  13   .data   ascii   Display Mode
+1970 0x00200848 0x00600848 8   9    .data   ascii   ECG Gain
+1971 0x00200854 0x00600854 9   10   .data   ascii   ECG Speed
+1972 0x00200860 0x00600860 12  13   .data   ascii   Zoom ST Lead
+1973 0x00200870 0x00600870 12  13   .data   ascii   Sync Display
+1974 0x00200880 0x00600880 10  11   .data   ascii   Parameters
+1975 0x0020088c 0x0060088c 8   9    .data   ascii   Lead 6x1
+1976 0x00200898 0x00600898 8   9    .data   ascii   Lead 3x2
+1977 0x002008a4 0x006008a4 8   9    .data   ascii   Lead 3x1
+1978 0x002008b0 0x006008b0 9   10   .data   ascii   Antialias
+1979 0x002008bc 0x006008bc 14  15   .data   ascii   ECG Line Color
+1980 0x002008cc 0x006008cc 12  13   .data   ascii   ECG BK Color
+1981 0x002008dc 0x006008dc 59  60   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\Print
+1982 0x00200918 0x00600918 9   10   .data   ascii   Page Size
+1983 0x00200924 0x00600924 16  17   .data   ascii   Page Orientation
+1984 0x00200938 0x00600938 8   9    .data   ascii   ECG Grid
+1985 0x00200944 0x00600944 8   9    .data   ascii   ECG Line
+1986 0x00200950 0x00600950 18  19   .data   ascii   Print Scale Signal
+1987 0x00200964 0x00600964 17  18   .data   ascii   Output to Picture
+1988 0x00200978 0x00600978 14  15   .data   ascii   Picture Format
+1989 0x00200988 0x00600988 12  13   .data   ascii   JPEG Quality
+1990 0x00200998 0x00600998 11  12   .data   ascii   Dimidiation
+1991 0x002009a4 0x006009a4 15  16   .data   ascii   Print mirco-ECG
+1992 0x002009b4 0x006009b4 14  15   .data   ascii   mirco-ECG Lead
+1993 0x002009c4 0x006009c4 14  15   .data   ascii   Print Birthday
+1994 0x002009d4 0x006009d4 21  22   .data   ascii   Print PRE-EXE and REC
+1995 0x002009ec 0x006009ec 63  64   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\Interface
+1996 0x00200a2c 0x00600a2c 8   9    .data   ascii   Tool Tip
+1997 0x00200a38 0x00600a38 13  14   .data   ascii   Auto Load IME
+1998 0x00200a48 0x00600a48 11  12   .data   ascii   Default IME
+1999 0x00200a54 0x00600a54 17  18   .data   ascii   Transparent Wnd 1
+2000 0x00200a68 0x00600a68 17  18   .data   ascii   Transparent Wnd 2
+2001 0x00200a7c 0x00600a7c 17  18   .data   ascii   Transparent Wnd 3
+2002 0x00200a90 0x00600a90 12  13   .data   ascii   Transparence
+2003 0x00200aa0 0x00600aa0 8   9    .data   ascii   Language
+2004 0x00200aac 0x00600aac 67  68   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\Miscellaneous
+2005 0x00200af0 0x00600af0 14  15   .data   ascii   Unit Of Length
+2006 0x00200b00 0x00600b00 14  15   .data   ascii   Unit Of Weight
+2007 0x00200b10 0x00600b10 13  14   .data   ascii   Unit Of Speed
+2008 0x00200b20 0x00600b20 9   10   .data   ascii   BORG Type
+2009 0x00200b2c 0x00600b2c 11  12   .data   ascii   Date Format
+2010 0x00200b38 0x00600b38 11  12   .data   ascii   Auto BP Tip
+2011 0x00200b44 0x00600b44 19  20   .data   ascii   Highlight Target HR
+2012 0x00200b58 0x00600b58 15  16   .data   ascii   Auto Finish Tip
+2013 0x00200b68 0x00600b68 11  12   .data   ascii   Finish Time
+2014 0x00200b74 0x00600b74 60  61   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\System
+2015 0x00200bb4 0x00600bb4 9   10   .data   ascii   Treadmill
+2016 0x00200bc0 0x00600bc0 10  11   .data   ascii   TM Com No.
+2017 0x00200bcc 0x00600bcc 8   9    .data   ascii   Receiver
+2018 0x00200bd8 0x00600bd8 4   5    .data   ascii   NIBP
+2019 0x00200be0 0x00600be0 14  15   .data   ascii   NIBP Interface
+2020 0x00200bf0 0x00600bf0 8   9    .data   ascii   Hospital
+2021 0x00200bfc 0x00600bfc 11  12   .data   ascii   Doctor %02d
+2022 0x00200c08 0x00600c08 13  14   .data   ascii   Doctor Number
+2023 0x00200c18 0x00600c18 11  12   .data   ascii   Doctor %02d
+2024 0x00200c24 0x00600c24 12  13   .data   ascii   Section %02d
+2025 0x00200c34 0x00600c34 14  15   .data   ascii   Section Number
+2026 0x00200c44 0x00600c44 12  13   .data   ascii   Section %02d
+2027 0x00200c54 0x00600c54 10  11   .data   ascii   Label %02d
+2028 0x00200c60 0x00600c60 12  13   .data   ascii   Label Number
+2029 0x00200c70 0x00600c70 10  11   .data   ascii   Label %02d
+2030 0x00200c7c 0x00600c7c 74  75   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\Testing And Analysis
+2031 0x00200cc8 0x00600cc8 7   8    .data   ascii   High HR
+2032 0x00200cd0 0x00600cd0 7   8    .data   ascii   Percent
+2033 0x00200cd8 0x00600cd8 9   10   .data   ascii   AC Filter
+2034 0x00200ce4 0x00600ce4 10  11   .data   ascii   EMG Filter
+2035 0x00200cf0 0x00600cf0 15  16   .data   ascii   Baseline Filter
+2036 0x00200d00 0x00600d00 13  14   .data   ascii   Analysis Lead
+2037 0x00200d10 0x00600d10 12  13   .data   ascii   ST Show Lead
+2038 0x00200d20 0x00600d20 15  16   .data   ascii   ST Measure Mode
+2039 0x00200d30 0x00600d30 12  13   .data   ascii   ST Auto Mode
+2040 0x00200d40 0x00600d40 12  13   .data   ascii   ST Manu Mode
+2041 0x00200d50 0x00600d50 13  14   .data   ascii   Analysis Type
+2042 0x00200d60 0x00600d60 61  62   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\Display
+2043 0x00200da0 0x00600da0 12  13   .data   ascii   Display Mode
+2044 0x00200db0 0x00600db0 8   9    .data   ascii   ECG Gain
+2045 0x00200dbc 0x00600dbc 9   10   .data   ascii   ECG Speed
+2046 0x00200dc8 0x00600dc8 12  13   .data   ascii   Zoom ST Lead
+2047 0x00200dd8 0x00600dd8 12  13   .data   ascii   Sync Display
+2048 0x00200de8 0x00600de8 10  11   .data   ascii   Parameters
+2049 0x00200df4 0x00600df4 8   9    .data   ascii   Lead 6x1
+2050 0x00200e00 0x00600e00 8   9    .data   ascii   Lead 3x2
+2051 0x00200e0c 0x00600e0c 8   9    .data   ascii   Lead 3x1
+2052 0x00200e18 0x00600e18 9   10   .data   ascii   Antialias
+2053 0x00200e24 0x00600e24 14  15   .data   ascii   ECG Line Color
+2054 0x00200e34 0x00600e34 12  13   .data   ascii   ECG BK Color
+2055 0x00200e44 0x00600e44 59  60   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\Print
+2056 0x00200e80 0x00600e80 9   10   .data   ascii   Page Size
+2057 0x00200e8c 0x00600e8c 16  17   .data   ascii   Page Orientation
+2058 0x00200ea0 0x00600ea0 8   9    .data   ascii   ECG Grid
+2059 0x00200eac 0x00600eac 8   9    .data   ascii   ECG Line
+2060 0x00200eb8 0x00600eb8 18  19   .data   ascii   Print Scale Signal
+2061 0x00200ecc 0x00600ecc 17  18   .data   ascii   Output to Picture
+2062 0x00200ee0 0x00600ee0 14  15   .data   ascii   Picture Format
+2063 0x00200ef0 0x00600ef0 12  13   .data   ascii   JPEG Quality
+2064 0x00200f00 0x00600f00 11  12   .data   ascii   Dimidiation
+2065 0x00200f0c 0x00600f0c 15  16   .data   ascii   Print mirco-ECG
+2066 0x00200f1c 0x00600f1c 14  15   .data   ascii   mirco-ECG Lead
+2067 0x00200f2c 0x00600f2c 14  15   .data   ascii   Print Birthday
+2068 0x00200f3c 0x00600f3c 21  22   .data   ascii   Print PRE-EXE and REC
+2069 0x00200f54 0x00600f54 63  64   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\Interface
+2070 0x00200f94 0x00600f94 8   9    .data   ascii   Tool Tip
+2071 0x00200fa0 0x00600fa0 13  14   .data   ascii   Auto Load IME
+2072 0x00200fb0 0x00600fb0 11  12   .data   ascii   Default IME
+2073 0x00200fbc 0x00600fbc 17  18   .data   ascii   Transparent Wnd 1
+2074 0x00200fd0 0x00600fd0 17  18   .data   ascii   Transparent Wnd 2
+2075 0x00200fe4 0x00600fe4 17  18   .data   ascii   Transparent Wnd 3
+2076 0x00200ff8 0x00600ff8 12  13   .data   ascii   Transparence
+2077 0x00201008 0x00601008 8   9    .data   ascii   Language
+2078 0x00201014 0x00601014 67  68   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\Miscellaneous
+2079 0x00201058 0x00601058 14  15   .data   ascii   Unit Of Length
+2080 0x00201068 0x00601068 14  15   .data   ascii   Unit Of Weight
+2081 0x00201078 0x00601078 13  14   .data   ascii   Unit Of Speed
+2082 0x00201088 0x00601088 9   10   .data   ascii   BORG Type
+2083 0x00201094 0x00601094 11  12   .data   ascii   Date Format
+2084 0x002010a0 0x006010a0 11  12   .data   ascii   Auto BP Tip
+2085 0x002010ac 0x006010ac 19  20   .data   ascii   Highlight Target HR
+2086 0x002010c0 0x006010c0 15  16   .data   ascii   Auto Finish Tip
+2087 0x002010d0 0x006010d0 11  12   .data   ascii   Finish Time
+2088 0x002010dc 0x006010dc 8   9    .data   ascii   Contec8k
+2089 0x002010e8 0x006010e8 8   9    .data   ascii   00000409
+2090 0x002010f4 0x006010f4 8   9    .data   ascii   %Y-%m-%d
+2091 0x00201110 0x00601110 4   5    .data   ascii   YYYY
+2092 0x00201140 0x00601140 4   5    .data   ascii   YYYY
+2093 0x00201160 0x00601160 13  14   .data   ascii   \Glossary.sys
+2094 0x00201174 0x00601174 11  12   .data   ascii   CShowBarDlg
+2095 0x002011a0 0x006011a0 5   6    .data   ascii   0.1mV
+2096 0x002011a8 0x006011a8 4   5    .data   ascii   %.1f
+2097 0x002011b0 0x006011b0 7   8    .data   ascii   %1d0:00
+2098 0x002011e8 0x006011e8 4   5    .data   ascii   Lead
+2099 0x002011f0 0x006011f0 4   5    .data   ascii   [%s]
+2100 0x002011f8 0x006011f8 13  14   .data   ascii   [09:18]-00.00
+2101 0x00201208 0x00601208 16  17   .data   ascii   [%02d:%02d]%0.2f
+2102 0x0020121c 0x0060121c 16  17   .data   ascii   [%02d:%02d]-----
+2103 0x0020123c 0x0060123c 4   5    .data   ascii   aVRg
+2104 0x00201248 0x00601248 4   5    .data   ascii   9988
+2105 0x00201250 0x00601250 13  14   .data   ascii   [09:18]-00.00
+2106 0x00201260 0x00601260 16  17   .data   ascii   [%02d:%02d]%0.2f
+2107 0x00201274 0x00601274 16  17   .data   ascii   [%02d:%02d]-----
+2108 0x00201288 0x00601288 13  14   .data   ascii   [09:18]-00.00
+2109 0x00201298 0x00601298 16  17   .data   ascii   [%02d:%02d]%0.2f
+2110 0x002012ac 0x006012ac 16  17   .data   ascii   [%02d:%02d]-----
+2111 0x002012c0 0x006012c0 9   10   .data   ascii   %02d:%02d
+2112 0x002012cc 0x006012cc 9   10   .data   ascii   %02d:%02d
+2113 0x002012f5 0x006012f5 4   5    .data   ascii   /o=W
+2114 0x0020132e 0x0060132e 6   7    .data   ascii   \a>\e,\f>
+2115 0x0020139d 0x0060139d 4   5    .data   ascii   8y>X
+2116 0x002013cf 0x006013cf 5   7    .data   utf8    >1ғ>\f
+2117 0x00201433 0x00601433 4   6    .data   utf8    >1н>
+2118 0x00201505 0x00601505 4   5    .data   ascii   H\b?b
+2119 0x00201519 0x00601519 8   9    .data   ascii   =\f?O\b\r?x
+2120 0x0020157b 0x0060157b 6   7    .data   ascii   ?oG ?+
+2121 0x00201586 0x00601586 12  15   .data   utf8    !?Ϻ"?ڌ#?)_$?
+2122 0x00201595 0x00601595 4   5    .data   ascii   1%?%
+2123 0x0020159e 0x0060159e 6   8    .data   utf8    &?Ŭ'?^
+2124 0x002015a6 0x006015a6 6   7    .data   ascii   (?KV)?
+2125 0x002015c1 0x006015c1 7   8    .data   ascii   _.?q8/?
+2126 0x002015d6 0x006015d6 10  11   .data   ascii   2?_~3?:[4?
+2127 0x002015e1 0x006015e1 4   5    .data   ascii   85?+
+2128 0x002015ee 0x006015ee 5   7    .data   utf8    7?ض8?
+2129 0x002015f9 0x006015f9 7   8    .data   ascii   z:?c^;?
+2130 0x0020161e 0x0060161e 9   11   .data   utf8    B?ҊC?\fyD?
+2131 0x00201629 0x00601629 7   8    .data   ascii   hE?mYF?
+2132 0x00201631 0x00601631 7   8    .data   ascii   KG?`?H?
+2133 0x0020163d 0x0060163d 8   9    .data   ascii   +J?B$K?X
+2134 0x00201665 0x00601665 7   8    .data   ascii   6T?$DU?
+2135 0x0020167a 0x0060167a 5   7    .data   utf8    Y?ıZ?
+2136 0x00201691 0x00601691 4   5    .data   ascii   y`?\
+2137 0x0020169d 0x0060169d 7   8    .data   ascii   +d?dse?
+2138 0x002016aa 0x006016aa 6   7    .data   ascii   h?\fxi?
+2139 0x002016b2 0x006016b2 7   8    .data   ascii   j?`Vl?A
+2140 0x002016bd 0x006016bd 8   9    .data   ascii   io?9\rq?.
+2141 0x002016d2 0x006016d2 25  27   .data   utf8    x?Â{?Perhaps pDC is NULL!
+2142 0x0020170d 0x0060170d 4   5    .data   ascii   /o=W
+2143 0x00201746 0x00601746 6   7    .data   ascii   \a>\e,\f>
+2144 0x002017b5 0x006017b5 4   5    .data   ascii   8y>X
+2145 0x002017e7 0x006017e7 5   7    .data   utf8    >1ғ>\f
+2146 0x0020184b 0x0060184b 4   6    .data   utf8    >1н>
+2147 0x0020191d 0x0060191d 4   5    .data   ascii   H\b?b
+2148 0x00201931 0x00601931 8   9    .data   ascii   =\f?O\b\r?x
+2149 0x00201993 0x00601993 6   7    .data   ascii   ?oG ?+
+2150 0x0020199e 0x0060199e 12  15   .data   utf8    !?Ϻ"?ڌ#?)_$?
+2151 0x002019ad 0x006019ad 4   5    .data   ascii   1%?%
+2152 0x002019b6 0x006019b6 6   8    .data   utf8    &?Ŭ'?^
+2153 0x002019be 0x006019be 6   7    .data   ascii   (?KV)?
+2154 0x002019d9 0x006019d9 7   8    .data   ascii   _.?q8/?
+2155 0x002019ee 0x006019ee 10  11   .data   ascii   2?_~3?:[4?
+2156 0x002019f9 0x006019f9 4   5    .data   ascii   85?+
+2157 0x00201a06 0x00601a06 5   7    .data   utf8    7?ض8?
+2158 0x00201a11 0x00601a11 7   8    .data   ascii   z:?c^;?
+2159 0x00201a36 0x00601a36 9   11   .data   utf8    B?ҊC?\fyD?
+2160 0x00201a41 0x00601a41 7   8    .data   ascii   hE?mYF?
+2161 0x00201a49 0x00601a49 7   8    .data   ascii   KG?`?H?
+2162 0x00201a55 0x00601a55 8   9    .data   ascii   +J?B$K?X
+2163 0x00201a7d 0x00601a7d 7   8    .data   ascii   6T?$DU?
+2164 0x00201a92 0x00601a92 5   7    .data   utf8    Y?ıZ?
+2165 0x00201aa9 0x00601aa9 4   5    .data   ascii   y`?\
+2166 0x00201ab5 0x00601ab5 7   8    .data   ascii   +d?dse?
+2167 0x00201ac2 0x00601ac2 6   7    .data   ascii   h?\fxi?
+2168 0x00201aca 0x00601aca 7   8    .data   ascii   j?`Vl?A
+2169 0x00201ad5 0x00601ad5 8   9    .data   ascii   io?9\rq?.
+2170 0x00201aea 0x00601aea 6   8    .data   utf8    x?Â{?w
+2171 0x00201af4 0x00601af4 12  13   .data   ascii   D:\table.txt
+2172 0x00201b08 0x00601b08 6   7    .data   ascii   %.6ff,
+2173 0x00201b10 0x00601b10 23  24   .data   ascii   \n pIndexTab[%d] = %.6ff
+2174 0x00201b28 0x00601b28 23  24   .data   ascii   \n pIndexTab[%d] = %.6ff
+2175 0x00201b40 0x00601b40 23  24   .data   ascii   \n pIndexTab[%d] = %.6ff
+2176 0x00201b58 0x00601b58 23  24   .data   ascii   \n pIndexTab[%d] = %.6ff
+2177 0x00201b70 0x00601b70 20  21   .data   ascii   Perhaps pDC is NULL!
+2178 0x00201b88 0x00601b88 12  13   .data   ascii   CSoftkeyPage
+2179 0x00201b98 0x00601b98 7   8    .data   ascii   5 mm/mV
+2180 0x00201ba0 0x00601ba0 8   9    .data   ascii   10 mm/mV
+2181 0x00201bac 0x00601bac 8   9    .data   ascii   20 mm/mV
+2182 0x00201bb8 0x00601bb8 9   10   .data   ascii   12.5 mm/s
+2183 0x00201bc4 0x00601bc4 7   8    .data   ascii   25 mm/s
+2184 0x00201bcc 0x00601bcc 7   8    .data   ascii   50 mm/s
+2185 0x00201bd8 0x00601bd8 10  11   .data   ascii   user32.dll
+2186 0x00201be4 0x00601be4 26  27   .data   ascii   SetLayeredWindowAttributes
+2187 0x00201c00 0x00601c00 39  40   .data   ascii   \n CSPPFile::AddNewPort error code = %d\n
+2188 0x00201c28 0x00601c28 39  40   .data   ascii   \n CSPPFile::AddNewPort error code = %d\n
+2189 0x00201c58 0x00601c58 15  16   .data   ascii   Times New Roman
+2190 0x00202028 0x00602028 5   6    .data   ascii   (bpm)
+2191 0x00202030 0x00602030 8   9    .data   ascii   ST = J +
+2192 0x00202040 0x00602040 13  14   .data   ascii   ST/HR Diagram
+2193 0x00202058 0x00602058 4   5    .data   ascii   %.1f
+2194 0x00202060 0x00602060 18  19   .data   ascii   ST Depression (mV)
+2195 0x00202074 0x00602074 23  24   .data   ascii   ST/HR Hysteresis = %.5f
+2196 0x002020bc 0x006020bc 4   5    .data   ascii   Lead
+2197 0x002020c4 0x006020c4 4   5    .data   ascii   [%s]
+2198 0x002020d8 0x006020d8 4   5    .data   ascii   aVRg
+2199 0x002020e4 0x006020e4 4   5    .data   ascii   9988
+2200 0x0020211c 0x0060211c 5   6    .data   ascii   Arial
+2201 0x00202154 0x00602154 11  12   .data   ascii   ST = J+%dms
+2202 0x00202160 0x00602160 18  19   .data   ascii   %dmm/mV  %0.1fmm/s
+2203 0x00202174 0x00602174 15  16   .data   ascii   %dmm/mV  %dmm/s
+2204 0x00202184 0x00602184 5   6    .data   ascii   %4.2f
+2205 0x0020218c 0x0060218c 4   5    .data   ascii   %.1f
+2206 0x00202194 0x00602194 4   5    .data   ascii   %02d
+2207 0x002021a4 0x006021a4 4   5    .data   ascii   %02d
+2208 0x002021ac 0x006021ac 8   9    .data   ascii   CTestDlg
+2209 0x002021c0 0x006021c0 4   5    .data   ascii   METs
+2210 0x002021e0 0x006021e0 8   9    .data   ascii   bpm*mmHg
+2211 0x002021ec 0x006021ec 5   6    .data   ascii   -----
+2212 0x002021f4 0x006021f4 6   7    .data   ascii   uV/bpm
+2213 0x00202204 0x00602204 4   5    .data   ascii   mmHg
+2214 0x0020220c 0x0060220c 7   8    .data   ascii   SYS/DIA
+2215 0x00202218 0x00602218 5   6    .data   ascii   --:--
+2216 0x00202220 0x00602220 7   8    .data   ascii   ---/---
+2217 0x00202228 0x00602228 4   5    .data   ascii   Watt
+2218 0x00202238 0x00602238 4   5    .data   ascii   km/h
+2219 0x00202268 0x00602268 4   5    .data   ascii   %.1f
+2220 0x00202278 0x00602278 8   9    .data   ascii   \qrs.c8k
+2221 0x00202284 0x00602284 4   5    .data   ascii   %.1f
+2222 0x0020228c 0x0060228c 4   5    .data   ascii   %.1f
+2223 0x00202294 0x00602294 4   5    .data   ascii   %.1f
+2224 0x0020229c 0x0060229c 34  35   .data   ascii   \n g_pDataModel->m_nHRAnChan = %d \n
+2225 0x002022c0 0x006022c0 8   9    .data   ascii   \qrs.c8k
+2226 0x002022cc 0x006022cc 8   9    .data   ascii   \ecg.c8k
+2227 0x002022dc 0x006022dc 7   8    .data   ascii   STLevel
+2228 0x002022e8 0x006022e8 7   8    .data   ascii   STAngle
+2229 0x002022f0 0x006022f0 4   5    .data   ascii   deg.
+2230 0x002022f8 0x006022f8 7   8    .data   ascii   STSlope
+2231 0x00202300 0x00602300 4   5    .data   ascii   mV/s
+2232 0x00202310 0x00602310 6   7    .data   ascii   %.1f%%
+2233 0x0020231c 0x0060231c 9   10   .data   ascii   %02d:%02d
+2234 0x00202328 0x00602328 9   10   .data   ascii   %02d:%02d
+2235 0x00202334 0x00602334 5   6    .data   ascii   %4.1f
+2236 0x0020233c 0x0060233c 5   6    .data   ascii   %4.1f
+2237 0x002023b4 0x006023b4 5   6    .data   ascii   -----
+2238 0x002023bc 0x006023bc 13  14   .data   ascii     [%02d:%02d]
+2239 0x002023fc 0x006023fc 5   6    .data   ascii   %4.2f
+2240 0x00202404 0x00602404 5   6    .data   ascii   %4.2f
+2241 0x00202414 0x00602414 5   6    .data   ascii   -----
+2242 0x0020241c 0x0060241c 5   6    .data   ascii   00:00
+2243 0x00202424 0x00602424 5   6    .data   ascii   00:00
+2244 0x0020242c 0x0060242c 10  11   .data   ascii   \stage.c8k
+2245 0x00202438 0x00602438 10  11   .data   ascii   \event.c8k
+2246 0x00202444 0x00602444 7   8    .data   ascii   \bp.c8k
+2247 0x0020244c 0x0060244c 9   10   .data   ascii   \borg.c8k
+2248 0x00202458 0x00602458 11  12   .data   ascii   \rotate.c8k
+2249 0x00202464 0x00602464 7   8    .data   ascii   %3d/%3d
+2250 0x0020246c 0x0060246c 9   10   .data   ascii   %02d:%02d
+2251 0x0020247c 0x0060247c 5   6    .data   ascii   -----
+2252 0x00202488 0x00602488 4   5    .data   ascii   BUSY
+2253 0x00202490 0x00602490 7   8    .data   ascii   %3d/%3d
+2254 0x00202498 0x00602498 9   10   .data   ascii   %02d:%02d
+2255 0x002024ac 0x006024ac 5   6    .data   ascii   -----
+2256 0x002024b4 0x006024b4 7   8    .data   ascii   ---/---
+2257 0x002024bc 0x006024bc 50  51   .data   ascii   CTestDlg OnWifiReconnectWait p->g_bReConnect===%d\n
+2258 0x002024f0 0x006024f0 53  54   .data   ascii   \n pParent->m_stcStatus.ClearText(FALSE, TRUE, FALSE);
+2259 0x00202528 0x00602528 4   5    .data   ascii   %2ds
+2260 0x00202530 0x00602530 4   5    .data   ascii   %2ds
+2261 0x00202538 0x00602538 10  11   .data   ascii   user32.dll
+2262 0x00202544 0x00602544 26  27   .data   ascii   SetLayeredWindowAttributes
+2263 0x00202560 0x00602560 5   6    .data   ascii   Arial
+2264 0x00202568 0x00602568 5   6    .data   ascii   Arial
+2265 0x00202570 0x00602570 7   8    .data   ascii   %1d0:00
+2266 0x00202578 0x00602578 5   6    .data   ascii   %0.0f
+2267 0x00202588 0x00602588 4   5    .data   ascii   METs
+2268 0x00202590 0x00602590 4   5    .data   ascii   Watt
+2269 0x00202598 0x00602598 4   5    .data   ascii   km/h
+2270 0x002025a4 0x006025a4 11  12   .data   ascii   \rotate.c8k
+2271 0x002025bc 0x006025bc 4   5    .data   ascii   aVRg
+2272 0x002025c8 0x006025c8 4   5    .data   ascii   9988
+2273 0x002025d8 0x006025d8 12  13   .data   ascii   \complex.c8k
+2274 0x0020261c 0x0060261c 12  13   .data   ascii   \complex.c8k
+2275 0x0020262c 0x0060262c 12  13   .data   ascii   \complex.c8k
+2276 0x0020263c 0x0060263c 12  13   .data   ascii   \complex.c8k
+2277 0x0020264c 0x0060264c 12  13   .data   ascii   \complex.c8k
+2278 0x0020265c 0x0060265c 12  13   .data   ascii   \complex.c8k
+2279 0x00202670 0x00602670 12  13   .data   ascii   \complex.c8k
+2280 0x00202680 0x00602680 6   7    .data   ascii   uV/bpm
+2281 0x00202688 0x00602688 12  13   .data   ascii   \complex.c8k
+2282 0x0020269c 0x0060269c 12  13   .data   ascii   \complex.c8k
+2283 0x002026b0 0x006026b0 6   7    .data   ascii   uV/bpm
+2284 0x002026bc 0x006026bc 6   7    .data   ascii   uV/bpm
+2285 0x002026cc 0x006026cc 5   6    .data   ascii   1.0mV
+2286 0x002026d4 0x006026d4 5   6    .data   ascii   2.4mV
+2287 0x002026dc 0x006026dc 5   6    .data   ascii   3.0mV
+2288 0x002026e4 0x006026e4 5   6    .data   ascii   4.0mV
+2289 0x002026ec 0x006026ec 6   7    .data   ascii   -1.0mV
+2290 0x002026f4 0x006026f4 6   7    .data   ascii   -2.4mV
+2291 0x002026fc 0x006026fc 6   7    .data   ascii   -3.0mV
+2292 0x00202704 0x00602704 6   7    .data   ascii   -4.0mV
+2293 0x0020270c 0x0060270c 5   6    .data   ascii   0.1mV
+2294 0x00202714 0x00602714 5   6    .data   ascii   0.2mV
+2295 0x0020271c 0x0060271c 5   6    .data   ascii   0.3mV
+2296 0x00202724 0x00602724 5   6    .data   ascii   0.4mV
+2297 0x0020272c 0x0060272c 6   7    .data   ascii   -0.1mV
+2298 0x00202734 0x00602734 6   7    .data   ascii   -0.2mV
+2299 0x0020273c 0x0060273c 6   7    .data   ascii   -0.3mV
+2300 0x00202744 0x00602744 6   7    .data   ascii   -0.4mV
+2301 0x0020274c 0x0060274c 12  13   .data   ascii   \complex.c8k
+2302 0x0020275c 0x0060275c 4   5    .data   ascii   %.1f
+2303 0x00202768 0x00602768 4   5    .data   ascii   %.1f
+2304 0x00202774 0x00602774 4   5    .data   ascii   %.1f
+2305 0x00202780 0x00602780 4   5    .data   ascii   %.1f
+2306 0x0020278c 0x0060278c 4   5    .data   ascii   %.1f
+2307 0x00202798 0x00602798 4   5    .data   ascii   %.1f
+2308 0x002027a4 0x006027a4 4   5    .data   ascii   %.1f
+2309 0x002027b0 0x006027b0 4   5    .data   ascii   deg.
+2310 0x002027b8 0x006027b8 4   5    .data   ascii   %.0f
+2311 0x002027c0 0x006027c0 4   5    .data   ascii   mV/s
+2312 0x002027c8 0x006027c8 4   5    .data   ascii   %.1f
+2313 0x002027d0 0x006027d0 4   5    .data   ascii   %.1f
+2314 0x002027d8 0x006027d8 6   7    .data   ascii   uV/bpm
+2315 0x002027e0 0x006027e0 4   5    .data   ascii   %.1f
+2316 0x002027ec 0x006027ec 4   5    .data   ascii   %.1f
+2317 0x002027f8 0x006027f8 12  13   .data   ascii   \complex.c8k
+2318 0x00202808 0x00602808 4   5    .data   ascii   %.1f
+2319 0x00202814 0x00602814 4   5    .data   ascii   %.1f
+2320 0x00202820 0x00602820 4   5    .data   ascii   %.1f
+2321 0x0020282c 0x0060282c 4   5    .data   ascii   %.1f
+2322 0x00202838 0x00602838 12  13   .data   ascii   \complex.c8k
+2323 0x00202848 0x00602848 4   5    .data   ascii   %.1f
+2324 0x00202850 0x00602850 6   7    .data   ascii   uV/bpm
+2325 0x00202858 0x00602858 4   5    .data   ascii   %.1f
+2326 0x00202860 0x00602860 6   7    .data   ascii   uV/bpm
+2327 0x00202868 0x00602868 4   5    .data   ascii   %.1f
+2328 0x00202870 0x00602870 6   7    .data   ascii   uV/bpm
+2329 0x00202878 0x00602878 4   5    .data   ascii   %.1f
+2330 0x00202880 0x00602880 6   7    .data   ascii   uV/bpm
+2331 0x00202888 0x00602888 12  13   .data   ascii   \complex.c8k
+2332 0x00202898 0x00602898 4   5    .data   ascii   %.1f
+2333 0x002028a4 0x006028a4 4   5    .data   ascii   %.1f
+2334 0x002028b0 0x006028b0 4   5    .data   ascii   %.1f
+2335 0x002028bc 0x006028bc 4   5    .data   ascii   %.1f
+2336 0x002028c8 0x006028c8 12  13   .data   ascii   \complex.c8k
+2337 0x002028d8 0x006028d8 4   5    .data   ascii   deg.
+2338 0x002028e0 0x006028e0 4   5    .data   ascii   %.0f
+2339 0x002028e8 0x006028e8 4   5    .data   ascii   mV/s
+2340 0x002028f0 0x006028f0 4   5    .data   ascii   %.1f
+2341 0x002028f8 0x006028f8 10  11   .data   ascii   METS Trend
+2342 0x00202904 0x00602904 11  12   .data   ascii   HR*BP Trend
+2343 0x00202910 0x00602910 11  12   .data   ascii   SPEED Trend
+2344 0x0020291c 0x0060291c 11  12   .data   ascii   POWER Trend
+2345 0x00202928 0x00602928 11  12   .data   ascii   GRADE Trend
+2346 0x00202934 0x00602934 12  13   .data   ascii   ROTATE Trend
+2347 0x00202944 0x00602944 4   5    .data   ascii   km/h
+2348 0x00202950 0x00602950 4   5    .data   ascii   Watt
+2349 0x00202960 0x00602960 5   6    .data   ascii   %4.1f
+2350 0x00202968 0x00602968 5   6    .data   ascii   %4.1f
+2351 0x00202970 0x00602970 5   6    .data   ascii   %4.1f
+2352 0x00202978 0x00602978 5   6    .data   ascii   %4.1f
+2353 0x00202980 0x00602980 5   6    .data   ascii   %4.1f
+2354 0x00202988 0x00602988 5   6    .data   ascii   %4.1f
+2355 0x002029a0 0x006029a0 5   6    .data   ascii   %4.1f
+2356 0x002029a8 0x006029a8 5   6    .data   ascii   %4.1f
+2357 0x00202a10 0x00602a10 6   7    .data   ascii    %H:%M
+2358 0x00202a48 0x00602a48 6   7    .data   ascii    %H:%M
+2359 0x00202a50 0x00602a50 5   6    .data   ascii   Arial
+2360 0x00202a5c 0x00602a5c 4   5    .data   ascii   B c0
+2361 0x00202a7c 0x00602a7c 4   5    .data   ascii   s2R"
+2362 0x00202a98 0x00602a98 5   6    .data   ascii   b$C4
+2363 0x00202ab8 0x00602ab8 4   5    .data   ascii   S6r&
+2364 0x00202adf 0x00602adf 4   5    .data   ascii   x@\ba
+2365 0x00202b02 0x00602b02 4   5    .data   ascii   P\n3:
+2366 0x00202b23 0x00602b23 4   5    .data   ascii   <`\fA
+2367 0x00202b41 0x00602b41 4   5    .data   ascii   >2.Q
+2368 0x00202b71 0x00602b71 7   8    .data   ascii   P%@Fpg`
+2369 0x00202b93 0x00602b93 5   6    .data   ascii   RwbVr
+2370 0x00202bb0 0x00602bb0 6   7    .data   ascii   ftGd$T
+2371 0x00202bd0 0x00602bd0 4   5    .data   ascii   Wfvv
+2372 0x00202bd5 0x00602bd5 4   5    .data   ascii   F4VL
+2373 0x00202be8 0x00602be8 4   5    .data   ascii   DXeH
+2374 0x00202c08 0x00602c08 6   7    .data   ascii   uJTZ7j
+2375 0x00202c26 0x00602c26 9   11   .data   utf8    ɍ&|\ald\EL
+2376 0x00202c49 0x00602c49 7   8    .data   ascii   n6~UNt^
+2377 0x00202c5c 0x00602c5c 8   9    .data   ascii   Upgrader
+2378 0x00202c73 0x00602c73 6   7    .data   ascii   (*CMS)
+2379 0x00202c7a 0x00602c7a 5   6    .data   ascii   *.CMS
+2380 0x00202c80 0x00602c80 15  16   .data   ascii    All Files(*.*)
+2381 0x00202c98 0x00602c98 12  13   .data   ascii   bEndFile_ack
+2382 0x00202ca8 0x00602ca8 13  14   .data   ascii   begin or over
+2383 0x00202cbc 0x00602cbc 4   5    .data   ascii   NAK\n
+2384 0x00202cc4 0x00602cc4 4   5    .data   ascii   %0x\n
+2385 0x00202cd0 0x00602cd0 8   9    .data   ascii   %0.2f KB
+2386 0x00202cdc 0x00602cdc 8   9    .data   ascii   %0.2f MB
+2387 0x00202ce8 0x00602ce8 4   5    .data   ascii   %d B
+2388 0x00202cf0 0x00602cf0 6   7    .data   ascii   \\.\%s
+2389 0x00202cf8 0x00602cf8 5   6    .data   ascii   %0.1f
+2390 0x00202d00 0x00602d00 11  12   .data   ascii   TIMEOUT %d\n
+2391 0x00202d10 0x00602d10 42  43   .data   ascii   \n ReadData g_SearchTipDlg->m_bCancel==%d \n
+2392 0x00202d3c 0x00602d3c 38  39   .data   ascii   \n ReadData g_SearchTipDlg->m_bCancel \n
+2393 0x00202d64 0x00602d64 37  38   .data   ascii   \n ReadThread start, p->m_hComm = %d \n
+2394 0x00202d8c 0x00602d8c 27  28   .data   ascii   WriteComm p->m_hComm = %d \n
+2395 0x00202da8 0x00602da8 11  12   .data   ascii   ReadThread
+2396 0x00202dbb 0x00602dbb 27  28   .data   ascii   Pg[49]===%x,  Pg[50] ===%x\n
+2397 0x00202dd8 0x00602dd8 11  12   .data   ascii   ReadThread
+2398 0x00202deb 0x00602deb 13  14   .data   ascii   Pg[51]===%x,\n
+2399 0x00202dfc 0x00602dfc 11  12   .data   ascii   ReadThread
+2400 0x00202e0f 0x00602e0f 27  28   .data   ascii   Pg[54]===%x,  Pg[55] ===%x\n
+2401 0x00202e3a 0x00602e3a 13  14   .data   ascii   nResult===%x\n
+2402 0x00202e6e 0x00602e6e 16  17   .data   ascii   nLostCount===%d\n
+2403 0x00202e96 0x00602e96 32  33   .data   ascii   nRepair===%d, nPackageLost ==%d\n
+2404 0x00202ec4 0x00602ec4 23  24   .data   ascii   p->m_nPackageLost===%d\n
+2405 0x00202ee8 0x00602ee8 34  35   .data   ascii   p->m_nPackageLost == nPackageLost\n
+2406 0x00202f1e 0x00602f1e 32  33   .data   ascii    nToRead = %d, nFullTimes = %d \n
+2407 0x00202f40 0x00602f40 30  31   .data   ascii   \nClearCommError return FALSE:
+2408 0x00202f60 0x00602f60 17  18   .data   ascii   %s(m_hComm = %d)\n
+2409 0x00202f74 0x00602f74 34  35   .data   ascii   \n IsReceivedChar Error: CE_RXOVER
+2410 0x00202f98 0x00602f98 35  36   .data   ascii   \n IsReceivedChar Error: CE_OVERRUN
+2411 0x00202fbc 0x00602fbc 36  37   .data   ascii   \n IsReceivedChar Error: CE_RXPARITY
+2412 0x00202fe4 0x00602fe4 33  34   .data   ascii   \n IsReceivedChar Error: CE_FRAME
+2413 0x00203008 0x00603008 33  34   .data   ascii   \n IsReceivedChar Error: CE_BREAK
+2414 0x0020302c 0x0060302c 34  35   .data   ascii   \n IsReceivedChar Error: CE_TXFULL
+2415 0x00203050 0x00603050 31  32   .data   ascii   \n IsReceivedChar Error: CE_PTO
+2416 0x00203070 0x00603070 31  32   .data   ascii   \n IsReceivedChar Error: CE_IOE
+2417 0x00203090 0x00603090 31  32   .data   ascii   \n IsReceivedChar Error: CE_DNS
+2418 0x002030b0 0x006030b0 31  32   .data   ascii   \n IsReceivedChar Error: CE_OOP
+2419 0x002030d0 0x006030d0 32  33   .data   ascii   \n IsReceivedChar Error: CE_MODE
+2420 0x002030f4 0x006030f4 16  17   .data   ascii   RXBuff[0]====%x\n
+2421 0x00203108 0x00603108 49  50   .data   ascii   \n CallBackTimer uTimerID = %d, g_BTtimerID = %d \n
+2422 0x0020313c 0x0060313c 37  38   .data   ascii   \n StartCallBackTimer g_BTtimerID = %d
+2423 0x00203164 0x00603164 44  45   .data   ascii   \n return  StopCallBackTimer g_BTtimerID = %d
+2424 0x00203194 0x00603194 41  42   .data   ascii   \n StopCallBackTimer g_BTtimerID not exist
+2425 0x002031c0 0x006031c0 36  37   .data   ascii   CallBackTimer g_BTtimerID = %d Stop\n
+2426 0x002031e8 0x006031e8 4   5    .data   ascii   \\.\
+2427 0x002031f0 0x006031f0 5   6    .data   ascii   Error
+2428 0x002031f8 0x006031f8 23  24   .data   ascii   UsbSetInterface failed!
+2429 0x00203210 0x00603210 5   6    .data   ascii   Error
+2430 0x00203218 0x00603218 23  24   .data   ascii   UsbSetInterface failed!
+2431 0x00203248 0x00603248 10  11   .data   ascii   Demo Timer
+2432 0x00203254 0x00603254 19  20   .data   ascii   LISTENTHREAD START\n
+2433 0x00203268 0x00603268 17  18   .data   ascii   LISTEN SOCKET OK\n
+2434 0x0020327c 0x0060327c 5   6    .data   ascii   BIND\n
+2435 0x00203284 0x00603284 7   8    .data   ascii   LISTEN\n
+2436 0x0020328c 0x0060328c 10  11   .data   ascii   ACCEPT %s\n
+2437 0x00203298 0x00603298 13  14   .data   ascii   192.168.10.10
+2438 0x002032a8 0x006032a8 47  48   .data   ascii   bResult===%d, ReadresBuff[0]=%x, nRecCount==%d\n
+2439 0x002032d8 0x006032d8 38  39   .data   ascii   g_SearchTipDlg->m_bWifiInterrupt===%d\n
+2440 0x0020330c 0x0060330c 18  19   .data   ascii   ACCEPTTHREAD EXIT\n
+2441 0x00203320 0x00603320 16  17   .data   ascii   RXBuff[0]====%x\n
+2442 0x00203334 0x00603334 18  19   .data   ascii   RXBuff[%d]=====%x\n
+2443 0x00203358 0x00603358 8   9    .data   ascii   Ezusb-%d
+2444 0x00203364 0x00603364 8   9    .data   ascii   \syn.hex
+2445 0x00203370 0x00603370 8   9    .data   ascii   Ezusb-%d
+2446 0x0020337c 0x0060337c 8   9    .data   ascii   \syn.hex
+2447 0x00203388 0x00603388 9   10   .data   ascii   Password:
+2448 0x00203398 0x00603398 5   6    .data   ascii   SSID:
+2449 0x002033a0 0x006033a0 4   5    .data   ascii   open
+2450 0x002033a8 0x006033a8 11  12   .data   ascii   IECases.exe
+2451 0x002033b4 0x006033b4 4   5    .data   ascii   open
+2452 0x002033bc 0x006033bc 4   5    .data   ascii   open
+2453 0x002033c4 0x006033c4 14  15   .data   ascii   EquManager.exe
+2454 0x002033d4 0x006033d4 4   5    .data   ascii   open
+2455 0x002033dc 0x006033dc 18  19   .data   ascii   SetWirelessNet.exe
+2456 0x002033f4 0x006033f4 6   7    .data   ascii   #32770
+2457 0x002033fc 0x006033fc 60  61   .data   ascii   SOFTWARE\Contec Medical Systems\Contec8000TM\Settings\System
+2458 0x0020343c 0x0060343c 4   5    .data   ascii   SSID
+2459 0x00203444 0x00603444 8   9    .data   ascii   Password
+2460 0x00203464 0x00603464 8   9    .data   ascii   100mm/s
+2461 0x00203470 0x00603470 9   10   .data   ascii   [%d/%d]%s
+2462 0x0020347c 0x0060347c 9   10   .data   ascii   %3d mm/mV
+2463 0x00203494 0x00603494 7   8    .data   ascii   P_QRS_T
+2464 0x002034a8 0x006034a8 7   8    .data   ascii   P_QRS_T
+2465 0x002034bc 0x006034bc 7   8    .data   ascii   P_QRS_T
+2466 0x002034c4 0x006034c4 8   9    .data   ascii   %d mm/mV
+2467 0x002034d0 0x006034d0 8   9    .data   ascii   %d mm/mV
+2468 0x002034dc 0x006034dc 8   9    .data   ascii   %d mm/mV
+2469 0x002034e8 0x006034e8 8   9    .data   ascii   %d mm/mV
+2470 0x002034f4 0x006034f4 6   28   .data   utf32le XZXYYZ
+2471 0x00203518 0x00603518 6   7    .data   ascii    %H:%M
+2472 0x00203524 0x00603524 6   7    .data   ascii    (QRS)
+2473 0x0020352c 0x0060352c 4   5    .data   ascii    (P)
+2474 0x00203534 0x00603534 4   5    .data   ascii    (T)
+2475 0x0020353c 0x0060353c 6   7    .data   ascii    (QRS)
+2476 0x00203544 0x00603544 4   5    .data   ascii    (P)
+2477 0x0020354c 0x0060354c 4   5    .data   ascii    (T)
+2478 0x00203554 0x00603554 6   7    .data   ascii    (QRS)
+2479 0x0020355c 0x0060355c 4   5    .data   ascii    (P)
+2480 0x00203564 0x00603564 4   5    .data   ascii    (T)
+2481 0x00203570 0x00603570 6   7    .data   ascii   0.01 (
+2482 0x0020357c 0x0060357c 6   7    .data   ascii   0.01 (
+2483 0x00203588 0x00603588 6   7    .data   ascii   0.02 (
+2484 0x00203594 0x00603594 6   7    .data   ascii   0.02 (
+2485 0x002035a0 0x006035a0 6   7    .data   ascii   0.03 (
+2486 0x002035ac 0x006035ac 6   7    .data   ascii   0.03 (
+2487 0x002035b8 0x006035b8 6   7    .data   ascii   0.04 (
+2488 0x002035c4 0x006035c4 6   7    .data   ascii   0.04 (
+2489 0x002035cc 0x006035cc 8   9    .data   ascii    (QRS_T)
+2490 0x002035d8 0x006035d8 8   9    .data   ascii    (QRS/T)
+2491 0x00203608 0x00603608 8   9    .data   ascii   \vpt.c8k
+2492 0x00203614 0x00603614 5   6    .data   ascii   Arial
+2493 0x0020361c 0x0060361c 5   6    .data   ascii   Arial
+2494 0x00203628 0x00603628 8   9    .data   ascii   \qrs.c8k
+2495 0x00203634 0x00603634 8   9    .data   ascii   \vlp.c8k
+2496 0x00203640 0x00603640 8   9    .data   ascii   \vcg.c8k
+2497 0x0020364c 0x0060364c 8   9    .data   ascii   \qrs.c8k
+2498 0x00203658 0x00603658 11  12   .data   ascii   I: %2.2f %%
+2499 0x00203664 0x00603664 12  13   .data   ascii   II: %2.2f %%
+2500 0x00203674 0x00603674 13  14   .data   ascii   III: %2.2f %%
+2501 0x00203684 0x00603684 12  13   .data   ascii   IV: %2.2f %%
+2502 0x002036ac 0x006036ac 8   9    .data   ascii   25-250Hz
+2503 0x002036b8 0x006036b8 8   9    .data   ascii   40-250Hz
+2504 0x002036c4 0x006036c4 8   9    .data   ascii   \qrs.c8k
+2505 0x002036d0 0x006036d0 9   10   .data   ascii   [%d/%d]%s
+2506 0x002036dc 0x006036dc 6   7    .data   ascii    %H:%M
+2507 0x002036e4 0x006036e4 6   7    .data   ascii    %H:%M
+2508 0x002036ec 0x006036ec 8   9    .data   ascii   \vlp.c8k
+2509 0x002036f8 0x006036f8 8   9    .data   ascii   \qrs.c8k
+2510 0x00203704 0x00603704 8   9    .data   ascii   \qrs.c8k
+2511 0x00203710 0x00603710 8   9    .data   ascii   \vlp.c8k
+2512 0x0020371c 0x0060371c 8   9    .data   ascii   \vlp.c8k
+2513 0x00203728 0x00603728 8   9    .data   ascii   \vlp.c8k
+2514 0x00203740 0x00603740 4   5    .data   ascii   %dms
+2515 0x00203748 0x00603748 4   5    .data   ascii   %dms
+2516 0x00203750 0x00603750 4   5    .data   ascii   %dms
+2517 0x00203758 0x00603758 4   5    .data   ascii   %dms
+2518 0x00203760 0x00603760 4   5    .data   ascii   %dms
+2519 0x00203768 0x00603768 4   5    .data   ascii   %dms
+2520 0x00203770 0x00603770 4   5    .data   ascii   %duV
+2521 0x00203780 0x00603780 8   9    .data   ascii   \vlp.c8k
+2522 0x0020378c 0x0060378c 8   9    .data   ascii   \qrs.c8k
+2523 0x00203798 0x00603798 8   9    .data   ascii   \vcg.c8k
+2524 0x002037a4 0x006037a4 8   9    .data   ascii   \lpt.c8k
+2525 0x002037c4 0x006037c4 8   9    .data   ascii   25-250Hz
+2526 0x002037d0 0x006037d0 8   9    .data   ascii   40-250Hz
+2527 0x002037f0 0x006037f0 8   9    .data   ascii
+2528 0x00203804 0x00603804 8   9    .data   ascii   25-250Hz
+2529 0x00203810 0x00603810 8   9    .data   ascii   40-250Hz
+2530 0x0020381c 0x0060381c 9   10   .data   ascii   25 ms/div
+2531 0x00203828 0x00603828 7   8    .data   ascii    uV/div
+2532 0x00203830 0x00603830 4   5    .data   ascii   40uV
+2533 0x00203838 0x00603838 10  11   .data   ascii   100 uv/div
+2534 0x00203848 0x00603848 9   10   .data   ascii   25 ms/div
+2535 0x00203854 0x00603854 11  12   .data   ascii   PDF Printer
+2536 0x00203860 0x00603860 44  45   .data   ascii   \PDF Writer\Bullzip PDF Printer\settings.ini
+2537 0x00203890 0x00603890 11  12   .data   ascii   permissions
+2538 0x0020389c 0x0060389c 9   10   .data   ascii   keylength
+2539 0x002038ac 0x006038ac 12  13   .data   ascii   userpassword
+2540 0x002038bc 0x006038bc 13  14   .data   ascii   ownerpassword
+2541 0x002038cc 0x006038cc 16  17   .data   ascii   superimposelayer
+2542 0x002038e0 0x006038e0 21  22   .data   ascii   superimposeresolution
+2543 0x002038f8 0x006038f8 11  12   .data   ascii   superimpose
+2544 0x00203904 0x00603904 13  14   .data   ascii   mergeposition
+2545 0x00203914 0x00603914 6   7    .data   ascii   bottom
+2546 0x0020391c 0x0060391c 9   10   .data   ascii   mergefile
+2547 0x00203928 0x00603928 29  30   .data   ascii   watermarkhorizontaladjustment
+2548 0x00203948 0x00603948 27  28   .data   ascii   watermarkverticaladjustment
+2549 0x00203964 0x00603964 27  28   .data   ascii   watermarkhorizontalposition
+2550 0x00203980 0x00603980 25  26   .data   ascii   watermarkverticalposition
+2551 0x0020399c 0x0060399c 6   7    .data   ascii   center
+2552 0x002039a4 0x006039a4 14  15   .data   ascii   watermarklayer
+2553 0x002039b8 0x006039b8 21  22   .data   ascii   watermarkoutlinewidth
+2554 0x002039d4 0x006039d4 17  18   .data   ascii   watermarkfontname
+2555 0x002039e8 0x006039e8 9   10   .data   ascii   ARIAL.TTF
+2556 0x002039f4 0x006039f4 14  15   .data   ascii   watermarkcolor
+2557 0x00203a04 0x00603a04 7   8    .data   ascii   #D9D9D9
+2558 0x00203a0c 0x00603a0c 17  18   .data   ascii   watermarkrotation
+2559 0x00203a24 0x00603a24 17  18   .data   ascii   watermarkfontsize
+2560 0x00203a3c 0x00603a3c 13  14   .data   ascii   watermarktext
+2561 0x00203a4c 0x00603a4c 9   10   .data   ascii   usethumbs
+2562 0x00203a58 0x00603a58 9   10   .data   ascii   linearize
+2563 0x00203a64 0x00603a64 6   7    .data   ascii   format
+2564 0x00203a6c 0x00603a6c 4   5    .data   ascii   zoom
+2565 0x00203a74 0x00603a74 6   7    .data   ascii   fitall
+2566 0x00203a7c 0x00603a7c 18  19   .data   ascii   compatibilitylevel
+2567 0x00203a94 0x00603a94 6   7    .data   ascii   target
+2568 0x00203a9c 0x00603a9c 7   8    .data   ascii   default
+2569 0x00203aa4 0x00603aa4 15  16   .data   ascii   usedefaulttitle
+2570 0x00203ab4 0x00603ab4 16  17   .data   ascii   usedefaultauthor
+2571 0x00203ac8 0x00603ac8 8   9    .data   ascii   keywords
+2572 0x00203ad4 0x00603ad4 7   8    .data   ascii   subject
+2573 0x00203adc 0x00603adc 5   6    .data   ascii   title
+2574 0x00203ae4 0x00603ae4 6   7    .data   ascii   author
+2575 0x00203aec 0x00603aec 6   7    .data   ascii   contec
+2576 0x00203af4 0x00603af4 17  18   .data   ascii   graphicsalphabits
+2577 0x00203b08 0x00603b08 13  14   .data   ascii   textalphabits
+2578 0x00203b1c 0x00603b1c 4   5    .data   ascii   resy
+2579 0x00203b24 0x00603b24 4   5    .data   ascii   resx
+2580 0x00203b30 0x00603b30 6   7    .data   ascii   device
+2581 0x00203b38 0x00603b38 8   9    .data   ascii   pdfwrite
+2582 0x00203b44 0x00603b44 14  15   .data   ascii   suppresserrors
+2583 0x00203b54 0x00603b54 12  13   .data   ascii   showsettings
+2584 0x00203b64 0x00603b64 10  11   .data   ascii   showsaveas
+2585 0x00203b70 0x00603b70 5   6    .data   ascii   never
+2586 0x00203b78 0x00603b78 7   8    .data   ascii   showpdf
+2587 0x00203b80 0x00603b80 10  11   .data   ascii   openfolder
+2588 0x00203b8c 0x00603b8c 22  23   .data   ascii   rememberlastfoldername
+2589 0x00203ba4 0x00603ba4 20  21   .data   ascii   rememberlastfilename
+2590 0x00203bbc 0x00603bbc 16  17   .data   ascii   confirmoverwrite
+2591 0x00203bd4 0x00603bd4 6   7    .data   ascii   output
+2592 0x00203bdc 0x00603bdc 26  27   .data   ascii   <desktop>\<smarttitle>.pdf
+2593 0x00203bf8 0x00603bf8 26  27   .data   ascii   Bullzip.PDFPrinterSettings
+2594 0x00203c14 0x00603c14 19  20   .data   ascii   Bullzip PDF Printer
+2595 0x00203c28 0x00603c28 8   9    .data   ascii   tiff24nc
+2596 0x00203c34 0x00603c34 7   8    .data   ascii   pswrite
+2597 0x00203c3c 0x00603c3c 6   7    .data   ascii   png16m
+2598 0x00203c44 0x00603c44 6   7    .data   ascii   pcx24b
+2599 0x00203c4c 0x00603c4c 4   5    .data   ascii   jpeg
+2600 0x00203c54 0x00603c54 8   9    .data   ascii   epswrite
+2601 0x00203c60 0x00603c60 6   7    .data   ascii   bmp16m
+2602 0x00203c6c 0x00603c6c 4   20   .data   utf32le \v\v\vฎ
+2603 0x00203c98 0x00603c98 15  16   .data   ascii   .?AVtype_info@@
+2604 0x002041a8 0x0067f1a8 26  54   .rsrc   utf16le \rIDC_MAINFRAME\vIDC_CURSOR1
+2605 0x00204630 0x0067f630 4   5    .rsrc   ascii   @@\b\b
+2606 0x00204637 0x0067f637 4   5    .rsrc   ascii   2\f\r*
+2607 0x0020465a 0x0067f65a 4   5    .rsrc   ascii   \e\e\e\e
+2608 0x00204678 0x0067f678 7   8    .rsrc   ascii    """$$"
+2609 0x002046ca 0x0067f6ca 27  28   .rsrc   ascii   2222222222222244566666\f\f46\r
+2610 0x002046ea 0x0067f6ea 27  28   .rsrc   ascii   >644222>>@>>>>>@@>@@BB=D6\f\r
+2611 0x0020470a 0x0067f70a 10  11   .rsrc   ascii   >6FFFFFFJJ
+2612 0x00204716 0x0067f716 14  15   .rsrc   ascii   MMMMMNOPMMMMMS
+2613 0x0020472c 0x0067f72c 15  16   .rsrc   ascii   WXXZZ\]]_`aabbe
+2614 0x0020474c 0x0067f74c 17  18   .rsrc   ascii   Xpqqqssttv_`yezOg
+2615 0x0020497f 0x0067f97f 6   7    .rsrc   ascii   s\]\M4
+2616 0x0020498f 0x0067f98f 5   6    .rsrc   ascii   *****
+2617 0x002049b0 0x0067f9b0 9   10   .rsrc   ascii   @@>>>>@@@
+2618 0x00204ecc 0x0067fecc 6   7    .rsrc   ascii   \r64\r64
+2619 0x00204ed4 0x0067fed4 4   5    .rsrc   ascii   \r642
+2620 0x00204eeb 0x0067feeb 4   5    .rsrc   ascii   *2>@
+2621 0x00204ef9 0x0067fef9 11  12   .rsrc   ascii   @@@>>>226\r*
+2622 0x00204f1c 0x0067ff1c 12  13   .rsrc   ascii   >>>@@@@>>22\r
+2623 0x00204f50 0x0067ff50 9   10   .rsrc   ascii   >>256\f\r&$
+2624 0x00204f64 0x0067ff64 4   5    .rsrc   ascii   &\f6>
+2625 0x00204f87 0x0067ff87 12  13   .rsrc   ascii   +"""$$$$$$$+
+2626 0x00204fba 0x0067ffba 8   9    .rsrc   ascii     """"""
+2627 0x00204fec 0x0067ffec 6   7    .rsrc   ascii     """"
+2628 0x00205047 0x00680047 11  12   .rsrc   ascii   \f\r\r\r\r\r\r\r\r\r\r
+2629 0x00205063 0x00680063 40  41   .rsrc   ascii   6666666666666666666666666\f\f\f\f\f\f\f\f\f\f46\f\f\r
+2630 0x00205093 0x00680093 40  41   .rsrc   ascii   4666565455444442222222222222244444\rD45\f\r
+2631 0x002050c3 0x006800c3 8   9    .rsrc   ascii   46422422
+2632 0x002050cd 0x006800cd 18  19   .rsrc   ascii   >>@@@@>>>@>>@@@@@@
+2633 0x002050e0 0x006800e0 11  12   .rsrc   ascii   @>>>2466\f\f\r
+2634 0x002050f3 0x006800f3 40  41   .rsrc   ascii   462>>>>>>>>@@@@@@@@@@@@@@@@@@@@@@>>>>2\f\r
+2635 0x00205126 0x00680126 9   10   .rsrc   ascii   XXXXZq\\]
+2636 0x00205133 0x00680133 10  11   .rsrc   ascii   _``yaaabay
+2637 0x00205156 0x00680156 11  12   .rsrc   ascii   XXXXZqss\\]
+2638 0x00205164 0x00680164 9   10   .rsrc   ascii   _``yybbbb
+2639 0x00205186 0x00680186 26  27   .rsrc   ascii   ppppqqqssstttv__``yyyyyegg
+2640 0x002051b6 0x006801b6 23  24   .rsrc   ascii   ppppqqqsssstttv___`yyye
+2641 0x002051ce 0x006801ce 4   5    .rsrc   ascii   Ogge
+2642 0x002051e6 0x006801e6 7   8    .rsrc   ascii   ppppqqq
+2643 0x002051ee 0x006801ee 13  14   .rsrc   ascii   ststtttv___`y
+2644 0x00205216 0x00680216 6   7    .rsrc   ascii   ppppqq
+2645 0x0020521e 0x0068021e 13  14   .rsrc   ascii   stttttttv___e
+2646 0x002052f8 0x006802f8 4   5    .rsrc   ascii   y46*
+2647 0x00205328 0x00680328 4   5    .rsrc   ascii   y26*
+2648 0x00205358 0x00680358 4   5    .rsrc   ascii   e26*
+2649 0x00205497 0x00680497 6   7    .rsrc   ascii   eNNNN&
+2650 0x002054a7 0x006804a7 5   6    .rsrc   ascii   ``>4*
+2651 0x002054d5 0x006804d5 7   8    .rsrc   ascii   ````>2*
+2652 0x00205500 0x00680500 4   5    .rsrc   ascii   ttvv
+2653 0x00205530 0x00680530 5   6    .rsrc   ascii   tttvv
+2654 0x00205561 0x00680561 4   5    .rsrc   ascii   tttv
+2655 0x00205591 0x00680591 4   5    .rsrc   ascii   tttt
+2656 0x002055c1 0x006805c1 4   5    .rsrc   ascii   tttt
+2657 0x002055f1 0x006805f1 4   5    .rsrc   ascii   ttst
+2658 0x00205683 0x00680683 6   7    .rsrc   ascii   qq\\\\
+2659 0x002056c7 0x006806c7 34  35   .rsrc   ascii   @@@@@@@>>>>>>>>>>@@@@@@>>@@@@@>>>@
+2660 0x002056f3 0x006806f3 25  26   .rsrc   ascii   @@@@@@@@@@@>>>>>>>>>>>@@@
+2661 0x00205710 0x00680710 8   9    .rsrc   ascii   \b\b\b\b\b\b\b\b
+2662 0x0020572c 0x0068072c 14  15   .rsrc   ascii   @@@@@>>>>>@@@@
+2663 0x0020573e 0x0068073e 5   6    .rsrc   ascii   \b\b\b\b\b
+2664 0x0020595e 0x0068095e 15  32   .rsrc   utf16le VS_VERSION_INFO
+2665 0x002059ba 0x006809ba 14  30   .rsrc   utf16le StringFileInfo
+2666 0x002059de 0x006809de 8   18   .rsrc   utf16le 040904b0
+2667 0x002059f6 0x006809f6 8   18   .rsrc   utf16le Comments
+2668 0x00205a10 0x00680a10 10  22   .rsrc   utf16le ompanyName
+2669 0x00205a30 0x00680a30 14  30   .rsrc   utf16le ileDescription
+2670 0x00205a56 0x00680a56 11  24   .rsrc   utf16le FileVersion
+2671 0x00205a70 0x00680a70 10  22   .rsrc   utf16le 2, 3, 4, 0
+2672 0x00205a90 0x00680a90 11  24   .rsrc   utf16le nternalName
+2673 0x00205ab0 0x00680ab0 13  28   .rsrc   utf16le egalCopyright
+2674 0x00205ad4 0x00680ad4 14  30   .rsrc   utf16le egalTrademarks
+2675 0x00205afa 0x00680afa 16  34   .rsrc   utf16le OriginalFilename
+2676 0x00205b1c 0x00680b1c 30  62   .rsrc   utf16le Stress ECG Analysis System.EXE
+2677 0x00205b64 0x00680b64 11  24   .rsrc   utf16le rivateBuild
+2678 0x00205b84 0x00680b84 10  22   .rsrc   utf16le roductName
+2679 0x00205ba2 0x00680ba2 14  30   .rsrc   utf16le ProductVersion
+2680 0x00205bc0 0x00680bc0 10  22   .rsrc   utf16le 2, 3, 4, 0
+2681 0x00205be0 0x00680be0 11  24   .rsrc   utf16le pecialBuild
+2682 0x00205bfe 0x00680bfe 8   18   .rsrc   utf16le 080404b0
+2683 0x00205c16 0x00680c16 8   18   .rsrc   utf16le Comments
+2684 0x00205c30 0x00680c30 10  22   .rsrc   utf16le ompanyName
+2685 0x00205c50 0x00680c50 14  30   .rsrc   utf16le ileDescription
+2686 0x00205c76 0x00680c76 11  24   .rsrc   utf16le FileVersion
+2687 0x00205c90 0x00680c90 10  22   .rsrc   utf16le 2, 3, 4, 0
+2688 0x00205cb0 0x00680cb0 11  24   .rsrc   utf16le nternalName
+2689 0x00205cd0 0x00680cd0 13  28   .rsrc   utf16le egalCopyright
+2690 0x00205cf4 0x00680cf4 14  30   .rsrc   utf16le egalTrademarks
+2691 0x00205d1a 0x00680d1a 16  34   .rsrc   utf16le OriginalFilename
+2692 0x00205d3c 0x00680d3c 30  62   .rsrc   utf16le Stress ECG Analysis System.EXE
+2693 0x00205d84 0x00680d84 11  24   .rsrc   utf16le rivateBuild
+2694 0x00205da4 0x00680da4 10  22   .rsrc   utf16le roductName
+2695 0x00205dc2 0x00680dc2 14  30   .rsrc   utf16le ProductVersion
+2696 0x00205de0 0x00680de0 10  22   .rsrc   utf16le 2, 3, 4, 0
+2697 0x00205e00 0x00680e00 11  24   .rsrc   utf16le pecialBuild
+2698 0x00205e20 0x00680e20 10  22   .rsrc   utf16le arFileInfo
+2699 0x00205e3e 0x00680e3e 11  24   .rsrc   utf16le Translation
+2700 0x00205e64 0x00680e64 4   20   .rsrc   utf32le ( @𐀁

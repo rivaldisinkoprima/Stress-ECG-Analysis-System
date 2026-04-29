@@ -1,0 +1,196 @@
+nth paddr      vaddr      len size section type    string
+---------------------------------------------------------
+0   0x0000004d 0x0000004d 44  45           ascii   !This program cannot be run in DOS mode.\r\r\n$
+1   0x0000008c 0x0000008c 4   7            utf8    #~픠v
+2   0x0000009c 0x0000009c 4   7            utf8    "~픠b
+3   0x000000c0 0x000000c0 4   7            utf8    #~씡~
+4   0x000000e0 0x000000e0 6   7            ascii   Rich#~
+5   0x000001e8 0x000001e8 5   6            ascii   .text
+6   0x0000020f 0x0000020f 7   8            ascii   `.rdata
+7   0x00000237 0x00000237 6   7            ascii   @.data
+8   0x00000260 0x00000260 5   6            ascii   .rsrc
+9   0x00000287 0x00000287 7   8            ascii   @.reloc
+10  0x000010c5 0x100010c5 5   7    .text   utf8    QSV3ۋ
+11  0x000010ee 0x100010ee 7   9    .text   utf8    D$\b;É\$
+12  0x0000113f 0x1000113f 6   7    .text   ascii   L$\f^[d
+13  0x00001279 0x10001279 4   5    .text   ascii   L$\bd
+14  0x0000135a 0x1000135a 4   5    .text   ascii   L$\bd
+15  0x00001374 0x10001374 4   5    .text   ascii   L$\b3
+16  0x000014da 0x100014da 5   6    .text   ascii   j\bjNh
+17  0x00001501 0x10001501 4   5    .text   ascii   L$\bd
+18  0x0000158c 0x1000158c 4   5    .text   ascii   L$\bd
+19  0x00001872 0x10001872 4   5    .text   ascii   9^ u
+20  0x00001915 0x10001915 4   5    .text   ascii   _^[d
+21  0x00001a0f 0x10001a0f 4   5    .text   ascii   |$,W
+22  0x00001a23 0x10001a23 6   7    .text   ascii   D$,j2\f
+23  0x00001a78 0x10001a78 7   8    .text   ascii   \nSs\ahlD
+24  0x00001a90 0x10001a90 4   6    .text   utf8    ӋD$0
+25  0x00001aa6 0x10001aa6 6   7    .text   ascii   QRPh<D
+26  0x00001ad1 0x10001ad1 4   5    .text   ascii   F(u#
+27  0x00001ad6 0x10001ad6 4   5    .text   ascii   L$,Q
+28  0x00001af1 0x10001af1 4   5    .text   ascii   _^][
+29  0x00001b1f 0x10001b1f 4   5    .text   ascii   F(RP
+30  0x00001b31 0x10001b31 4   5    .text   ascii   ^dSQ
+31  0x00001b58 0x10001b58 4   5    .text   ascii   F(SP
+32  0x00001b64 0x10001b64 5   6    .text   ascii   u(h,D
+33  0x00001baa 0x10001baa 4   5    .text   ascii   T$,R
+34  0x00001bbb 0x10001bbb 4   5    .text   ascii   _^][
+35  0x00001c67 0x10001c67 4   5    .text   ascii   t$$3
+36  0x00001c77 0x10001c77 4   6    .text   utf8    ;É\$
+37  0x00001c82 0x10001c82 6   7    .text   ascii   \$(t\tj
+38  0x00001cb7 0x10001cb7 4   5    .text   ascii   D$(t
+39  0x00001cc1 0x10001cc1 5   6    .text   ascii   t\fhtD
+40  0x00001ce1 0x10001ce1 6   7    .text   ascii   L$(PQR
+41  0x00001cf6 0x10001cf6 5   6    .text   ascii   F0SPj
+42  0x00001d08 0x10001d08 4   5    .text   ascii   tUHt
+43  0x00001db5 0x10001db5 4   5    .text   ascii   D$\bj
+44  0x00001de4 0x10001de4 4   5    .text   ascii   QRPh
+45  0x00001e07 0x10001e07 4   5    .text   ascii   L$\bQ
+46  0x00001e23 0x10001e23 5   6    .text   ascii   \$\fUV
+47  0x00001e29 0x10001e29 4   5    .text   ascii   C,WP
+48  0x00001ee4 0x10001ee4 5   6    .text   ascii   VPUQR
+49  0x00001f7e 0x10001f7e 6   8    .text   utf8    _^][YÐ
+50  0x00001fa0 0x10001fa0 5   7    .text   utf8    W3ۍ~\b
+51  0x00001fcc 0x10001fcc 4   5    .text   ascii   9\$$
+52  0x00001fe6 0x10001fe6 4   5    .text   ascii   L$$j
+53  0x00002006 0x10002006 5   6    .text   ascii   t\ah0E
+54  0x00002023 0x10002023 5   6    .text   ascii   u\fh\bE
+55  0x00002067 0x10002067 4   6    .text   utf8    ӋD$$
+56  0x00002074 0x10002074 4   5    .text   ascii   _^][
+57  0x00002100 0x10002100 4   5    .text   ascii   _^][
+58  0x00002373 0x10002373 4   5    .text   ascii   Yt\nj
+59  0x00002398 0x10002398 4   5    .text   ascii   E\f_[
+60  0x00002438 0x10002438 4   5    .text   ascii   t6VP
+61  0x0000259e 0x1000259e 5   6    .text   ascii   t\tWVS
+62  0x000025a7 0x100025a7 5   6    .text   ascii   t\fWVS
+63  0x000025b8 0x100025b8 4   5    .text   ascii   NWVS
+64  0x000025c5 0x100025c5 4   5    .text   ascii   E\fu\f
+65  0x000025cb 0x100025cb 5   6    .text   ascii   u7WPS
+66  0x000025dc 0x100025dc 5   6    .text   ascii   u&WVS
+67  0x000025fa 0x100025fa 5   6    .text   ascii   t\bWVS
+68  0x00002605 0x10002605 6   7    .text   ascii   E\f_^[]
+69  0x00002637 0x10002637 4   5    .text   ascii   D$\fd
+70  0x00002646 0x10002646 4   5    .text   ascii   l$\fP
+71  0x00003750 0x10003750 9   10   .rdata  ascii   MFC42.DLL
+72  0x0000375c 0x1000375c 17  18   .rdata  ascii   __CxxFrameHandler
+73  0x00003770 0x10003770 5   6    .rdata  ascii   _ftol
+74  0x00003778 0x10003778 7   8    .rdata  ascii   sprintf
+75  0x00003782 0x10003782 11  12   .rdata  ascii   __dllonexit
+76  0x00003790 0x10003790 7   8    .rdata  ascii   _onexit
+77  0x00003798 0x10003798 10  11   .rdata  ascii   MSVCRT.dll
+78  0x000037a6 0x100037a6 4   5    .rdata  ascii   free
+79  0x000037ae 0x100037ae 9   10   .rdata  ascii   _initterm
+80  0x000037ba 0x100037ba 6   7    .rdata  ascii   malloc
+81  0x000037c4 0x100037c4 12  13   .rdata  ascii   _adjust_fdiv
+82  0x000037d4 0x100037d4 20  21   .rdata  ascii   ??1type_info@@UAE@XZ
+83  0x000037ec 0x100037ec 25  26   .rdata  ascii   InitializeCriticalSection
+84  0x00003808 0x10003808 21  22   .rdata  ascii   DeleteCriticalSection
+85  0x00003820 0x10003820 11  12   .rdata  ascii   CloseHandle
+86  0x0000382e 0x1000382e 8   9    .rdata  ascii   SetEvent
+87  0x0000383a 0x1000383a 9   10   .rdata  ascii   PurgeComm
+88  0x00003846 0x10003846 12  13   .rdata  ascii   SetCommState
+89  0x00003856 0x10003856 13  14   .rdata  ascii   BuildCommDCBA
+90  0x00003866 0x10003866 12  13   .rdata  ascii   GetCommState
+91  0x00003876 0x10003876 11  12   .rdata  ascii   SetCommMask
+92  0x00003884 0x10003884 15  16   .rdata  ascii   SetCommTimeouts
+93  0x00003896 0x10003896 20  21   .rdata  ascii   LeaveCriticalSection
+94  0x000038ae 0x100038ae 11  12   .rdata  ascii   CreateFileA
+95  0x000038bc 0x100038bc 20  21   .rdata  ascii   EnterCriticalSection
+96  0x000038d4 0x100038d4 12  13   .rdata  ascii   CreateEventA
+97  0x000038e4 0x100038e4 11  12   .rdata  ascii   GetCommMask
+98  0x000038f2 0x100038f2 22  23   .rdata  ascii   WaitForMultipleObjects
+99  0x0000390c 0x1000390c 14  15   .rdata  ascii   ClearCommError
+100 0x0000391e 0x1000391e 5   6    .rdata  ascii   Sleep
+101 0x00003926 0x10003926 12  13   .rdata  ascii   GetLastError
+102 0x00003936 0x10003936 13  14   .rdata  ascii   WaitCommEvent
+103 0x00003946 0x10003946 9   10   .rdata  ascii   LocalFree
+104 0x00003952 0x10003952 14  15   .rdata  ascii   FormatMessageA
+105 0x00003964 0x10003964 19  20   .rdata  ascii   GetOverlappedResult
+106 0x0000397a 0x1000397a 9   10   .rdata  ascii   WriteFile
+107 0x00003986 0x10003986 10  11   .rdata  ascii   ResetEvent
+108 0x00003994 0x10003994 8   9    .rdata  ascii   ReadFile
+109 0x000039a0 0x100039a0 10  11   .rdata  ascii   LocalAlloc
+110 0x000039ac 0x100039ac 12  13   .rdata  ascii   KERNEL32.dll
+111 0x000039bc 0x100039bc 12  13   .rdata  ascii   PostMessageA
+112 0x000039cc 0x100039cc 8   9    .rdata  ascii   IsWindow
+113 0x000039d8 0x100039d8 11  12   .rdata  ascii   MessageBoxA
+114 0x000039e4 0x100039e4 10  11   .rdata  ascii   USER32.dll
+115 0x00003a9a 0x10003a9a 16  17   .rdata  ascii   DrvtContec8k.dll
+116 0x00003aab 0x10003aab 10  11   .rdata  ascii   DrvConnect
+117 0x00003ab6 0x10003ab6 13  14   .rdata  ascii   DrvDisconnect
+118 0x00003ac4 0x10003ac4 11  12   .rdata  ascii   DrvGetGrade
+119 0x00003ad0 0x10003ad0 20  21   .rdata  ascii   DrvGetGradeIncrement
+120 0x00003ae5 0x10003ae5 16  17   .rdata  ascii   DrvGetGradeRange
+121 0x00003af6 0x10003af6 11  12   .rdata  ascii   DrvGetSpeed
+122 0x00003b02 0x10003b02 20  21   .rdata  ascii   DrvGetSpeedIncrement
+123 0x00003b17 0x10003b17 16  17   .rdata  ascii   DrvGetSpeedRange
+124 0x00003b28 0x10003b28 15  16   .rdata  ascii   DrvGetSpeedUnit
+125 0x00003b38 0x10003b38 11  12   .rdata  ascii   DrvSetGrade
+126 0x00003b44 0x10003b44 11  12   .rdata  ascii   DrvSetSpeed
+127 0x00003b50 0x10003b50 8   9    .rdata  ascii   DrvStart
+128 0x00003b59 0x10003b59 7   8    .rdata  ascii   DrvStop
+129 0x000043e8 0x100043e8 17  18   .data   ascii   SetCommTimeouts()
+130 0x000043fc 0x100043fc 13  14   .data   ascii   SetCommMask()
+131 0x0000440c 0x1000440c 14  15   .data   ascii   GetCommState()
+132 0x0000441c 0x1000441c 14  15   .data   ascii   BuildCommDCB()
+133 0x0000442c 0x1000442c 14  15   .data   ascii   SetCommState()
+134 0x0000443c 0x1000443c 33  34   .data   ascii   baud=%d parity=%c data=%d stop=%d
+135 0x00004460 0x10004460 9   10   .data   ascii   \\.\COM%d
+136 0x0000446c 0x1000446c 5   6    .data   ascii   COM%d
+137 0x00004474 0x10004474 15  16   .data   ascii   WaitCommEvent()
+138 0x00004484 0x10004484 17  18   .data   ascii   Application Error
+139 0x00004498 0x10004498 59  60   .data   ascii   WARNING:  %s Failed with the following error: \n%s\nPort: %d\n
+140 0x000044d4 0x100044d4 37  38   .data   ascii   GetOverlappedResults() in WriteFile()
+141 0x000044fc 0x100044fc 11  12   .data   ascii   WriteFile()
+142 0x00004508 0x10004508 36  37   .data   ascii   GetOverlappedResults() in ReadFile()
+143 0x00004530 0x10004530 10  11   .data   ascii   ReadFile()
+144 0x00004548 0x10004548 20  21   .data   ascii   .?AVCNoTrackObject@@
+145 0x00004568 0x10004568 22  23   .data   ascii   .?AVAFX_MODULE_STATE@@
+146 0x00004588 0x10004588 27  28   .data   ascii   .?AV_AFX_DLL_MODULE_STATE@@
+147 0x000045b8 0x100045b8 15  16   .data   ascii   .?AVtype_info@@
+148 0x00005066 0x10006066 15  32   .rsrc   utf16le VS_VERSION_INFO
+149 0x000050c2 0x100060c2 14  30   .rsrc   utf16le StringFileInfo
+150 0x000050e6 0x100060e6 8   18   .rsrc   utf16le 080404B0
+151 0x00005100 0x10006100 10  22   .rsrc   utf16le ompanyName
+152 0x0000511e 0x1000611e 15  32   .rsrc   utf16le FileDescription
+153 0x00005140 0x10006140 15  32   .rsrc   utf16le DrvContec8k DLL
+154 0x00005166 0x10006166 11  24   .rsrc   utf16le FileVersion
+155 0x00005180 0x10006180 10  22   .rsrc   utf16le 1, 0, 0, 1
+156 0x0000519e 0x1000619e 12  26   .rsrc   utf16le InternalName
+157 0x000051b8 0x100061b8 11  24   .rsrc   utf16le DrvContec8k
+158 0x000051d6 0x100061d6 14  30   .rsrc   utf16le LegalCopyright
+159 0x000051f4 0x100061f4 9   10   .rsrc   ascii   HrCg@b\tg
+160 0x000051fe 0x100061fe 8   18   .rsrc   utf16le (C) 2006
+161 0x00005218 0x10006218 14  30   .rsrc   utf16le egalTrademarks
+162 0x0000523e 0x1000623e 16  34   .rsrc   utf16le OriginalFilename
+163 0x00005260 0x10006260 15  32   .rsrc   utf16le DrvContec8k.DLL
+164 0x00005286 0x10006286 11  24   .rsrc   utf16le ProductName
+165 0x000052a0 0x100062a0 32  66   .rsrc   utf16le DrvContec8k Dynamic Link Library
+166 0x000052ea 0x100062ea 14  30   .rsrc   utf16le ProductVersion
+167 0x00005308 0x10006308 10  22   .rsrc   utf16le 1, 0, 0, 1
+168 0x00005328 0x10006328 10  22   .rsrc   utf16le arFileInfo
+169 0x00005346 0x10006346 11  24   .rsrc   utf16le Translation
+170 0x0000601f 0x1000701f 15  16   .reloc  ascii   1!151U1_1e1j1x1
+171 0x00006039 0x10007039 7   8    .reloc  ascii   1#2M2[2
+172 0x00006055 0x10007055 5   6    .reloc  ascii   5C5i5
+173 0x0000605f 0x1000705f 7   8    .reloc  ascii   536d6m6
+174 0x00006073 0x10007073 9   10   .reloc  ascii   738Q8h8|8
+175 0x0000607d 0x1000707d 15  16   .reloc  ascii   8?9Y9d9j9]:k:}:
+176 0x00006097 0x10007097 17  18   .reloc  ascii   ;%;7;O;^;g;n;u;|;
+177 0x000060af 0x100070af 5   6    .reloc  ascii   ;\r<=<
+178 0x000060c3 0x100070c3 5   6    .reloc  ascii   <)=e=
+179 0x000060d3 0x100070d3 7   8    .reloc  ascii   >\r>/>A>
+180 0x000060e1 0x100070e1 13  14   .reloc  ascii   ?'?;?H?f?r?z?
+181 0x00006103 0x10007103 7   8    .reloc  ascii   0&030a0
+182 0x00006115 0x10007115 33  34   .reloc  ascii   1$1*10161<1B1H1N1T1Z1`1f1l1r1x1~1
+183 0x00006169 0x10007169 21  22   .reloc  ascii   2 2&2,22282>2D2S2c2r2
+184 0x00006191 0x10007191 9   10   .reloc  ascii   324>4H4u4
+185 0x000061b5 0x100071b5 15  16   .reloc  ascii   5\e5&535=5R5^5d5
+186 0x000061c9 0x100071c9 19  20   .reloc  ascii   5N6T6Z6`6f6l6r6x6~6
+187 0x000061f3 0x100071f3 9   10   .reloc  ascii   6\t7)7I7i7
+188 0x0000621f 0x1000721f 5   6    .reloc  ascii   2\b2\f2
+189 0x0000622b 0x1000722b 49  50   .reloc  ascii   2 2$2(2,2024282<2@2D2H2L2P2T2X2\2`2d2h2l2p2t2x2|2
+190 0x00006277 0x10007277 13  14   .reloc  ascii   3,3<3@3H3`3t3
+191 0x00006295 0x10007295 11  12   .reloc  ascii   4,484T4`4|4
+192 0x000062ad 0x100072ad 5   6    .reloc  ascii   4\b5$5
+193 0x000062bd 0x100072bd 9   10   .reloc  ascii   0\b0<5@5`5
