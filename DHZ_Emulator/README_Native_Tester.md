@@ -18,13 +18,10 @@ Berdasarkan temuan protokol murni dari *Reverse Engineering*, kita mengetahui ba
 ---
 
 ## 🛠️ Persyaratan Sistem (Prasyarat)
-Karena tidak lagi menggunakan DLL, Anda hanya memerlukan *library* Serial standar dari Python.
+Karena tidak lagi menggunakan DLL maupun library eksternal, Anda **tidak memerlukan instalasi library apapun**. Skrip ini murni mengandalkan pustaka standar Python (`ctypes`, `os`, `sys`, `time`).
 
 1. Install Python versi berapa saja (32-bit maupun 64-bit didukung).
-2. Install modul *PySerial* via terminal:
-   ```powershell
-   pip install pyserial
-   ```
+2. Jalankan skrip secara langsung.
 
 ---
 
@@ -32,8 +29,8 @@ Karena tidak lagi menggunakan DLL, Anda hanya memerlukan *library* Serial standa
 
 Skrip ini bekerja dengan membangun dan menembakkan pesan/Array Bytes mentah (Protokol TX) ke dalam `COM Port`. Berikut adalah implementasi protokolnya di dalam skrip:
 
-### 1. Inisialisasi Koneksi
-Koneksi Serial dibuka secara *native* dengan konfigurasi bawaan perangkat medis:
+### 1. Inisialisasi Koneksi (Raw Win32 API)
+Koneksi Serial dibuka secara *native* menggunakan **Win32 API** (`kernel32.CreateFileA`). Ini adalah teknik tingkat rendah (low-level) yang sama persis dengan yang digunakan oleh DLL aslinya.
 - **Baudrate:** 4800
 - **Parity:** None (8N1)
 - **Format:** `\\\\.\\COMx` (Untuk memastikan *support* nomor port > 9 di Windows).
@@ -58,24 +55,27 @@ Setiap kali fungsi `send_payload()` dieksekusi, skrip akan melakukan cetak layar
 ## 🎮 Cara Penggunaan (Tutorial)
 
 1. Hubungkan kabel USB-to-Serial dari Treadmill ke PC.
-2. Cek nomor *COM Port* di *Device Manager* Windows (Misal: `COM15`).
-3. Buka *Terminal / Command Prompt* di dalam folder `DHZ_Emulator`.
-4. Jalankan perintah: 
+2. Buka *Terminal / Command Prompt* di dalam folder `DHZ_Emulator`.
+3. Jalankan perintah: 
    ```powershell
    python native_dhz_tester.py
    ```
-5. Masukkan nomor port (tanpa huruf COM, cukup ketik: `15` lalu *Enter*).
-6. Menu interaktif akan muncul. Gunakan opsi `1` hingga `4` untuk mengetes operasional alat secara *real-time*.
+4. Skrip akan secara otomatis **memindai** (Auto-Scan) COM Port yang tersedia. Pilih nomor port Treadmill Anda.
+5. Menu interaktif akan muncul. Gunakan opsi `1` hingga `4` untuk mengetes operasional alat secara *real-time*.
 
 ---
 
-## ⚠️ *Troubleshooting* (Pemecahan Masalah)
+## ⚠️ *Troubleshooting* & Penanganan Bug Khusus
 
-Skrip ini sudah dilengkapi fitur perlindungan *crash* bawaan (`try-except block`). Jika Anda mengalami masalah saat membuka aplikasi:
+Selama proses *Reverse Engineering*, kami menemukan beberapa keanehan interaksi antara sistem operasi Windows dan *driver* kabel USB-to-Serial murah (seperti CH340 atau Prolific). Skrip ini telah dirancang untuk kebal terhadap masalah-masalah berikut:
 
-*   **Pesan Error: "Access is Denied" (Error 5):**
-    Artinya *port* tersebut sedang dikunci oleh program lain. Pastikan Anda sudah menutup aplikasi *Stress ECG* yang asli, atau tutup jendela Terminal/VSCode lain yang mungkin masih menyandera (menggunakan) koneksi COM port tersebut. Jika perlu, cabut dan pasang ulang kabel USB untuk mereset *handle lock* dari sistem operasi Windows.
-*   **Pesan Error: "File Not Found" (Error 2):**
-    Sistem tidak mendeteksi kabel. Kabel terlepas secara fisik dari port USB atau *driver* chip *USB-to-Serial* (seperti FTDI / CH340) belum terinstal di PC.
-*   **Motor Tidak Bergerak Saat Diberi Perintah:**
-    Pastikan Treadmill DHZ menyala secara fisik (saklar daya pada mode ON), dan lampu indikator koneksi di panel mesin berkedip. Cek ulang logika kabel RS232 (apakah pin TX dan RX terbalik di sisi kabel rakitannya).
+*   **Error 31: A device attached to the system is not functioning**
+    *   **Penyebab:** Terjadi saat memanggil `SetCommState` untuk mengonfigurasi port. Kabel *clone* seringkali menolak konfigurasi sinyal *Flow Control* bawaan (DTR/RTS). Ini adalah alasan utama mengapa library standar seperti `PySerial` akan langsung *crash*.
+    *   **Solusi di Skrip:** Menggunakan `ctypes + kernel32`, skrip akan tetap memanggil `SetCommState`, namun jika gagal (Error 31), skrip **mengabaikannya secara sengaja** dan membiarkannya lanjut. Kabel tipe ini ternyata masih bisa mengirim data TX mentah secara sempurna meskipun menolak tahap konfigurasi sistem operasi.
+*   **Error 87: Invalid Parameter**
+    *   **Penyebab:** Terjadi jika port dibuka dengan flag `FILE_FLAG_OVERLAPPED` (mode *Asynchronous*), tetapi instruksi pengiriman data (`WriteFile`) tidak disertai struktur `OVERLAPPED` pointer.
+    *   **Solusi di Skrip:** Port dibuka murni dalam mode **Synchronous** (flag parameter bernilai `0`), sehingga fungsi `WriteFile` standar dapat langsung mengirim rentetan heksadesimal tanpa ditolak oleh Kernel Windows.
+*   **Error 5: Access is Denied**
+    *   Artinya *port* tersebut sedang dikunci oleh program lain. Pastikan Anda sudah menutup aplikasi *Stress ECG* yang asli, atau tutup jendela Terminal/VSCode lain yang mungkin masih menyandera (menggunakan) koneksi COM port tersebut.
+*   **Error 2: File Not Found**
+    *   Sistem tidak mendeteksi kabel. Kabel terlepas secara fisik dari port USB atau *driver* chip *USB-to-Serial* belum terinstal di PC.
