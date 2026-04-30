@@ -89,7 +89,7 @@ def open_port(port_num):
         0,            # No sharing
         None,
         3,            # OPEN_EXISTING
-        0x40000000,   # FILE_FLAG_OVERLAPPED
+        0,            # Synchronous I/O (bukan Overlapped) - wajib untuk WriteFile biasa
         None
     )
     if h == INVALID_HANDLE or h == 0:
@@ -149,10 +149,11 @@ def send_payload(h, payload_bytes, description):
     else:
         err = ctypes.get_last_error()
         print(f"[-] WriteFile GAGAL! Win32 Error: {err}")
-        if err == 6:
-            print("    -> Handle tidak valid. Kabel mungkin terputus sejak koneksi dibuka.")
-        else:
-            print("    -> Coba cabut dan pasang ulang kabel USB, lalu restart aplikasi.")
+        keterangan = {
+            6:  "Handle tidak valid - kabel mungkin terputus sejak koneksi dibuka.",
+            87: "Invalid Parameter - port terbuka dalam mode yang salah (harusnya Synchronous).",
+        }.get(err, "Error tidak dikenal. Coba cabut-pasang kabel USB lalu restart aplikasi.")
+        print(f"    -> {keterangan}")
 
 def create_set_payload(header, value):
     """
