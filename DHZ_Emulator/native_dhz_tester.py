@@ -43,7 +43,7 @@ current_port = 0
 
 def print_banner():
     os.system('cls' if os.name == 'nt' else 'clear')
-    status_port = f"COM{current_port}" if h_port else "TERPUTUS"
+    status_port = f"{current_port}" if h_port else "TERPUTUS"
     status_motor = "RUNNING" if is_running else "STOPPED"
     
     print("=" * 60)
@@ -58,33 +58,26 @@ def print_banner():
     print("=" * 60)
 
 def scan_com_ports():
-    """Scan COM1-COM29 dengan mencoba CreateFileA ke setiap port."""
-    print("[*] Memindai COM Port (COM1 - COM29)...")
-    available = []
-    INVALID_HANDLE = ctypes.wintypes.HANDLE(-1).value
-    for i in range(1, 30):
-        port_path = f"\\\\.\\COM{i}".encode('ascii')
-        h = kernel32.CreateFileA(port_path, 0xC0000000, 0, None, 3, 0, None)
-        if h != INVALID_HANDLE and h != 0:
-            available.append(i)
-            kernel32.CloseHandle(h)
-        else:
-            err = ctypes.get_last_error()
-            # Error 5 = Access Denied: port ADA tapi dikunci -> tetap masuk list
-            if err == 5:
-                available.append(i)
-    return available
+    """Scan COM Port yang benar-benar aktif menggunakan pyserial utility (scan-only)."""
+    import serial.tools.list_ports
+    print("[*] Memindai COM Port yang aktif...")
+    ports = serial.tools.list_ports.comports()
+    # Mengembalikan list tuple (device, description)
+    return [(p.device, p.description) for p in ports]
 
-def open_port(port_num):
+def open_port(port_name):
     """
     Membuka dan mengkonfigurasi COM Port via Win32 API langsung.
-    SetCommState yang gagal (Error 31 pada CH340) diabaikan secara sengaja,
-    karena chip clone tetap bisa menerima data walaupun konfigurasi ditolak.
+    port_name bisa berupa 'COM8' atau '\\\\.\\COM8'
     """
-    port_path = f"\\\\.\\COM{port_num}".encode('ascii')
+    if not port_name.startswith("\\\\.\\"):
+        port_path = f"\\\\.\\{port_name}".encode('ascii')
+    else:
+        port_path = port_name.encode('ascii')
+        
     INVALID_HANDLE = ctypes.wintypes.HANDLE(-1).value
 
-    print(f"\n--- [DEBUG] Membuka \\\\.\\COM{port_num} ---")
+    print(f"\n--- [DEBUG] Membuka {port_name} ---")
 
     # Step 1: CreateFileA
     h = kernel32.CreateFileA(
@@ -173,36 +166,38 @@ def create_set_payload(header, value):
 def main():
     global current_speed, current_grade, is_running, h_port, current_port
 
+    current_port = "NONE"
     print_banner()
     print("Berkomunikasi LANGSUNG via Win32 API (CreateFileA + WriteFile)")
-    print("Tanpa PySerial dan tanpa DrvtDHZ8200A.dll.\n")
+    print("Tanpa DrvtDHZ8200A.dll.\n")
 
     # === SCAN PORT ===
-    ports = scan_com_ports()
-    if not ports:
+    ports_info = scan_com_ports()
+    if not ports_info:
         print("\n[-] Tidak ada COM Port yang terdeteksi!")
         print("    Pastikan kabel USB Treadmill sudah dicolokkan.")
         input("Tekan Enter untuk keluar..."); return
 
-    print(f"\n[+] Ditemukan {len(ports)} port:")
-    for i, p in enumerate(ports):
-        print(f"  [{i+1}] COM{p}")
+    print(f"\n[+] Ditemukan {len(ports_info)} port:")
+    for i, (dev, desc) in enumerate(ports_info):
+        print(f"  [{i+1}] {dev} - {desc}")
 
     try:
-        pilihan = int(input(f"\nPilih nomor port (1-{len(ports)}): ").strip()) - 1
-        if not (0 <= pilihan < len(ports)):
+        pilihan = int(input(f"\nPilih nomor port (1-{len(ports_info)}): ").strip()) - 1
+        if not (0 <= pilihan < len(ports_info)):
             print("[-] Pilihan di luar jangkauan."); return
     except ValueError:
         print("[-] Input tidak valid."); return
 
-    current_port = ports[pilihan]
-    h_port = open_port(current_port)
+    device_name, device_desc = ports_info[pilihan]
+    current_port = device_name
+    h_port = open_port(device_name)
 
     if not h_port:
         print("\n[-] Koneksi gagal. Lihat debug log di atas.")
         input("Tekan Enter untuk keluar..."); return
 
-    print(f"\n[+] SIAP! Terhubung ke COM{current_port}.")
+    print(f"\n[+] SIAP! Terhubung ke {current_port}.")
     input("Tekan Enter untuk masuk ke menu utama...")
 
     # === MENU UTAMA ===
