@@ -51,24 +51,46 @@ def main():
     print_banner()
     print("Aplikasi ini berinteraksi LANGSUNG dengan protokol mesin")
     print("tanpa menggunakan DrvtDHZ8200A.dll.\n")
+    import serial.tools.list_ports
+    ports = serial.tools.list_ports.comports()
     
-    port_input = input("Masukkan nomor COM Port Treadmill (misal: 15): ")
-    if not port_input.strip():
-        print("[-] Nomor port tidak valid.")
+    if not ports:
+        print("[-] FATAL ERROR: Tidak ada perangkat COM Port yang terdeteksi di Windows!")
+        print("    Pastikan kabel USB Treadmill sudah dicolokkan ke PC.")
+        input("Tekan Enter untuk keluar...")
         return
 
-    port_name = f"\\\\.\\COM{port_input.strip()}"
+    print("Daftar COM Port yang tersedia di PC Anda:")
+    for i, p in enumerate(ports):
+        print(f"  [{i+1}] {p.device} - {p.description}")
+        
+    pilihan_port = input(f"\nPilih port Treadmill Anda (1 - {len(ports)}): ").strip()
+    try:
+        idx = int(pilihan_port) - 1
+        if 0 <= idx < len(ports):
+            port_name = ports[idx].device
+        else:
+            print("[-] Pilihan angka di luar jangkauan.")
+            return
+    except ValueError:
+        print("[-] Harap masukkan angka yang valid.")
+        return
     
     print(f"\n[*] Mencoba membuka port {port_name}...")
     try:
         # Inisialisasi Serial Port Native (4800, 8N1)
+        # Menambahkan dsrdtr=False dan rtscts=False untuk mencegah Error 31 (A device attached to the system is not functioning)
+        # pada beberapa driver USB-to-Serial clone/murah di Windows.
         ser = serial.Serial(
             port=port_name,
             baudrate=4800,
             bytesize=serial.EIGHTBITS,
             parity=serial.PARITY_NONE,
             stopbits=serial.STOPBITS_ONE,
-            timeout=1
+            timeout=1,
+            xonxoff=False,
+            rtscts=False,
+            dsrdtr=False
         )
         print("[+] SUCCESS: Port terbuka sempurna! Treadmill terhubung.")
     except serial.SerialException as e:
