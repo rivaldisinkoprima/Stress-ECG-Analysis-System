@@ -37,18 +37,22 @@ class DCB(ctypes.Structure):
 # State lokal (Open Loop - tidak ada RX dari mesin)
 current_speed = 0.0
 current_grade = 0.0
+is_running = False
 h_port = None
 current_port = 0
 
 def print_banner():
     os.system('cls' if os.name == 'nt' else 'clear')
     status_port = f"COM{current_port}" if h_port else "TERPUTUS"
+    status_motor = "RUNNING" if is_running else "STOPPED"
+    
     print("=" * 60)
     print(" ========================================")
     print(" DHZ 8200A FULL-NATIVE TREADMILL CONTROLLER")
     print(" [OPEN-LOOP | 100% DLL-FREE | RAW WIN32 API]")
     print(" ========================================")
     print(f" Port   : {status_port}")
+    print(f" Motor  : {status_motor}")
     print(f" Speed  : {current_speed} km/h")
     print(f" Grade  : {current_grade} %")
     print("=" * 60)
@@ -167,7 +171,7 @@ def create_set_payload(header, value):
     return [header] + [ord(c) for c in val_str]
 
 def main():
-    global current_speed, current_grade, h_port, current_port
+    global current_speed, current_grade, is_running, h_port, current_port
 
     print_banner()
     print("Berkomunikasi LANGSUNG via Win32 API (CreateFileA + WriteFile)")
@@ -217,11 +221,13 @@ def main():
         if pilihan == '1':
             send_payload(h_port, [0xA1], "START MOTOR")
             current_speed = 0.0; current_grade = 0.0
+            is_running = True
             input("\nTekan Enter untuk kembali...")
 
         elif pilihan == '2':
             send_payload(h_port, [0xA2], "STOP MOTOR")
             current_speed = 0.0; current_grade = 0.0
+            is_running = False
             input("\nTekan Enter untuk kembali...")
 
         elif pilihan == '3':
