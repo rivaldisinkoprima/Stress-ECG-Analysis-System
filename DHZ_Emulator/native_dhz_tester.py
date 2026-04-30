@@ -208,6 +208,7 @@ def main():
         print("[2] STOP  (Hentikan Belt)")
         print("[3] SET SPEED  (Atur Kecepatan)")
         print("[4] SET GRADE  (Atur Kemiringan)")
+        print("[5] BACA DATA  (Get Speed & Grade)")
         print("[0] KELUAR")
         print("-" * 60)
 
@@ -247,6 +248,13 @@ def main():
                     print("[-] Di luar batas hardware (0.0 - 24.0 %)")
             except ValueError:
                 print("[-] Format tidak valid. Contoh: 2.0")
+            input("\nTekan Enter untuk kembali...")
+
+        elif pilihan == '5':
+            print(f"\n[+] Data Tersimpan Saat Ini:")
+            print(f"    Kecepatan  : {current_speed} km/h")
+            print(f"    Kemiringan : {current_grade} %")
+            print("    (Catatan: Nilai ini dikelola lokal karena sistem Open-Loop)")
             input("\nTekan Enter untuk kembali...")
 
         elif pilihan == '0':
